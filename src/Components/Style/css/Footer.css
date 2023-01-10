@@ -1,8 +1,9 @@
 #footer {
+  background: rgba(10, 17, 40, 0.4);
   backdrop-filter: blur(22px);
 }
 #footer .footer {
-  padding: 30px 0;
+  padding: 30px 30px;
   display: flex;
   align-items: start;
   justify-content: space-between;
