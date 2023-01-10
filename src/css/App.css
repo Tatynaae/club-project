@@ -1,0 +1,110 @@
+#header .header {
+  background: rgba(10, 17, 40, 0.4);
+  backdrop-filter: blur(22px);
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#header .header--right {
+  display: flex;
+  align-items: center;
+}
+#header .header--right .logo {
+  margin-right: 20px;
+}
+#header .header--right .links .name {
+  margin: 0 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+#header .header--left__without {
+  margin: 0 20px;
+  border: none;
+  background: transparent;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+#header .header--left__with {
+  margin: 0 20px;
+  background: #034078;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#footer {
+  background: rgba(10, 17, 40, 0.4);
+  backdrop-filter: blur(22px);
+  padding: 20px 50px;
+}
+#footer .footer {
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#footer .footer--first__btn button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin: 30px 0;
+}
+#footer .footer--second h3 {
+  color: white;
+}
+#footer .footer--second .col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--third {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--third h3 {
+  color: white;
+}
+#footer .footer--fours {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--fours h3 {
+  color: white;
+}
+#footer .footer--fours .contact {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--fives {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--fives h3 {
+  color: white;
+}
+#footer .footer--fives .loc {
+  display: flex;
+  align-items: center;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background: #102146;
+}
+
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,58 @@
+#footer {
+  background: rgba(10, 17, 40, 0.4);
+  backdrop-filter: blur(22px);
+}
+#footer .footer {
+  padding: 30px 30px;
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+}
+#footer .footer--first__btn button {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  margin: 30px 0;
+}
+#footer .footer--second h3 {
+  color: white;
+}
+#footer .footer--second .col {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--third {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--third h3 {
+  color: white;
+}
+#footer .footer--fours {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--fours h3 {
+  color: white;
+}
+#footer .footer--fours .contact {
+  display: flex;
+  align-items: center;
+}
+#footer .footer--fives {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#footer .footer--fives h3 {
+  color: white;
+}
+#footer .footer--fives .loc {
+  display: flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=Footer.css.map */
