@@ -1,4 +1,7 @@
 #header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
   .header {
     backdrop-filter: blur(22px);
     padding: 20px 0;
