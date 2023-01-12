@@ -272,7 +272,7 @@
   margin: 0 auto;
 }
 
-body {
+body, html {
   background: #102146;
 }
 
