@@ -100,7 +100,6 @@
   align-items: center;
 }
 
-
 body {
   background: #102146;
 }
@@ -455,7 +454,8 @@ body {
 #request .request--right a button:hover {
   transform: scale(1.1);
   cursor: pointer;
-  }
+}
+
 #view {
   display: block;
 }
@@ -794,13 +794,17 @@ body {
 }
 
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
+}
+
+body, html {
   background: #0A1128;
 }
 
 .container {
-  width: 85%;
+  width: 85px;
   margin: 0 auto;
-  background: #102146;
 }
+
+/*# sourceMappingURL=App.css.map */
