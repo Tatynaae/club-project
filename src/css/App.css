@@ -100,6 +100,7 @@
   align-items: center;
 }
 
+
 body {
   background: #102146;
 }
@@ -454,6 +455,342 @@ body {
 #request .request--right a button:hover {
   transform: scale(1.1);
   cursor: pointer;
+  }
+#view {
+  display: block;
+}
+
+#view-d {
+  display: none;
+}
+
+#admin-panel {
+  padding: 100px 0;
+}
+#admin-panel .admin-panel--btn {
+  display: flex;
+  align-items: center;
+}
+#admin-panel .admin-panel--btn p {
+  border: none;
+  font-size: 16px;
+  color: white;
+}
+#admin-panel .admin-panel--prof {
+  display: flex;
+  align-items: start;
+  padding: 70px 0;
+}
+#admin-panel .admin-panel--prof .profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 354px;
+  height: 527px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+#admin-panel .admin-panel--prof .profile .photo {
+  font-size: 16px;
+  color: white;
+  background: #0272CE;
+  border-radius: 10px;
+  padding: 10px 22px;
+  border: none;
+  margin: 30px 0;
+}
+#admin-panel .admin-panel--prof .profile button {
+  background: #FFFFFF;
+  border: none;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 200px;
+  justify-content: space-evenly;
+}
+#admin-panel .admin-panel--prof .profile button .icon {
+  background: transparent;
+  font-size: 20px;
+}
+#admin-panel .admin-panel--prof .data--own-modal {
+  margin: 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#admin-panel .admin-panel--prof .data--own-modal h1 {
+  color: #FFFFFF;
+  margin: 10px 0 30px 0;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--right {
+  display: flex;
+  flex-direction: column;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  width: 270px;
+  height: 44px;
+  border: none;
+  margin: 15px 0;
+  padding: 0 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--right .pol {
+  display: flex;
+  align-items: center;
+  width: 310px;
+  justify-content: space-between;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--right .pol--pols {
+  width: 140px;
+  height: 44px;
+  color: #FFFFFF;
+  font-size: 15px;
+  border: none;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left {
+  margin-left: 20px;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left p {
+  color: #A4A4A4;
+}
+#admin-panel .admin-panel--prof .payment {
+  margin: 0 0 0 30px;
+  position: absolute;
+  top: -350px;
+  right: 50px;
+}
+#admin-panel .admin-panel--prof .payment .ellipse {
+  width: 500px;
+  height: 500px;
+  top: 400px;
+  right: -300px;
+  position: relative;
+  background: radial-gradient(49.91% 49.91% at 41.3% 40.46%, #034078 0%, #019EFF 100%);
+  filter: blur(561.75px);
+  border-radius: 50%;
+}
+#admin-panel .admin-panel--prof .payment--cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#admin-panel .admin-panel--prof .payment--cards .first {
+  padding: 20px 0 0 40px;
+  margin: 20px 20px 0 0;
+  border: 1px solid #0272CE;
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  width: 315px;
+  height: 205px;
+  background: transparent;
+}
+#admin-panel .admin-panel--prof .payment--cards .first .visa {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background: transparent;
+}
+#admin-panel .admin-panel--prof .payment .third {
+  margin: 30px 0;
+  width: 675px;
+  height: 293px;
+  background: rgba(10, 17, 40, 0.1);
+  border: 1px solid #0272CE;
+  backdrop-filter: blur(7px);
+  border-radius: 10px;
+  padding: 40px 30px;
+}
+#admin-panel .admin-panel--prof .payment .third h1 {
+  color: #FFFFFF;
+  font-weight: 500;
+  background: transparent;
+}
+#admin-panel .admin-panel--prof .payment .third button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: none;
+  background: #0272CE;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+#admin-panel .admin-panel--prof .payment .third p {
+  margin: 20px 0;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: transparent;
+}
+#admin-panel .admin-panel--prof .subscribe {
+  margin: 0 0 0 30px;
+}
+#admin-panel .admin-panel--prof .subscribe--data h1 {
+  color: #FFFFFF;
+  margin: 10px 0;
+}
+#admin-panel .admin-panel--prof .subscribe--data h3 {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 30px 0;
+}
+#admin-panel .admin-panel--prof .subscribe--data h3 span {
+  color: #FFFFFF;
+}
+#admin-panel .admin-panel--prof .subscribe--others {
+  margin: 100px 0 0 0;
+}
+#admin-panel .admin-panel--prof .subscribe--others h1 {
+  font-size: 36px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost {
+  display: flex;
+  align-items: center;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time {
+  background: #FFFFFF;
+  width: 270px;
+  height: 450px;
+  border-radius: 10px;
+  margin: 30px 20px;
+  padding: 30px 50px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time h4 {
+  background: none;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time h1 {
+  background: none;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time--first-btn {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  border: 1px solid #11416F;
+  backdrop-filter: blur(4.90909px);
+  border-radius: 3.27273px;
+  background: none;
+  padding: 15px 30px;
+  margin-bottom: 30px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time--second-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+  backdrop-filter: blur(4.90909px);
+  border-radius: 3.27273px;
+  padding: 15px 33px;
+  border: none;
+  margin: 170px 0 0 30px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time--second-btn-time {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  background: linear-gradient(94.1deg, #043C6F 2.34%, #154574 99.76%);
+  backdrop-filter: blur(4.90909px);
+  border-radius: 3.27273px;
+  padding: 15px 33px;
+  border: none;
+  margin: 68px 0 0 30px;
+}
+#admin-panel .admin-panel--prof .subscribe--others .cost .time p {
+  background: none;
+  margin: 10px 0;
+}
+#admin-panel .admin-panel--prof .my {
+  margin: 0 40px;
+}
+#admin-panel .admin-panel--prof .my h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+#admin-panel .admin-panel--prof .my--first {
+  border-bottom: 1px solid #A4A4A4;
+  width: 500px;
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#admin-panel .admin-panel--prof .my--first p {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #A4A4A4;
+  margin: 10px 0;
+}
+#admin-panel .admin-panel--prof .my--first .all {
+  color: #FFFFFF;
+}
+#admin-panel .admin-panel--prof .comment {
+  margin: 0 40px;
+}
+#admin-panel .admin-panel--prof .comment h1 {
+  color: #FFFFFF;
+}
+#admin-panel .admin-panel--prof .comment--yours {
+  margin: 30px 0;
+}
+#admin-panel .admin-panel--prof .comment--yours .com {
+  margin: 30px 0;
+}
+#admin-panel .admin-panel--prof .comment--yours .com h4 {
+  color: #FFFFFF;
+  margin: 20px;
+}
+#admin-panel .admin-panel--prof .comment--yours .com button {
+  border: none;
+  background: transparent;
+  color: #A4A4A4;
+  margin: 0 20px;
+}
+#admin-panel .admin-panel--prof .exit-modal {
+  width: 360px;
+  height: 140px;
+  background: #0A1128;
+  border-radius: 15px;
+  position: absolute;
+  left: 93px;
+  bottom: -10px;
+}
+#admin-panel .admin-panel--prof .exit-modal h3 {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 10px;
+}
+#admin-panel .admin-panel--prof .exit-modal button {
+  background: #034078;
+  border-radius: 10px;
+  padding: 8px 30px;
+  border: none;
+  margin: 0 5px;
+  color: #FFFFFF;
+  font-size: 16px;
 }
 
 * {
@@ -467,5 +804,3 @@ body {
   margin: 0 auto;
   background: #102146;
 }
-
-/*# sourceMappingURL=App.css.map */
