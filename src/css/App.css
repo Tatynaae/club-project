@@ -101,6 +101,90 @@
 }
 
 
+#about-us {
+  padding-top: 100px;
+}
+#about-us .about-us--title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 0;
+}
+#about-us .about-us--title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+#about-us .about-us--title h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 734px;
+  padding: 20px 0;
+}
+#about-us .about-us--title h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 776px;
+}
+#about-us .about-us--images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 40px 0;
+}
+#about-us .about-us--certificate {
+  padding: 40px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#about-us .about-us--certificate h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+#about-us .about-us--certificate h2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  padding: 30px 0;
+}
+#about-us .about-us .slider-block {
+  position: relative;
+  width: 400px !important;
+  height: 272px;
+  background: #034078;
+  border-radius: 10px;
+  margin: 100px;
+  padding: 50px 0 0 0;
+}
+#about-us .about-us .slider-block img {
+  position: absolute;
+  top: -40px;
+  left: 160px;
+}
+#about-us .about-us .slider-block h1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  text-align: center;
+}
+#about-us .about-us .slider-block .hText {
+  width: 300px;
+  font-style: normal;
+
+
 #open {
   margin-bottom: 40px;
 }
@@ -577,11 +661,26 @@ body {
   background: none;
 }
 #slider .slider--general p {
+
   font-weight: 500;
   font-size: 13px;
   line-height: 20px;
   text-align: center;
   color: #FFFFFF;
+
+  margin: 20px 0 0 50px;
+}
+#about-us .about-us .slider-block h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: end;
+  margin: 10px 30px 0 0;
+}
+#about-us .about-us .request {
+
   width: 307px;
   margin-left: 10%;
   background: none;
@@ -806,38 +905,64 @@ body {
   max-height: 500px;
 }
 #main .main .request {
+ master
   display: flex;
   align-items: start;
   justify-content: space-between;
   padding-bottom: 200px;
 }
+
+#about-us .about-us .request--left h1 {
+
 #main .main .request--left h1 {
+
   font-weight: 700;
   font-size: 36px;
   line-height: 44px;
   text-transform: uppercase;
+
+  color: #FFFFFF;
+  margin-bottom: 25px;
+}
+#about-us .about-us .request--left p {
+
   padding-bottom: 30px;
   color: #FFFFFF;
 }
 #main .main .request--left p {
+
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+
+  width: 90%;
+}
+#about-us .about-us .request--right {
+
 }
 #main .main .request--right {
+
   display: flex;
   flex-direction: column;
   align-items: start;
 }
+
+#about-us .about-us .request--right label {
+
 #main .main .request--right label {
+
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #B5B5B5;
   margin-bottom: 5px;
 }
+
+#about-us .about-us .request--right input {
+
 #main .main .request--right input {
+
   width: 640px;
   height: 57px;
   background: rgba(27, 41, 89, 0.4);
@@ -846,6 +971,14 @@ body {
   border-radius: 10px;
   color: white;
   font-size: 18px;
+
+  padding: 0 30px;
+}
+#about-us .about-us .request--right a {
+  width: 250px;
+}
+#about-us .about-us .request--right a button {
+
   padding: 0 20px;
   outline: none;
 }
@@ -853,6 +986,7 @@ body {
   width: 250px;
 }
 #main .main .request--right a button {
+
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
@@ -864,6 +998,9 @@ body {
   border: none;
   transition: 0.8s ease;
 }
+
+#about-us .about-us .request--right a button:hover {
+
 #main .main .request--right a button:hover {
   transform: scale(1.1);
   cursor: pointer;
@@ -883,9 +1020,12 @@ body {
 }
 
 #request .request--right a button:hover {
+
   transform: scale(1.1);
   cursor: pointer;
 }
+
+
 
 #view {
   display: block;
@@ -1225,18 +1365,28 @@ body {
 }
 
 
+
 * {
   margin: 0;
+
   padding: 0;
 }
 
 body, html {
   background: #0A1128;
+
 }
 
 .container {
   width: 85%;
   margin: 0 auto;
+
+}
+
+body, html {
+  background: #102146;
+  scroll-behavior: smooth;
+
 }
 
 /*# sourceMappingURL=App.css.map */
