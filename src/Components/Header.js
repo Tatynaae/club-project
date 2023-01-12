@@ -11,13 +11,13 @@ const Header = () => {
                         <NavLink className='logo' to={'/home'}><img src={logo} alt=""/></NavLink>
                         <div className='links'>
                             <NavLink className='name' to={'/AboutSchool'}>О школе</NavLink>
-                            <NavLink className='name' >Наши курсы</NavLink>
+                            <NavLink className='name' to={'/OurCourses'} >Наши курсы</NavLink>
                             <NavLink className='name'  to={'/AboutUs'}>О нас</NavLink>
                         </div>
                     </div>
 
                     <div className='header--left'>
-                        <button className='header--left__without'>Войти</button>
+                        <NavLink to={"/Profile"} className='header--left__without'>Войти</NavLink>
                         <button className='header--left__with'>Подписаться</button>
                     </div>
 
