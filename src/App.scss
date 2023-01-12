@@ -1,8 +1,8 @@
 @import"Components/Style/Style";
 
 *{
-    padding: 0;
     margin: 0;
+
 }
 .container{
     width: 85%;
@@ -11,4 +11,15 @@
 body, html{
     background: #102146;
     scroll-behavior: smooth;
+
+    padding: 0;
+
 }
+ body, html{
+     background: #0A1128;
+ }
+
+ .container{
+     width: 85%;
+     margin: 0 auto;
+ }
