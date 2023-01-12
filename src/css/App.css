@@ -274,6 +274,7 @@
 
 body, html {
   background: #102146;
+  scroll-behavior: smooth;
 }
 
 /*# sourceMappingURL=App.css.map */
