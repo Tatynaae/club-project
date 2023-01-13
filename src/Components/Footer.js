@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <div className='footer'>
                     <div className="footer--first">
-                       <div> <img src={logo} alt="#"/></div>
+                       <NavLink to={'/home'}> <img src={logo} alt="#"/></NavLink>
                         <div className="footer--first__btn">
                             <button>KG</button>
                             <button>RU</button>
@@ -24,9 +24,9 @@ const Footer = () => {
                     <div className="footer--second">
                         <h3>Быстрые ссылки</h3>
                         <div className="col">
-                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}}>О школе</NavLink>
-                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}}>Наши курсы</NavLink>
-                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}}>О нас</NavLink>
+                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}} to={'/AboutSchool'}>О школе</NavLink>
+                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}} to={'/OurCourses'}>Наши курсы</NavLink>
+                            <NavLink style={{textDecoration:'none', color:"white", margin:'10px 0'}} to={'/AboutUs'}>О нас</NavLink>
                         </div>
                     </div>
 
