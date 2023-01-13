@@ -35,33 +35,39 @@
         }
       }
       &--left{
-        display: none;
+        &__without{
+          display: none;
+        }
+        &__with{
+          display: none;
+        }
+        #burger-menu {
+          display: block;
+          z-index: 9999998;
+          background: transparent;
+          border: none;
+          .burger1 {
+            width: 30px;
+            height: 3px;
+            background: white;
+            transition: .4s;
+          }
+          .burger2{
+            width: 30px;
+            height: 3px;
+            background: white;
+            transition: .4s;
+            margin: 8px 0;
+          }
+          .burger3{
+            width: 30px;
+            height: 3px;
+            background: white;
+            transition: .4s;
+          }
+        }
       }
-      #burger-menu {
-        display: block;
-        z-index: 9999998;
-        background: transparent;
-        border: none;
-        .burger1 {
-          width: 30px;
-          height: 3px;
-          background: white;
-          transition: .4s;
-        }
-        .burger2{
-          width: 30px;
-          height: 3px;
-          background: white;
-          transition: .4s;
-          margin: 8px 0;
-        }
-        .burger3{
-          width: 30px;
-          height: 3px;
-          background: white;
-          transition: .4s;
-        }
-      }
+
     }
   }
   #footer{

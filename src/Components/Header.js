@@ -20,14 +20,12 @@ const Header = () => {
                     <div className='header--left'>
                         <NavLink to={"/Profile"} className='header--left__without'>Войти</NavLink>
                         <button className='header--left__with'>Подписаться</button>
+
+                        <ModalBurger/>
                     </div>
 
-                    <button
-                        id="burger-menu">
-                        <div className="burger burger1"></div>
-                        <div className="burger burger2"></div>
-                        <div className="burger burger3"></div>
-                    </button>
+
+
                 </div>
             </div>
         </div>

@@ -1424,29 +1424,32 @@ body {
   #header .header--right .links {
     display: none;
   }
-  #header .header--left {
+  #header .header--left__without {
     display: none;
   }
-  #header .header #burger-menu {
+  #header .header--left__with {
+    display: none;
+  }
+  #header .header--left #burger-menu {
     display: block;
     z-index: 9999998;
     background: transparent;
     border: none;
   }
-  #header .header #burger-menu .burger1 {
+  #header .header--left #burger-menu .burger1 {
     width: 30px;
     height: 3px;
     background: white;
     transition: 0.4s;
   }
-  #header .header #burger-menu .burger2 {
+  #header .header--left #burger-menu .burger2 {
     width: 30px;
     height: 3px;
     background: white;
     transition: 0.4s;
     margin: 8px 0;
   }
-  #header .header #burger-menu .burger3 {
+  #header .header--left #burger-menu .burger3 {
     width: 30px;
     height: 3px;
     background: white;
