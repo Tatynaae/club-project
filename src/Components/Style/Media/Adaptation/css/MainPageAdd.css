@@ -1,0 +1,10 @@
+@media (max-width: 1200px) {
+  #main .main .hero {
+    width: 1200px;
+  }
+  #main .main .hero--text h1 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=MainPageAdd.css.map */
