@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <div className='footer'>
                     <div className="footer--first">
-                       <NavLink to={'/home'}> <img src={logo} alt="#"/></NavLink>
+                       <NavLink to={'/'}> <img src={logo} alt="#"/></NavLink>
                         <div className="footer--first__btn">
                             <button>KG</button>
                             <button>RU</button>
