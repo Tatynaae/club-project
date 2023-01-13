@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
 
                     <div className='header--left'>
-                        <NavLink to={"/Profile"} className='header--left__without'>Войти</NavLink>
+                        <NavLink to={"/EnterToProfile"} className='header--left__without'>Войти</NavLink>
                         <button className='header--left__with'>Подписаться</button>
 
                         <ModalBurger/>

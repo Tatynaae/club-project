@@ -1063,6 +1063,62 @@ body {
   cursor: pointer;
 }
 
+#enter .enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0;
+}
+#enter .enter--img {
+  width: 300px;
+  margin: 0 0 50px 30px;
+}
+#enter .enter input {
+  background: transparent;
+  padding: 0 30px;
+  width: 450px;
+  height: 50px;
+  border: 1px solid #FFFFFF;
+  margin: 15px 0;
+  border-radius: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+#enter .enter .view {
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  position: absolute;
+  right: 400px;
+  top: 500px;
+  color: white;
+}
+#enter .enter--btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 60px;
+}
+#enter .enter--btn button {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#enter .enter--btn__v {
+  background: #034078;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 125px;
+}
+#enter .enter--btn__w {
+  text-decoration-line: underline;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 85px;
+  margin-right: -20px;
+}
+
 #view {
   display: block;
 }
