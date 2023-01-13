@@ -37,7 +37,7 @@ const AdemirLevel = () => {
                                 <div className="level--block--one--info">
                                     <div className="level--block--one--info__text">
                                         <h2>Год +</h2>
-                                        <p>Доступны: Все Мастер классы  и <br/> статьи и курсы</p>
+                                        <p>Все Мастер классы и статьи </p>
                                     </div>
                                     <div className="level--block--one--info__som">
                                         <h1>585,00 $</h1>
@@ -57,7 +57,7 @@ const AdemirLevel = () => {
                                 <div className="level--block--one--info">
                                     <div className="level--block--one--info__text">
                                         <h2>Год </h2>
-                                        <p>Доступны: Все Мастер классы и <br/>статьи и курсы</p>
+                                        <p>Все классы истатьи и курсы</p>
                                     </div>
                                     <div className="level--block--one--info__som">
                                         <h1>220,00 $</h1>
