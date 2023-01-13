@@ -1,0 +1,50 @@
+@media (max-width: 1400px) {
+  #header__modal {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  #header__modal {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #header__modal {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #header__modal {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  #header .header--right .links {
+    display: none;
+  }
+  #header .header #burger-menu {
+    display: block;
+    z-index: 9999998;
+  }
+  #header .header #burger-menu .burger1 {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: 0.4s;
+  }
+  #header .header #burger-menu .burger2 {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: 0.4s;
+    margin: 8px 0;
+  }
+  #header .header #burger-menu .burger3 {
+    width: 30px;
+    height: 3px;
+    background: white;
+    transition: 0.4s;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

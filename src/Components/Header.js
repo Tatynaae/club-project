@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from "../img/логотип.svg";
 import {NavLink} from "react-router-dom";
+import ModalBurger from "./ModalBurger";
 
 const Header = () => {
     return (
@@ -21,9 +22,13 @@ const Header = () => {
                         <button className='header--left__with'>Подписаться</button>
                     </div>
 
+                    <button
+                        id="burger-menu">
+                        <div className="burger burger1"></div>
+                        <div className="burger burger2"></div>
+                        <div className="burger burger3"></div>
+                    </button>
                 </div>
-
-
             </div>
         </div>
     );

@@ -31,6 +31,9 @@
       display: flex;
       flex-direction: column;
       align-items: start;
+      .contact-icon{
+        margin: 10px 0;
+      }
       h3{
         color: white;
       }

@@ -14,7 +14,7 @@ const Footer = () => {
 
                 <div className='footer'>
                     <div className="footer--first">
-                        <img src={logo} alt="#"/>
+                       <div> <img src={logo} alt="#"/></div>
                         <div className="footer--first__btn">
                             <button>KG</button>
                             <button>RU</button>
@@ -32,12 +32,12 @@ const Footer = () => {
 
                     <div className="footer--third">
                         <h3>Социальные сети</h3>
-                        <div style={{margin:'10px 0'}}>
+                        <div className='contact-icon'>
                             <AiOutlineInstagram style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                             <AiOutlineYoutube style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                             <CiFacebook style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                         </div>
-                        <div style={{margin:'10px 0'}}>
+                        <div className='contact-icon'>
                             <AiOutlineTwitter style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                             <TbBrandTiktok style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                             <TbBrandTelegram style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
