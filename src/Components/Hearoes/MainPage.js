@@ -7,15 +7,9 @@ import img2 from '../../img/{}.svg'
 import tools from '../../img/tools-main.svg'
 import lamp from '../../img/lamp-main.svg'
 import {BsChevronDown} from 'react-icons/bs'
-import {IoIosArrowDown} from 'react-icons/io'
+
 
 const MainPage = () => {
-
-    const [acc, setAcc] = useState(false)
-
-    const accM = () => {
-        setAcc(!acc)
-    }
 
     return (
         <>
