@@ -134,7 +134,9 @@ const DataModal = ({modal}) => {
                             <option>Turkey</option>
                         </select>
 
-                        <label style={{color:'#A4A4A4'}} htmlFor="userName">Род деятельности*</label>
+
+
+                        <label style={{color:'#A4A4A4'}} htmlFor="userName">Статус*</label>
                         <select style={{
                             width: '270px',
                             height: '44px',

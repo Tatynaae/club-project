@@ -9,7 +9,7 @@ const Header = () => {
             <div className="container">
                 <div className='header'>
                     <div className='header--right'>
-                        <NavLink className='logo' to={'/home'}><img src={logo} alt=""/></NavLink>
+                        <NavLink className='logo' to={'/'}><img src={logo} alt=""/></NavLink>
                         <div className='links'>
                             <NavLink className='name' to={'/AboutSchool'}>О школе</NavLink>
                             <NavLink className='name' to={'/OurCourses'} >Наши курсы</NavLink>
@@ -18,7 +18,7 @@ const Header = () => {
                     </div>
 
                     <div className='header--left'>
-                        <NavLink to={"/Profile"} className='header--left__without'>Войти</NavLink>
+                        <NavLink to={"/EnterToProfile"} className='header--left__without'>Войти</NavLink>
                         <button className='header--left__with'>Подписаться</button>
 
                         <ModalBurger/>
