@@ -1091,7 +1091,7 @@ body {
   border: none;
   font-size: 25px;
   position: absolute;
-  right: 400px;
+  right: 550px;
   top: 500px;
   color: white;
 }
@@ -1875,6 +1875,8 @@ body {
   }
   #main .main .question--right {
     width: 100%;
+  }
+}
 @media (max-width: 1400px) {
   #about-us .about-us .slider-block {
     position: relative;
