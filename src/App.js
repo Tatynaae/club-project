@@ -9,18 +9,17 @@ import Enter from "./Components/Enter/Enter";
 function App() {
   return (
    <>
+
        <div className="App">
            <Routes>
-               <Route path={'/home'} element={<MainPage/>}/>
+               <Route path={'/'} element={<MainPage/>}/>
                <Route path={'/AboutSchool'} element={<AboutSchool/>}/>
                <Route path={'/OurCourses'}/>
                <Route path={'/AboutUs'} element={<AboutUs/>}/>
                <Route path={'/Profile'} element={<AdminPanel/>}/>
+               <Route path={'/EnterToProfile'} element={<Enter/>}/>
            </Routes>
        </div>
-       <Routes>
-           <Route path={'/EnterToProfile'} element={<Enter/>}/>
-       </Routes>
    </>
   );
 }
