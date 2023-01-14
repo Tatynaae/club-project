@@ -92,6 +92,10 @@
       }
 
       .request--right {
+        label {
+          margin: 10px 0;
+        }
+
         input {
           width: 500px;
         }
@@ -115,36 +119,62 @@
 
       }
 
-      .slider-block {
-        margin: 70px 10px;
-        width: 200px !important;
-        height: 370px;
+      .about-us--certificate {
+        img {
+          width: 652.2px;
+        }
+      }
 
+      .slider-block {
+        width: 280px !important;
+        height: 270px;
 
         .hText {
           margin: 20px 0 0 15px;
-          width: 180px;
+          width: 250px;
         }
 
         img {
-          left: 65px;
+          left: 100px;
         }
       }
 
       .about-us--images {
         img {
-          width: 310px;
-        }
-      }
-
-      .request--right {
-        input {
           width: 300px;
         }
       }
+
+      .request {
+        display: flex;
+        flex-direction: column;
+
+        .request--left {
+          h1 {
+            font-size: 20px;
+          }
+
+          p {
+            width: 250px;
+          }
+        }
+
+        .request--right {
+          input {
+            width: 340px;
+            height: 50px;
+          }
+
+          a {
+            button {
+              width: 200px;
+            }
+          }
+        }
+      }
+
     }
   }
-
 }
 
 
@@ -158,68 +188,243 @@
         }
 
         h3 {
-          width: 499px;
-        }
-      }
-
-      .slider-block {
-        margin: 70px 10px;
-        width: 200px !important;
-        height: 370px;
-
-        h1 {
-          font-size: 10px;
+          width: 490px;
         }
 
-        .hText {
-          margin: 20px 0 0 15px;
-          width: 120px;
-          font-size: 10px;
-        }
-
-        img {
-          left: 65px;
-        }
-      }
-
-      .about-us--images {
-        img {
-          width: 240px;
-        }
       }
 
       .about-us--certificate {
         img {
-          width: 400px;
+          width: 490.2px;
         }
       }
 
-      .request {
-        .request--left {
-          h1 {
-            font-size: 26px;
-          }
+      .slider-block {
+        width: 400px !important;
+        height: 210px;
+        margin: 50px 50px;
+
+        .hText {
+          margin: 20px 0 0 15px;
+          width: 360px;
         }
 
-        .request--right {
-
-          input {
-            width: 230px;
-          }
+        img {
+          left: 170px;
         }
       }
 
+      .about-us--images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 489px;
+          padding: 20px 0;
+        }
+      }
+
+      .request--left {
+        h1 {
+          font-size: 20px;
+        }
+
+        p {
+          width: 250px;
+        }
+      }
+
+      .request--right {
+        input {
+          width: 140px;
+          height: 50px;
+        }
+
+        a {
+          button {
+            width: 200px;
+          }
+        }
+      }
     }
   }
 }
 
 
-
 @media (max-width: 450px) {
+  #about-us {
+
+    .about-us {
+      .about-us--title {
+        h1 {
+          text-align: center;
+          width: 200px;
+        }
+
+        h2 {
+          width: 380px;
+        }
+
+        h3 {
+          width: 380px;
+        }
+
+      }
+
+      .about-us--certificate {
+        img {
+          width: 382px;
+        }
+      }
+
+      .slider-block {
+        width: 342px !important;
+        height: 230px;
+        margin: 50px 20px;
+
+        .hText {
+          margin: 20px 0 0 15px;
+          width: 320px;
+        }
+
+        img {
+          left: 142px;
+        }
+      }
+
+      .about-us--images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 382px;
+          padding: 20px 0;
+        }
+      }
+
+      .request {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 0;
+        .request--left {
+
+
+          h1 {
+            font-size: 20px;
+            text-align: center;
+
+          }
+
+          p {
+            text-align: center;
+            width: 385px;
+          }
+        }
+
+        .request--right {
+          input {
+            width: 320px;
+            height: 50px;
+          }
+
+          a {
+            button {
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 375px) {
+  #about-us {
+
+    .about-us {
+      .about-us--title {
+
+        h1 {
+          width: 250px;
+        }
+
+        h2 {
+          width: 326px;
+        }
+
+        h3 {
+          width: 332px;
+        }
+
+      }
+      .about-us--certificate {
+        img {
+          width: 318px;
+        }
+      }
+
+      .slider-block {
+        width: 296px !important;
+        height: 240px;
+        margin: 50px 13px;
+
+        .hText {
+          margin: 22px 0 0 11px;
+          width: 280px;
+        }
+
+        img {
+          left: 122px;
+        }
+      }
+
+      .about-us--images {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 314px;
+          padding: 20px 0;
+        }
+      }
+
+      .request {
+        padding: 20px 0;
+        .request--left {
+          h1 {
+            font-size: 20px;
+            text-align: center;
+
+          }
+
+          p {
+            text-align: center;
+            width: 325px;
+          }
+        }
+
+        .request--right {
+          input {
+            width: 230px;
+            height: 50px;
+          }
+
+          a {
+            button {
+              width: 200px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 320px) {
+
 }

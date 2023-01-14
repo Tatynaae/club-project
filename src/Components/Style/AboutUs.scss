@@ -67,7 +67,6 @@
       }
     }
 
-
     .slider-block {
       position: relative;
       width: 400px !important;
@@ -76,6 +75,9 @@
       border-radius: 10px;
       margin: 100px;
       padding: 50px 0 0 0;
+      .slick-next{
+        display:none;
+      }
       img {
         position: absolute;
         top: -40px;
@@ -116,6 +118,7 @@
       display: flex;
       align-items: start;
       justify-content: space-between;
+      flex-wrap: wrap;
       padding-bottom: 200px;
 
       &--left {
@@ -185,6 +188,20 @@
           }
         }
       }
+    }
+  }
+}
+#slider {
+  .slider--general {
+    .slick-next {
+      display: none !important;
+    }
+  }
+}
+#slider {
+  .slider--general {
+    .slick-prev{
+      display: none !important;
     }
   }
 }
