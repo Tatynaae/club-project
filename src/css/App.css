@@ -2555,6 +2555,9 @@ body {
   }
 }
 @media (max-width: 768px) {
+  #about-us .about-us {
+    width: 310px;
+  }
   #about-us .about-us .about-us--title h2 {
     width: 699px;
   }
@@ -2575,41 +2578,39 @@ body {
   #about-us .about-us .slider-block img {
     left: 100px;
   }
-  #about-us .about-us .about-us--images img {
-    width: 300px;
-  }
-  #about-us .about-us .request {
-    display: flex;
-    flex-direction: column;
-  }
-  #about-us .about-us .request .request--left h1 {
-    font-size: 20px;
-  }
-  #about-us .about-us .request .request--left p {
-    width: 250px;
-  }
-  #about-us .about-us .request .request--right input {
-    width: 340px;
-    height: 50px;
-  }
-  #about-us .about-us .request .request--right a button {
-    width: 200px;
-  #about-us .about-us .slider-block {
+  #about-us .about-us .slider-block img .slider-block {
     margin: 70px 10px;
     width: 200px !important;
     height: 370px;
   }
-  #about-us .about-us .slider-block .hText {
+  #about-us .about-us .slider-block img .slider-block .hText {
     margin: 20px 0 0 15px;
     width: 180px;
   }
-  #about-us .about-us .slider-block img {
+  #about-us .about-us .slider-block img .slider-block img {
     left: 65px;
   }
-  #about-us .about-us .about-us--images img {
-    width: 310px;
+  #about-us .about-us .slider-block img .about-us--images img {
+    width: 300px;
   }
-  #about-us .about-us .request--right input {
+  #about-us .about-us .slider-block img .request {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-us .about-us .slider-block img .request .request--left h1 {
+    font-size: 20px;
+  }
+  #about-us .about-us .slider-block img .request .request--left p {
+    width: 250px;
+  }
+  #about-us .about-us .slider-block img .request .request--right input {
+    width: 340px;
+    height: 50px;
+  }
+  #about-us .about-us .slider-block img .request .request--right a button {
+    width: 200px;
+  }
+  .request--right input {
     width: 300px;
   }
 }
@@ -2621,7 +2622,7 @@ body {
     width: 490px;
   }
   #about-us .about-us .about-us--certificate img {
-    width: 490.2px;
+    width: 499px;
   }
   #about-us .about-us .slider-block {
     width: 400px !important;
@@ -2683,36 +2684,50 @@ body {
   }
   #about-us .about-us .slider-block img {
     left: 142px;
+    margin: 70px 10px;
+    width: 200px !important;
+    height: 370px;
   }
-  #about-us .about-us .about-us--images {
+  #about-us .about-us .slider-block img h1 {
+    font-size: 10px;
+  }
+  #about-us .about-us .slider-block img .hText {
+    margin: 20px 0 0 15px;
+    width: 120px;
+    font-size: 10px;
+  }
+  #about-us .about-us .slider-block img img {
+    left: 65px;
+  }
+  #about-us .about-us .slider-block .about-us--images {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  #about-us .about-us .about-us--images img {
+  #about-us .about-us .slider-block .about-us--images img {
     width: 382px;
     padding: 20px 0;
   }
-  #about-us .about-us .request {
+  #about-us .about-us .slider-block .request {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     padding: 20px 0;
   }
-  #about-us .about-us .request .request--left h1 {
+  #about-us .about-us .slider-block .request .request--left h1 {
     font-size: 20px;
     text-align: center;
   }
-  #about-us .about-us .request .request--left p {
+  #about-us .about-us .slider-block .request .request--left p {
     text-align: center;
     width: 385px;
   }
-  #about-us .about-us .request .request--right input {
+  #about-us .about-us .slider-block .request .request--right input {
     width: 320px;
     height: 50px;
   }
-  #about-us .about-us .request .request--right a button {
+  #about-us .about-us .slider-block .request .request--right a button {
     width: 200px;
   }
 }
@@ -2750,51 +2765,34 @@ body {
     width: 314px;
     padding: 20px 0;
   }
-  #about-us .about-us .request {
+  #about-us .about-us .about-us--images img img {
+    width: 240px;
+  }
+  #about-us .about-us .about-us--images .about-us--certificate img {
+    width: 400px;
+  }
+  #about-us .about-us .about-us--images .request {
     padding: 20px 0;
   }
-  #about-us .about-us .request .request--left h1 {
+  #about-us .about-us .about-us--images .request .request--left h1 {
     font-size: 20px;
     text-align: center;
   }
-  #about-us .about-us .request .request--left p {
+  #about-us .about-us .about-us--images .request .request--left p {
     text-align: center;
     width: 325px;
   }
-  #about-us .about-us .request .request--right input {
+  #about-us .about-us .about-us--images .request .request--left p .request--left h1 {
+    font-size: 26px;
+  }
+  #about-us .about-us .about-us--images .request .request--left p .request--right input {
     width: 230px;
     height: 50px;
   }
-  #about-us .about-us .request .request--right a button {
+  #about-us .about-us .about-us--images .request .request--left p .request--right a button {
     width: 200px;
-    width: 499px;
   }
-  #about-us .about-us .slider-block {
-    margin: 70px 10px;
-    width: 200px !important;
-    height: 370px;
-  }
-  #about-us .about-us .slider-block h1 {
-    font-size: 10px;
-  }
-  #about-us .about-us .slider-block .hText {
-    margin: 20px 0 0 15px;
-    width: 120px;
-    font-size: 10px;
-  }
-  #about-us .about-us .slider-block img {
-    left: 65px;
-  }
-  #about-us .about-us .about-us--images img {
-    width: 240px;
-  }
-  #about-us .about-us .about-us--certificate img {
-    width: 400px;
-  }
-  #about-us .about-us .request .request--left h1 {
-    font-size: 26px;
-  }
-  #about-us .about-us .request .request--right input {
+  #about-us .about-us .about-us--images .request .request--left input {
     width: 230px;
   }
 }
