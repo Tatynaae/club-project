@@ -9,12 +9,37 @@ import blue from '../../../img/girlLogo.svg'
 import yellow from '../../../img/girlLogo.svg'
 
 const AdemirReviews = () => {
-    const setting = {
+    const settings = {
         dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        responsive: [{
+            breakpoint: 1024, settings: {
+                slidesToShow: 3, slidesToScroll: 3,
+                infinite: true, dots: false
+            }
+        },
+
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2, initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 576, settings: {
+                    slidesToShow: 1, slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }, {
+                breakpoint: 480, settings: {
+                    slidesToShow: 1, slidesToScroll: 1
+                }
+            }
+        ]
     };
 
     const block = [{
@@ -59,16 +84,80 @@ const AdemirReviews = () => {
             <div className="container">
                 <div className="slider--general">
                     <h3>Отзывы наших студентов</h3>
-                    <Slider {...setting}>
-                        {block.map((el, idx) => (
-                            <div className='slider--general__block' key={idx}>
-                                <img className='slider--general__block--phone' src={el.image} alt=""/>
-                                <h1>{el.name}</h1>
-                                <p>
-                                    {el.desc}
-                                </p>
-                                <h2>{el.date}</h2>
-                            </div>))}
+                    <Slider {...settings}>
+                        <div className="slider--general__block">
+                            <img src={photo} alt=""/>
+                            <h1>Виктор Александарович</h1>
+                            <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                                нуля" я с
+                                остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                                данную
+                                школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                благодарю!
+                            </h2>
+                            <h3>23.02.2022 г</h3>
+                        </div>
+                        <div className="slider--general__block">
+                            <img src={photo} alt=""/>
+                            <h1>Виктор Александарович</h1>
+                            <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                                нуля" я с
+                                остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                                данную
+                                школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                благодарю!
+                            </h2>
+                            <h3>23.02.2022 г</h3>
+                        </div>
+                        <div className="slider--general__block">
+                            <img src={photo} alt=""/>
+                            <h1>Виктор Александарович</h1>
+                            <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                                нуля" я с
+                                остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                                данную
+                                школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                благодарю!
+                            </h2>
+                            <h3>23.02.2022 г</h3>
+                        </div>
+                        <div className="slider--general__block">
+                            <img src={photo} alt=""/>
+                            <h1>Виктор Александарович</h1>
+                            <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                                нуля" я с
+                                остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                                данную
+                                школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                благодарю!
+                            </h2>
+                            <h3>23.02.2022 г</h3>
+                        </div>
+                        <div className="slider--general__block">
+                            <img src={photo} alt=""/>
+                            <h1>Виктор Александарович</h1>
+                            <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                                нуля" я с
+                                остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                                данную
+                                школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                благодарю!
+                            </h2>
+                            <h3>23.02.2022 г</h3>
+                        </div>
+                        <div className="slider--general__block">
+                        <img src={photo} alt=""/>
+                        <h1>Виктор Александарович</h1>
+                        <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI Designer с
+                            нуля" я с
+                            остался полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите
+                            данную
+                            школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                            благодарю!
+                        </h2>
+                        <h3>23.02.2022 г</h3>
+                    </div>
+
                     </Slider>
                 </div>
             </div>

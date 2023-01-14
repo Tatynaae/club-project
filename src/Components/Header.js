@@ -1,9 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import logo from "../img/логотип.svg";
 import {NavLink} from "react-router-dom";
-import ModalBurger from "./ModalBurger";
+import ModalBurger from "./modalBurger/ModalBurger";
+import ModalWindow from "./modalBurger/ModalWindow";
 
 const Header = () => {
+
+    const [burger, setBurger] = useState(false)
+
+
+    const open = (e) => {
+        setBurger(!e)
+    }
+
     return (
         <div id='header'>
             <div className="container">
@@ -20,13 +29,14 @@ const Header = () => {
                     <div className='header--left'>
                         <NavLink to={"/EnterToProfile"} className='header--left__without'>Войти</NavLink>
                         <button className='header--left__with'>Подписаться</button>
-
-                        <ModalBurger/>
                     </div>
 
+                    <div className="header--burger">
+                        <button style={{color:'black', fontSize:'30px', position:'absolute', zIndex:'9999999', border:'none'}} onClick={() => open(burger)}>{burger === true ? <ModalBurger/> : 'X'}</button>
 
-
+                    </div>
                 </div>
+                {burger ? "" : <ModalWindow/>}
             </div>
         </div>
     );
