@@ -45,8 +45,8 @@ const AboutUs = () => {
                     slidesToScroll: 1
                 }
             }
-        ]
-        slidesToScroll: 2
+        ],
+
     };
     return (
         <>
