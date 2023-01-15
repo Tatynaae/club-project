@@ -5,10 +5,7 @@ import ModalBurger from "./modalBurger/ModalBurger";
 import ModalWindow from "./modalBurger/ModalWindow";
 
 const Header = () => {
-
     const [burger, setBurger] = useState(false)
-
-
     const open = (e) => {
         setBurger(!e)
     }
