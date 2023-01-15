@@ -49,7 +49,7 @@ const AdemirSection = () => {
                     </div>
 
                     <div className="section--btn">
-                        <NavLink to={'/Course'}>
+                        <NavLink to={'/OurCourse'}>
                             <button>Все курсы</button>
                         </NavLink>
                     </div>
