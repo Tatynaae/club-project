@@ -3,7 +3,7 @@ import logo from '../../img/логотип.svg'
 import {NavLink} from "react-router-dom";
 import {BsEye, BsEyeSlash} from "react-icons/bs";
 
-const Enter = () => {
+const Enter = ({setEnter, enter}) => {
     const [able, setAble] = useState(false)
 
     const change = () => {
@@ -26,7 +26,9 @@ const Enter = () => {
 
                     <div className='enter--btn'>
                         <NavLink to={'/Profile'}>
-                        <button className='enter--btn__v'>Войти</button>
+                        <button
+                            onClick={() => setEnter(!enter)}
+                            className='enter--btn__v'>Войти</button>
                         </NavLink>
                             <button className='enter--btn__w'>Забыли пароль?</button>
                     </div>

@@ -17,7 +17,6 @@ function App() {
                <Route path={'/OurCourses'}/>
                <Route path={'/AboutUs'} element={<AboutUs/>}/>
                <Route path={'/Profile'} element={<AdminPanel/>}/>
-               <Route path={'/EnterToProfile'} element={<Enter/>}/>
            </Routes>
        </div>
    </>
