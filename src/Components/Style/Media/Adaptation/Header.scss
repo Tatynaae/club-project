@@ -5,11 +5,11 @@
     }
       .header--burger{
         display: none;
+        &__window{
+          display: none;
+        }
+      }
 
-      }
-      &__window{
-        display: none;
-      }
   }
 }
 @media (max-width: 1200px) {
@@ -20,10 +20,11 @@
       .header--burger{
         display: none;
 
+        &__window{
+          display: none;
+        }
       }
-      &__window{
-        display: none;
-      }
+
   }
 }
 @media (max-width: 1024px) {
@@ -34,10 +35,11 @@
     }
       .header--burger{
         display: none;
+        &__window{
+          display: none;
+        }
       }
-      &__window{
-        display: none;
-      }
+
   }
 }
 @media (max-width: 992px) {
@@ -47,11 +49,11 @@
     }
       .header--burger{
         display: none;
+        &__window{
+          display: none;
+        }
+      }
 
-      }
-      &__window{
-        display: none;
-      }
   }
 }
 @media (max-width: 768px) {
