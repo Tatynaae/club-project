@@ -5,15 +5,6 @@
   #school {
     .school {
       &--one {
-        &--two {
-          &--text {
-          }
-
-          &--one {
-
-          }
-        }
-
         &--img {
           img {
             width: 90%;
@@ -25,42 +16,22 @@
 
   #section {
     .section {
-      &--text {
-      }
-
       &--block {
-
         &__one {
           height: 330px;
           width: 262px;
-
-          &__btn {
-
-          }
         }
-      }
-
-      &--btn {
-
       }
     }
   }
 
   #master {
     .master {
-      &--text {
-
-      }
-
       &--block {
         &__one {
           width: 925px;
           padding: 0 33px 0 0;
         }
-      }
-
-      &--btn {
-
       }
     }
 
@@ -68,9 +39,6 @@
 
   #level {
     .level {
-      &--text {
-      }
-
       &--block {
         &--one {
           width: 290px;
@@ -78,29 +46,15 @@
           &--info {
             margin: 26px 0 0 20px;
 
-            &__text {
-
-            }
-
-            &__som {
-
-            }
-
             &__btn {
-
               &--one {
                 button {
                   width: 118px;
                   font-size: 11px;
                 }
               }
-
-              &--two {
-              }
             }
-
           }
-
         }
       }
     }
@@ -115,48 +69,26 @@
 
       &__block {
         width: 92% !important;
-
-        img {
-        }
       }
     }
   }
 
   #request {
     .request {
-      &--left {
-      }
-
       &--right {
-
-        label {
-
-        }
-
         input {
           width: 460px;
-        }
-
-        a {
         }
       }
     }
   }
+
 }
 
 @media (max-width: 1024px) {
   #school {
     .school {
       &--one {
-        &--two {
-          &--text {
-          }
-
-          &--one {
-
-          }
-        }
-
         &--img {
           img {
             width: 85%;
@@ -168,32 +100,17 @@
 
   #section {
     .section {
-      &--text {
-      }
-
       &--block {
-
         &__one {
           height: 365px;
           width: 220px;
-
-          &__btn {
-          }
         }
-      }
-
-      &--btn {
-
       }
     }
   }
 
   #master {
     .master {
-      &--text {
-
-      }
-
       &--block {
         &__one {
           width: 750px;
@@ -201,19 +118,12 @@
           padding: 0 33px 0 0;
         }
       }
-
-      &--btn {
-
-      }
     }
 
   }
 
   #level {
     .level {
-      &--text {
-      }
-
       &--block {
         &--one {
           width: 250px;
@@ -221,10 +131,6 @@
 
           &--info {
             margin: 26px 0 0 20px;
-
-            &__text {
-
-            }
 
             &__som {
               h1 {
@@ -262,45 +168,34 @@
 
   #slider {
     .slider--general {
-      p {
-
-        font-size: 9px;
-        width: 248px;
-      }
-
-      h2 {
-        font-size: 12px;
-      }
-
-      &__block {
-        width: 92% !important;
-
-        img {
+        &__block {
+          margin: 70px 0;
+          width: 260px !important;
+          height: 447px;
+          h1{
+            font-size:  13px;
+          }
+          .hText{
+            width: 162px;
+          }
+          img {
+            left: 95px;
+          }
         }
-      }
     }
   }
 
   #request {
     .request {
-      &--left {
-      }
-
       &--right {
-a{
-  button{
-    width: 50%;
-  }
-}
-        label {
-
+        a {
+          button {
+            width: 50%;
+          }
         }
 
         input {
-          width:350px;
-        }
-
-        a {
+          width: 350px;
         }
       }
     }
@@ -308,19 +203,848 @@ a{
 }
 
 @media (max-width: 992px) {
+  #school {
+    .school {
+      &--one {
+        &--img {
+          img {
+            width: 85%;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        &__one {
+          height: 399px;
+          width: 211px;
+        }
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 710px;
+          height: 226px;
+          padding: 0 33px 0 0;
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--block {
+        &--one {
+          width: 234px;;
+          height: 375px;
+
+          &--info {
+            margin: 26px 0 0 20px;
+
+            &__btn {
+              display: block;
+              padding: 20px 0 0 5px;
+            }
+
+          }
+
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 7px;
+        width: 260px !important;
+        height: 447px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 162px;
+        }
+        img {
+          left: 95px;
+        }
+      }
+    }
+  }
+  #request {
+    .request {
+      &--right {
+        a {
+          button {
+            width: 50%;
+          }
+        }
+
+        input {
+          width: 350px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
+  #school {
+    .school {
+      &--text {
+        display: none;
+      }
+
+      &--one {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        padding: 30px 0 0 0;
+
+        &--img {
+          img {
+            padding: 40px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        display: flex;
+        flex-wrap: wrap;
+
+        &__one {
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 550px;
+          height: 257px;
+          padding: 0 63px 0 0;
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--text {
+        p {
+          font-size: 13px;
+        }
+      }
+
+      &--block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        &--one {
+          margin: 20px 0;
+
+          &--info {
+            &__som {
+              h1 {
+                font-size: 30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 35px;
+        width: 260px !important;
+        height: 447px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 162px;
+        }
+        img {
+          left: 92px;
+        }
+      }
+    }
+  }
+
+
+  #request {
+    .request {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+
+      &--left {
+        p {
+          padding: 10px 0 40px 45px;
+        }
+      }
+
+      &--right {
+        input {
+          width: 550px;
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 576px) {
+  #school {
+    .school {
+      &--text {
+        display: none;
+      }
+
+      &--one {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0 0 0;
+        padding: 0;
+        text-align: center;
+
+        &--img {
+          img {
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        display: flex;
+        justify-content: space-around;
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 368px;
+          height: 340px;
+          padding: 0 63px 0 0;
+
+          &--link {
+            p {
+              padding: 23px 0 0 3rem;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--text {
+        h1 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      &--block {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        &--one {
+          width: 400px;
+          text-align: center;
+
+          &--info {
+            margin: 30px 0 0 0;
+
+            &__btn {
+              display: flex;
+              flex-direction: column;
+
+              &--one {
+                button {
+                  width: 175px;
+                }
+              }
+
+              &--two {
+                button {
+                  width: 175px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 44px;
+        width: 400px !important;
+        height: 295px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 340px;
+          margin: 0 30px;
+        }
+        img {
+          left: 160px;
+        }
+      }
+    }
+  }
+  #request {
+    .request {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+
+      &--left {
+        text-align: center;
+
+        p {
+          padding: 10px 0 40px 45px;
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      &--right {
+        text-align: center;
+
+        input {
+          width: 450px;
+        }
+
+        a {
+          button {
+            display: block;
+          }
+        }
+
+      }
+    }
+  }
 }
 
 @media (max-width: 450px) {
+  #school {
+    .school {
+      &--text {
+        display: none;
+      }
+
+      &--one {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0 0 0;
+        padding: 0;
+        text-align: center;
+
+        &--img {
+          img {
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        display: flex;
+        justify-content: space-around;
+
+        &__one {
+          height: 404px;
+        }
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 254px;
+          height: 474px;
+          text-align: center;
+
+          &--link {
+            p {
+              padding: 23px 0 0 3rem;
+            }
+
+            h1 {
+              padding: 23px 0 0 3rem;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--text {
+        h1 {
+          font-size: 26px;
+        }
+
+        p {
+          font-size: 12px;
+        }
+      }
+
+      &--block {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        &--one {
+          height: 364px;
+          margin: 20px 0;
+          width: 68%;
+
+          &--info {
+            &__som {
+              h1 {
+                font-size: 30px;
+              }
+            }
+
+            &__btn {
+              display: flex;
+
+              &--two {
+                button {
+                  margin: 16px 30px
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 40px;
+        width: 315px !important;
+        height: 335px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 260px;
+          margin: 0 25px;
+        }
+        img {
+          left: 120px;
+        }
+      }
+    }
+  }
+
+
+  #request {
+    .request {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+
+      &--left {
+        text-align: center;
+
+        p {
+          padding: 10px 0 40px 23px;
+        }
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      &--right {
+        text-align: center;
+
+        input {
+          width: 300px;
+        }
+
+        a {
+          button {
+            display: block;
+          }
+        }
+
+      }
+    }
+  }
+
 }
 
 @media (max-width: 375px) {
+  #school {
+    .school {
+      &--text {
+        display: none;
+      }
+
+      &--one {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0 0 0;
+        padding: 0;
+        text-align: center;
+
+        &--img {
+          img {
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        display: flex;
+        justify-content: space-around;
+
+        &__one {
+          width: 75%;
+          height: 364px;
+        }
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 237px;
+          height: 457px;
+
+          &--link {
+            p {
+              padding: 23px 0 0 3rem;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--text {
+        h1 {
+          font-size: 26px;
+        }
+      }
+
+      &--block {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        &--one {
+          height: 333px;
+          margin: 20px 0;
+          width: 85%;
+
+          &--info {
+
+            &__btn {
+              display: flex;
+
+              &--one {
+                button {
+                  width: 135px;
+                }
+              }
+
+              &--two {
+                button {
+                  width: 135px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 29px;
+        width: 265px !important;
+        height: 325px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 234px;
+          margin: 0 15px;
+          font-size: 10px;
+        }
+        img {
+          left: 95px;
+        }
+      }
+    }
+  }
+
+  #request {
+    .request {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+
+      &--left {
+        text-align: center;
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      &--right {
+        text-align: center;
+
+        input {
+          width: 265px;
+        }
+
+        a {
+          button {
+            display: block;
+          }
+        }
+
+      }
+    }
+  }
 }
 
 @media (max-width: 320px) {
+  #school {
+    .school {
+      &--text {
+        display: none;
+      }
+
+      &--one {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 40px 0 0 0;
+        padding: 0;
+        text-align: center;
+
+        &--img {
+          img {
+            margin: 20px 0;
+          }
+        }
+      }
+    }
+  }
+
+  #section {
+    .section {
+      &--block {
+        display: flex;
+        justify-content: space-around;
+
+        &__one {
+          width: 75%;
+          height: 420px;
+        }
+      }
+    }
+  }
+
+  #master {
+    .master {
+      &--block {
+        &__one {
+          width: 200px;
+          height: 540px;
+
+          &--link {
+            h1 {
+              padding: 23px 0 0 20px;
+            }
+
+            p {
+              padding: 23px 0 0 3rem;
+            }
+          }
+        }
+      }
+    }
+
+  }
+
+  #level {
+    .level {
+      &--text {
+        h1 {
+          font-size: 26px;
+        }
+      }
+
+      &--block {
+        display: flex;
+        justify-content: center;
+        align-content: stretch;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+        &--one {
+          height: 333px;
+          margin: 20px 0;
+          width: 85%;
+
+          &--info {
+            &__text {
+              p {
+                font-size: 12px;
+              }
+            }
+
+            &__btn {
+              display: flex;
+
+              &--one {
+                button {
+                  width: 135px;
+                }
+              }
+
+              &--two {
+                button {
+                  width: 135px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #slider {
+    .slider--general {
+      &__block {
+        margin: 70px 20px;
+        width: 230px !important;
+        height: 300px;
+        h1{
+          font-size:  13px;
+        }
+        .hText{
+          width: 205px;
+          margin: 0 15px;
+          font-size: 8px;
+        }
+        img {
+          left: 77px;
+        }
+      }
+    }
+  }
+
+
+  #request {
+    .request {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+
+      &--left {
+        text-align: center;
+
+        h1 {
+          font-size: 20px;
+        }
+      }
+
+      &--right {
+        text-align: center;
+
+        input {
+          width: 245px;
+        }
+
+        a {
+          button {
+            display: block;
+          }
+        }
+
+      }
+    }
+  }
 }
