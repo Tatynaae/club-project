@@ -6,7 +6,7 @@ const Payment = ({modal}) => {
     return (
         <div className="payment" id={modal ==='card' ? 'view' : 'view-d'}>
             <div className='ellipse'></div>
-            <h1 style={{color: '#FFFFFF'}}>Платежные карты</h1>
+            <h1 style={{color: '#FFFFFF'}} className='pay-title'>Платежные карты</h1>
             <div className="payment--cards">
                 <div className="first">
                     <h1 style={{color: '#FFFFFF', fontFamily: 'PT Sans, san-serif',margin:'0 0 10px 0', background:'transparent'}}>Visa Classic</h1>

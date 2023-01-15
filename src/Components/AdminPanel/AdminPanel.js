@@ -10,6 +10,7 @@ import {BiBasket} from "react-icons/bi";
 import My from "./Modals/MyBoughts";
 import {RxExit} from "react-icons/rx";
 import Exit from "./Modals/Exit";
+import PanelAd from "./PanelAd";
 
 
 const AdminPanel = () => {
@@ -56,31 +57,31 @@ return (
                             <button style={{color: modal==='data' ? '#0272CE' : 'black'}}
                                 onClick={() => setModal('data')}
                             ><FaRegUser className='icon' style={{color: modal==='data' ? '#0272CE' : 'black', marginLeft:'-40px'}}/> Личные данные</button>
-                            <div className="line" style={{border:'1px solid #DCDCDC', width:'352px', margin:'13px 0'}}></div>
+                            <div className="line"></div>
 
 
                             <button style={{color: modal==='card' ? '#0272CE' : 'black'}}
                                     onClick={() => setModal('card')}>
                                 <BsWallet2 className='icon' style={{color: modal==='card' ? '#0272CE' : 'black', marginLeft:'-30px'}}/> Платежные карты</button>
-                            <div className="line" style={{border:'1px solid #DCDCDC', width:'352px', margin:'13px 0'}}></div>
+                            <div className="line"></div>
 
 
                             <button style={{color: modal==='sub' ? '#0272CE' : 'black'}}
                                     onClick={() => setModal('sub')}>
-                                <FiCreditCard className='icon' style={{color: modal==='sub' ? '#0272CE' : 'black', marginLeft:'-68px'}}/> Подписки</button>
-                            <div className="line" style={{border:'1px solid #DCDCDC', width:'352px', margin:'13px 0'}}></div>
+                                <FiCreditCard className='icon' style={{color: modal==='sub' ? '#0272CE' : 'black', marginLeft:'-68px'}}/>Подписки</button>
+                            <div className="line"></div>
 
 
                             <button style={{color: modal==='com' ? '#0272CE' : 'black'}}
                                     onClick={() => setModal('com')}>
-                                <FaRegComment className='icon' style={{color: modal==='com' ? '#0272CE' : 'black', marginLeft:'-49px'}}/> Комментарии</button>
-                            <div className="line" style={{border:'1px solid #DCDCDC', width:'352px', margin:'13px 0'}}></div>
+                                <FaRegComment className='icon' style={{color: modal==='com' ? '#0272CE' : 'black', marginLeft:'-49px'}}/>Комментарии</button>
+                            <div className="line"></div>
 
 
                             <button style={{color: modal==='buy' ? '#0272CE' : 'black'}}
                                     onClick={() => setModal('buy')}>
-                                <BiBasket className='icon' style={{color: modal==='buy' ? '#0272CE' : 'black', marginLeft:'-54px'}}/> Мои покупки</button>
-                            <div className="line" style={{border:'1px solid #DCDCDC', width:'352px', margin:'13px 0'}}></div>
+                                <BiBasket className='icon' style={{color: modal==='buy' ? '#0272CE' : 'black', marginLeft:'-54px'}}/>Мои покупки</button>
+                            <div className="line"></div>
 
 
                             <button onClick={() => {
@@ -88,9 +89,10 @@ return (
                                 wind()
                             }}
                                 style={{color: modal==='mod' ? '#0272CE' : 'black'}}>
-                                <RxExit style={{color: modal==='mod' ? '#0272CE' : 'black', background:'transparent', fontSize:'20px', marginLeft:'-82px'}}/> Выйти</button>
+                                <RxExit style={{color: modal==='mod' ? '#0272CE' : 'black', background:'transparent', fontSize:'20px', marginLeft:'-82px'}}/>Выйти</button>
 
                         </div>
+                        <PanelAd modal={modal} setModal={setModal}/>
                         <DataModal modal={modal}/>
                         <Payment modal={modal}/>
                         <SubscribeModal modal={modal}/>
