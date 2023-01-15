@@ -2078,6 +2078,10 @@ body {
   #header .header--burger__window {
     display: none;
   }
+  #header #enter .enter .view {
+    right: 530px;
+    top: 502px;
+  }
 }
 @media (max-width: 1400px) {
   #header__modal {
