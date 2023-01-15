@@ -2,7 +2,6 @@ import React from 'react';
 
 const AdemirRequest = () => {
     return (
-        <div>
             <div id="request">
                 <div className="container">
                     <div className="request">
@@ -25,7 +24,6 @@ const AdemirRequest = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 
