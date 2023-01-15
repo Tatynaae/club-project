@@ -7,24 +7,26 @@ import AdminPanel from "./Components/AdminPanel/AdminPanel";
 import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
 import Course from "./Components/masterClass/Course";
+import Participation from "./Components/participation/Participation";
 
 function App() {
-  return (
-   <>
-       <div className="App">
-           <Routes>
-               <Route path={'/'} element={<MainPage/>}/>
-               <Route path={'/AboutSchool'} element={<AboutSchool/>}/>
-               <Route path={'/OurCourses'}/>
-               <Route path={'/AboutUs'} element={<AboutUs/>}/>
-               <Route path={'/Profile'} element={<AdminPanel/>}/>
-               <Route path={'/EnterToProfile'} element={<Enter/>}/>
-               <Route path={'/Master'} element={<Master/>}/>
-               <Route path={'/OurCourse'} element={<Course/>}/>
-           </Routes>
-       </div>
-   </>
-  );
+    return (
+        <>
+            <div className="App">
+                <Routes>
+                    <Route path={'/'} element={<MainPage/>}/>
+                    <Route path={'/AboutSchool'} element={<AboutSchool/>}/>
+                    <Route path={'/OurCourses'}/>
+                    <Route path={'/AboutUs'} element={<AboutUs/>}/>
+                    <Route path={'/Profile'} element={<AdminPanel/>}/>
+                    <Route path={'/EnterToProfile'} element={<Enter/>}/>
+                    <Route path={'/Master'} element={<Master/>}/>
+                    <Route path={'/OurCourse'} element={<Course/>}/>
+                    <Route path={'/Participation'} element={<Participation/>}/>
+                </Routes>
+            </div>
+        </>
+    );
 }
 
 export default App;

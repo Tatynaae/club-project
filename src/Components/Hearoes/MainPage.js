@@ -7,6 +7,7 @@ import img2 from '../../img/{}.svg'
 import tools from '../../img/tools-main.svg'
 import lamp from '../../img/lamp-main.svg'
 import {BsChevronDown} from 'react-icons/bs'
+import {NavLink} from "react-router-dom";
 
 
 const MainPage = () => {
@@ -22,11 +23,17 @@ const MainPage = () => {
                                     <div className="hero--images__ellipse1--ellipse2">
                                         <div className="hero--images__ellipse1--ellipse2__ellipse3">
 
-                                            <img src={men} alt="" className="hero--images__ellipse1--ellipse2__ellipse3--man"/>
-                                            <img src={settings} className='hero--images__ellipse1--ellipse2__ellipse3--setting' alt=""/>
-                                            <img src={img2} className='hero--images__ellipse1--ellipse2__ellipse3--img2' alt=""/>
-                                            <img src={tools} className='hero--images__ellipse1--ellipse2__ellipse3--tools' alt=""/>
-                                            <img src={lamp} className='hero--images__ellipse1--ellipse2__ellipse3--lamp' alt=""/>
+                                            <img src={men} alt=""
+                                                 className="hero--images__ellipse1--ellipse2__ellipse3--man"/>
+                                            <img src={settings}
+                                                 className='hero--images__ellipse1--ellipse2__ellipse3--setting'
+                                                 alt=""/>
+                                            <img src={img2} className='hero--images__ellipse1--ellipse2__ellipse3--img2'
+                                                 alt=""/>
+                                            <img src={tools}
+                                                 className='hero--images__ellipse1--ellipse2__ellipse3--tools' alt=""/>
+                                            <img src={lamp} className='hero--images__ellipse1--ellipse2__ellipse3--lamp'
+                                                 alt=""/>
                                         </div>
                                     </div>
                                 </div>
@@ -157,9 +164,7 @@ const MainPage = () => {
                                         Оформить подписку
                                     </button>
                                 </a>
-                                <a href="#">
-                                    Подробнее о пакетах
-                                </a>
+                                 <NavLink to={'/Participation'}>Подробнее о пакетах</NavLink>
                             </div>
                         </div>
                         <div className="question">
