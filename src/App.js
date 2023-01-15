@@ -20,7 +20,7 @@ function App() {
                <Route path={'/Profile'} element={<AdminPanel/>}/>
                <Route path={'/EnterToProfile'} element={<Enter/>}/>
                <Route path={'/Master'} element={<Master/>}/>
-               <Route path={'/Course'} element={<Course/>}/>
+               <Route path={'/OurCourse'} element={<Course/>}/>
            </Routes>
        </div>
    </>
