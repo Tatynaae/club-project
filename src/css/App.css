@@ -47,6 +47,18 @@
 #header .header .burger-menu {
   display: none;
 }
+#header #enter .enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0;
+  margin: -96px 0 0 -200px;
+  position: absolute;
+  z-index: 1123456789;
+  background: #0A1128;
+  width: 108%;
+  height: 700%;
+}
 
 #footer {
   backdrop-filter: blur(22px);
