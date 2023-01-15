@@ -5,9 +5,10 @@
     }
       .header--burger{
         display: none;
-        &__window{
-          display: none;
-        }
+
+      }
+      &__window{
+        display: none;
       }
   }
 }
@@ -18,9 +19,10 @@
     }
       .header--burger{
         display: none;
-        &__window{
-          display: none;
-        }
+
+      }
+      &__window{
+        display: none;
       }
   }
 }
@@ -28,11 +30,12 @@
     #header{
     &__modal{
       display: none;
-      &__window{
-        display: none;
-      }
+
     }
       .header--burger{
+        display: none;
+      }
+      &__window{
         display: none;
       }
   }
@@ -44,9 +47,10 @@
     }
       .header--burger{
         display: none;
-        &__window{
-          display: none;
-        }
+
+      }
+      &__window{
+        display: none;
       }
   }
 }

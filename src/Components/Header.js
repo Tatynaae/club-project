@@ -6,7 +6,6 @@ import ModalWindow from "./modalBurger/ModalWindow";
 import Enter from "./Enter/Enter";
 
 const Header = () => {
-
     const [burger, setBurger] = useState(false)
 
     const [enter, setEnter] = useState(true)
