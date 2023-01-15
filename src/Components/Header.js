@@ -49,7 +49,7 @@ const Header = () => {
 
                     </div>
                 </div>
-                {burger ? "" : <ModalWindow/>}
+                {burger ? "" : <ModalWindow enter={enter} enterFn={enterFn}/>}
                 {enter ? <Enter setEnter={setEnter} enter={enter}/> : ""}
             </div>
         </div>
