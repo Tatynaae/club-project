@@ -2979,6 +2979,93 @@ body {
     width: 200px;
   }
 }
+@media (max-width: 1200px) {
+  #header #enter .enter {
+    width: 106%;
+  }
+  #header #enter .enter .view {
+    right: 410px;
+  }
+}
+@media (max-width: 1024px) {
+  #header #enter .enter {
+    width: 115%;
+    height: 702px;
+  }
+  #header #enter .enter .view {
+    right: 355px;
+  }
+}
+@media (max-width: 992px) {
+  #header #enter .enter {
+    width: 115%;
+  }
+  #header #enter .enter .view {
+    right: 345px;
+  }
+}
+@media (max-width: 769px) {
+  #header #enter .enter {
+    width: 125%;
+    margin: -115px 0 0 -200px;
+  }
+  #header #enter .enter .view {
+    right: 255px;
+  }
+}
+@media (max-width: 576px) {
+  #header #enter .enter {
+    width: 142%;
+    margin: -90px 0 0 -200px;
+  }
+  #header #enter .enter .view {
+    right: 201px;
+  }
+  #header #enter .enter input {
+    width: 385px;
+  }
+  #header #enter .enter .enter--btn {
+    margin: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 450px) {
+  #header #enter .enter {
+    width: 161%;
+  }
+  #header #enter .enter input {
+    width: 295px;
+  }
+}
+@media (max-width: 375px) {
+  #header #enter .enter {
+    width: 179%;
+  }
+  #header #enter .enter input {
+    width: 230px;
+  }
+}
+@media (max-width: 320px) {
+  #header #enter .enter {
+    width: 198%;
+  }
+  #header #enter .enter input {
+    width: 170px;
+    margin: 15px 0 0 0;
+  }
+  #header #enter .enter .view {
+    right: 216px;
+    top: 444px;
+  }
+  #header #enter .enter--btn__v {
+    padding: 15px 80px;
+  }
+  #header #enter .enter--img {
+    width: 230px;
+    margin: 0 0 50px 40px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

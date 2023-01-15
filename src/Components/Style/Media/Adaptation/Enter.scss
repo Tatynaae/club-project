@@ -3,19 +3,9 @@
   #header {
     #enter {
       .enter {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 150px 0;
-        margin: -96px 0 0 -200px;
-        position: absolute;
-        z-index: 1123456789;
-        background: #0A1128;
         width: 106%;
-        height: 700%;
         .view {
-          right: 405px;
-          top: 502px;
+          right: 410px;
         }
       }
     }
@@ -26,6 +16,7 @@
     #enter {
       .enter {
         width: 115%;
+        height: 702px;
         .view{
           right: 355px;
         }
