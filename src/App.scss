@@ -1,16 +1,19 @@
-@import"Components/Style/Style";
+@import "Components/Style/Style";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@300;400;500;600;700&display=swap');
-*{
-    margin: 0;
+
+* {
+  margin: 0;
   padding: 0;
 }
-.container{
-    width: 85%;
-    margin: 0 auto;
+
+.container {
+  width: 85%;
+  margin: 0 auto;
 }
-body, html{
-    background: #102146;
-    scroll-behavior: smooth;
+
+body, html {
+  background: #102146;
+  scroll-behavior: smooth;
   font-family: 'Montserrat', sans-serif;
 }
 
