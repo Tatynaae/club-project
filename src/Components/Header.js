@@ -1,17 +1,29 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from "../img/логотип.svg";
 import {NavLink} from "react-router-dom";
 import ModalBurger from "./modalBurger/ModalBurger";
 import ModalWindow from "./modalBurger/ModalWindow";
+import Enter from "./Enter/Enter";
 
 const Header = () => {
-
     const [burger, setBurger] = useState(false)
+
+    const [enter, setEnter] = useState(true)
 
 
     const open = (e) => {
         setBurger(!e)
     }
+
+    const enterFn = (e) => {
+        setEnter(!e)
+        console.log(enter)
+    }
+
+    useEffect(() => {
+        open(burger)
+        enterFn(enter)
+    }, [])
 
     return (
         <div id='header'>
@@ -27,7 +39,7 @@ const Header = () => {
                     </div>
 
                     <div className='header--left'>
-                        <NavLink to={"/EnterToProfile"} className='header--left__without'>Войти</NavLink>
+                        <button className='header--left__without' onClick={() => enterFn(enter)}>Войти</button>
                         <button className='header--left__with'>Подписаться</button>
                     </div>
 
@@ -37,6 +49,7 @@ const Header = () => {
                     </div>
                 </div>
                 {burger ? "" : <ModalWindow/>}
+                {enter ? <Enter setEnter={setEnter} enter={enter}/> : ""}
             </div>
         </div>
     );

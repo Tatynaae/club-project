@@ -7,52 +7,68 @@
 
     .main {
       .hero {
+        &--text {
+          width: 80%;
+        }
+
         &--images {
           left: 300px;
           top: 50px;
 
-          &__man {
-            width: 600px;
-            left: 165px;
-          }
 
-          &__setting {
-            left: 400px;
-            top: 100px;
-            width: 100px;
-          }
-          &__img2{
-            width: 100px;
-            height: 100px;
-            left: 260px;
-          }
-          &__tools{
-            left: 460px;
-            top: 470px;
-            width: 160px;
-            height: 170px;
-          }
-          &__lamp{
-            width: 120px;
-            height: 120px;
-            left: 680px;
-          }
           &__ellipse1 {
-            width: 800px;
-            height: 800px;
-            &--ellipse2{
+            max-width: 800px;
+            max-height: 800px;
+
+            &--ellipse2 {
               width: 500px;
               height: 500px;
-              &__ellipse3{
 
+              &__ellipse3 {
+                width: 300px;
+                height: 300px;
+
+                &--man {
+                  width: 450px;
+                  left: -65px;
+                  top: -30px;
+                }
+
+                &--setting {
+                  left: 120px;
+                  top: -50px;
+                  width: 90px;
+                }
+
+                &--img2 {
+                  width: 80px;
+                  height: 80px;
+                  left: 10px;
+                  top: 100px;
+                }
+
+                &--tools {
+                  left: 160px;
+                  top: 220px;
+                  width: 110px;
+                  height: 110px;
+                }
+
+                &--lamp {
+                  width: 100px;
+                  height: 100px;
+                  left: 350px;
+                  top: 140px;
+                }
               }
             }
           }
         }
       }
-      .request{
-        &--right{
-          input{
+
+      .request {
+        &--right {
+          input {
             width: 520px;
           }
         }
@@ -64,68 +80,62 @@
 @media (max-width: 1024px) {
   #main {
     max-width: 1024px;
-    .main{
-      .hero{
-        &--images{
+
+    .main {
+      .hero {
+        padding-bottom: 100px;
+
+        &--images {
           left: 160px;
-          &__tools{
-            width: 140px;
-            height: 150px;
-            top: 450px;
-          }
-          &__img2{
-            left: 240px;
-          }
-          &__lamp{
-            left: 660px;
-            width: 100px;
-            height: 100px;
-          }
-          &__man{
-            width: 560px;
-          }
-          &__ellipse1{
+
+          &__ellipse1 {
             width: 750px;
             height: 750px;
           }
+        }
 
-        }
-        &--text{
-          h1{
-            width: 100%;
-            font-size: 42px;
+        &--text {
+          h1 {
+            width: 60%;
+            font-size: 36px;
           }
-          p{
-            font-size: 16px;
-          }
-        }
-      }
-      .article{
-        &--title{
-          h1{
-            font-size: 38px;
+
+          p {
+            font-size: 14px;
+            width: 50%;
           }
         }
       }
-      .request{
-        &--left{
-          p{
+
+      .article {
+        &--title {
+          h1 {
+            font-size: 36px;
+          }
+        }
+      }
+
+      .request {
+        &--left {
+          p {
             width: 80%;
           }
         }
-        &--right{
-          input{
+
+        &--right {
+          input {
             width: 400px;
           }
         }
       }
-      .question{
-        &--right{
-          .home-accordion{
-            &_desc{
-              &-accordion{
-                &_label{
-                  p{
+
+      .question {
+        &--right {
+          .home-accordion {
+            &_desc {
+              &-accordion {
+                &_label {
+                  p {
                     font-size: 18px;
                   }
                 }
@@ -139,88 +149,132 @@
 }
 
 @media (max-width: 992px) {
-  #main{
+  #main {
     max-width: 992px;
+
+    .main {
+      .packet {
+        padding: 50px 40px 50px 40px;
+        justify-content: space-between;
+
+        &--left {
+          width: 60%;
+
+          h1 {
+            font-size: 22px;
+          }
+
+          p {
+            font-size: 14px;
+          }
+        }
+
+        &--right {
+          width: 40%;
+
+          button {
+            font-size: 14px;
+          }
+
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+    }
   }
 }
 
 @media (max-width: 768px) {
-  #main{
+  #main {
     max-width: 768px;
-    .main{
-      .hero{
-        padding: 140px 0 700px 0;
+
+    .main {
+      .hero {
+        padding: 50px 0 700px 0;
         justify-content: center;
         align-items: center;
-        &--text{
+        display: flex;
+        flex-direction: column;
+
+        &--text {
           width: 80%;
-          h1{
+          align-items: center;
+
+          h1 {
             text-align: center;
+            width: 100%;
           }
-          p{
+
+          p {
             text-align: center;
             width: 100%;
           }
         }
+
         &--images {
           left: -20px;
           top: 450px;
 
-          &__man {
-            width: 520px;
-            left: 135px;
-            top: 170px;
-          }
-
-          &__setting {
-            left: 400px;
-            top: 80px;
-            width: 80px;
-          }
-          &__img2{
-            width: 90px;
-            height: 90px;
-            left: 190px;
-          }
-          &__tools{
-            left: 400px;
-            top: 460px;
-            width: 140px;
-            height: 140px;
-          }
-          &__lamp{
-            width: 100px;
-            height: 100px;
-            left: 620px;
-          }
           &__ellipse1 {
             width: 720px;
             height: 720px;
-            &--ellipse2{
+
+            &--ellipse2 {
               width: 490px;
               height: 490px;
-              &__ellipse3{
+            }
+          }
+        }
+      }
 
+      .question {
+        &--right {
+          .home-accordion {
+            &_desc {
+              &-accordion {
+                &_label {
+                  p {
+                    max-width: 80%;
+                    font-size: 15px;
+                    margin: 0;
+                  }
+
+                  &-icon {
+                    min-width: 10%;
+                    font-size: 18px;
+                  }
+                }
+                &_content{
+                  div{
+                    font-size: 14px;
+                  }
+                }
               }
             }
           }
         }
       }
-      .request{
+
+      .request {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        &--left{
+
+        &--left {
           text-align: center;
-          p{
+
+          p {
             width: 100%;
             padding-bottom: 40px;
           }
         }
-        &--right{
+
+        &--right {
           align-items: center;
-          input{
-            width: 320px;
+
+          input {
+            max-width: 320px;
           }
         }
       }
@@ -230,84 +284,122 @@
 }
 
 @media (max-width: 576px) {
-  #main{
+  #main {
     max-width: 576px;
-    .main{
-      .hero{
+
+    .main {
+      .hero {
         padding: 140px 0 700px 0;
         justify-content: center;
         align-items: center;
-        &--text{
+
+        &--text {
           width: 80%;
-          h1{
+
+          h1 {
             text-align: center;
           }
-          p{
+
+          p {
             text-align: center;
             width: 100%;
           }
         }
+
         &--images {
-          left: -20px;
-          top: 450px;
+          left: -100px;
+          top: 400px;
 
-          &__man {
-            width: 440px;
-            left: 95px;
-            top: 120px;
-          }
-
-          &__setting {
-            left: 300px;
-            top: 80px;
-            width: 80px;
-          }
-          &__img2{
-            width: 90px;
-            height: 90px;
-            left: 140px;
-            top: 260px;
-          }
-          &__tools{
-            left: 320px;
-            top: 370px;
-            width: 100px;
-            height: 100px;
-          }
-          &__lamp{
-            width: 80px;
-            height: 80px;
-            left: 460px;
-            top: 300px;
-          }
           &__ellipse1 {
-            width: 540px;
-            height: 540px;
-            &--ellipse2{
-              width: 300px;
-              height: 300px;
+            max-width: 620px;
+            max-height: 620px;
+
+            &--ellipse2 {
+              width: 450px;
+              height: 450px;
             }
           }
         }
       }
-      .question{
-        display: flex;
-        align-items: center;
-        justify-content: center;flex-direction: column;
-        &--left{
-          width: 100%;
-          text-align: center;
-          h1{
-            text-align: center;
-            width: 100%;
+
+      .packet {
+        flex-direction: column;
+
+        &--left {
+          width: 90%;
+          padding-bottom: 30px;
+
+          h1 {
+            font-size: 24px;
           }
-          h2{
-            text-align: center;
-            width: 100%;
+
+          p {
+            font-size: 18px;
           }
         }
-        &--right{
+
+        &--right {
+          width: 90%;
+
+          button {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 16px;
+
+          }
+        }
+      }
+
+      .question {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        &--left {
           width: 100%;
+          text-align: center;
+          display: flex;
+          flex-direction: row;
+          align-items: start;
+
+          h1 {
+            text-align: center;
+            width: 100%;
+          }
+
+          h2 {
+            text-align: center;
+            font-size: 90px;
+          }
+
+        }
+
+        &--right {
+          width: 100%;
+          align-items: center;
+
+          .home-accordion {
+            &_desc {
+              align-items: center;
+
+              &-accordion {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+
+      .request {
+        &--right {
+          align-items: start;
+
+          input {
+            width: 520px;
+          }
         }
       }
     }
@@ -316,10 +408,228 @@
 }
 
 @media (max-width: 450px) {
+  #main {
+    max-width: 450px;
+    .main {
+      .hero{
+        padding: 0 0 440px 0;
+        &--text {
+          width:100%;
+          h1 {
+            text-align: center;
+            width: 100%;
+          }
+
+          p {
+            text-align: center;
+            width: 100%;
+          }
+        }
+
+        &--images {
+          left: -10px;
+          top: 400px;
+
+          &__ellipse1 {
+            max-width: 420px;
+            max-height: 400px;
+
+            &--ellipse2 {
+              width: 330px;
+              height: 330px;
+
+              &__ellipse3 {
+                max-width: 200px;
+                max-height: 200px;
+                &--man {
+                  width: 300px;
+                  left: -35px;
+                  top: -30px;
+                }
+
+                &--setting {
+                  left: 100px;
+                  top: -20px;
+                  width: 50px;
+                }
+
+                &--img2 {
+                  width: 50px;
+                  height: 50px;
+                  left: 20px;
+                  top: 60px;
+                }
+
+                &--tools {
+                  left: 100px;
+                  top: 140px;
+                  width: 80px;
+                  height: 80px;
+                }
+
+                &--lamp {
+                  width: 60px;
+                  height: 60px;
+                  left: 220px;
+                  top: 100px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
 }
 
 @media (max-width: 375px) {
+  #main{
+    max-width: 375px;
+    .main{
+      .hero{
+        padding: 0 0 700px 0;
+        &--text {
+          width:100%;
+          h1 {
+            font-size: 30px;
+            width: 100%;
+            text-align: center;
+          }
+
+          p {
+            text-align: center;
+            width: 100%;
+          }
+        }
+
+        &--images {
+          left: -100px;
+          top: 400px;
+
+          &__ellipse1 {
+            max-width: 440px;
+            max-height: 440px;
+
+            &--ellipse2 {
+              width: 320px;
+              height: 320px;
+            }
+          }
+        }
+      }
+      .article{
+        &--title{
+          h1{
+            font-size: 30px;
+          }
+        }
+      }
+      .packet{
+        &--right{
+          &__btn{
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 320px) {
+  #main{
+    max-width: 320px;
+    .main{
+      .hero{
+        padding: 0 0 500px 0;
+        &--text {
+          width:100%;
+          h1 {
+            font-size: 22px;
+            width: 100%;
+            line-height: 22px;
+            text-align: center;
+          }
+
+          p {
+            text-align: center;
+            width: 100%;
+          }
+        }
+
+        &--images {
+          left: -100px;
+          top: 300px;
+
+          &__ellipse1 {
+            max-width: 400px;
+            max-height: 400px;
+
+            &--ellipse2 {
+              width: 300px;
+              height: 300px;
+            }
+          }
+        }
+      }
+      .article{
+        &--title{
+          h1{
+            font-size: 26px;
+          }
+        }
+      }
+      .packet{
+        padding: 15px;
+        &--left{
+          h1{
+            font-size: 20px;
+          }
+          p{
+            font-size: 14px;
+          }
+        }
+        &--right{
+          button{
+            padding: 8px 16px;
+          }
+        }
+      }
+      .question{
+        &--left{
+          h1{
+            font-size: 26px;
+          }
+        }
+        &--right{
+          .home-accordion{
+            &_desc{
+              &-accordion{
+                &_content{
+                  div{
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .request{
+        &--left{
+          h1{
+            font-size: 25px;
+          }
+          p{
+
+          }
+        }
+        &--right{
+          input{
+            max-width: 250px;
+          }
+        }
+      }
+    }
+  }
 }

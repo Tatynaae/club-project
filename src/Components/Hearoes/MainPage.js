@@ -21,14 +21,15 @@ const MainPage = () => {
                                 <div className="hero--images__ellipse1">
                                     <div className="hero--images__ellipse1--ellipse2">
                                         <div className="hero--images__ellipse1--ellipse2__ellipse3">
+
+                                            <img src={men} alt="" className="hero--images__ellipse1--ellipse2__ellipse3--man"/>
+                                            <img src={settings} className='hero--images__ellipse1--ellipse2__ellipse3--setting' alt=""/>
+                                            <img src={img2} className='hero--images__ellipse1--ellipse2__ellipse3--img2' alt=""/>
+                                            <img src={tools} className='hero--images__ellipse1--ellipse2__ellipse3--tools' alt=""/>
+                                            <img src={lamp} className='hero--images__ellipse1--ellipse2__ellipse3--lamp' alt=""/>
                                         </div>
                                     </div>
                                 </div>
-                                <img src={men} alt="" className="hero--images__man"/>
-                                <img src={settings} className='hero--images__setting' alt=""/>
-                                <img src={img2} className='hero--images__img2' alt=""/>
-                                <img src={tools} className='hero--images__tools' alt=""/>
-                                <img src={lamp} className='hero--images__lamp' alt=""/>
                             </div>
                             <div className="hero--text">
                                 <h1>IT образовательная платформа </h1>
