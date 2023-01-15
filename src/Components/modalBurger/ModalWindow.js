@@ -6,7 +6,7 @@ const ModalWindow = ({enter, enterFn}) => {
         <div className='header--burger__window'>
                 <div className='links'>
                     <NavLink className='name' to={'/AboutSchool'}>О школе</NavLink>
-                    <NavLink className='name' to={'/OurCourses'} >Наши курсы</NavLink>
+                    <NavLink className='name' to={'/OurCourse'} >Наши курсы</NavLink>
                     <NavLink className='name'  to={'/AboutUs'}>О нас</NavLink>
 
                         <button
