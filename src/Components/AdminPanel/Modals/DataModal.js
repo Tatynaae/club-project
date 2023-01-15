@@ -18,11 +18,11 @@ const DataModal = ({modal}) => {
                         <div className="pol">
 
                             <button className='pol--pols'>
-                                <input style={{width:'25px', height:'25px', border: "1.07692px solid #043F75", borderRadius: "1.07692px"}}  type="checkbox"/>
+                                <input className='gen' type="checkbox"/>
                                 Мужской
                             </button>
                             <button className='pol--pols'>
-                                <input style={{width:'25px', height:'25px', border: "1.07692px solid #043F75", borderRadius: "1.07692px"}} type="checkbox"/>
+                                <input className='gen' type="checkbox"/>
                                 Женский
                             </button>
                         </div>
@@ -30,10 +30,10 @@ const DataModal = ({modal}) => {
 
                     <div className="settings--left">
 
-                        <div className="born" style={{margin:'30px 0 20px 0'}}>
-                            <label style={{color:'#A4A4A4'}} htmlFor="userName">Дата рождения*</label>
-                            <div>
-                                <select style={{ border:"none" ,padding:'5px', background: 'rgba(27, 41, 89, 0.4)',borderRadius: '10px', color:'white', fontSize:'14px', margin:'5px 10px'}}>
+                        <div className="born">
+                            <label style={{color:'#A4A4A4', margin:'10px'}} htmlFor="userName">Дата рождения*</label>
+                            <div className='born--all'>
+                                <select>
                                     <option>1</option>
                                     <option>2</option>
                                     <option>3</option>
@@ -67,7 +67,7 @@ const DataModal = ({modal}) => {
                                     <option>30</option>
                                     <option>31</option>
                                 </select>
-                                <select style={{ border:"none" ,padding:'5px', background: 'rgba(27, 41, 89, 0.4)',borderRadius: '10px', color:'white', fontSize:'14px', margin:'5px 10px'}}>
+                                <select>
                                     <option>January</option>
                                     <option>February</option>
                                     <option>March</option>
@@ -81,7 +81,7 @@ const DataModal = ({modal}) => {
                                     <option>November</option>
                                     <option>December</option>
                                 </select>
-                                <select style={{ border:"none" ,padding:'5px', background: 'rgba(27, 41, 89, 0.4)',borderRadius: '10px', color:'white', fontSize:'14px', margin:'5px 10px'}}>
+                                <select>
                                     <option>1997</option>
                                     <option>1998</option>
                                     <option>1999</option>
@@ -97,61 +97,34 @@ const DataModal = ({modal}) => {
                             </div>
                         </div>
 
-                        <label style={{color:'#A4A4A4'}} htmlFor="userName">Страна*</label>
-                        <select style={{
-                            width: '270px',
-                            height: '44px',
-                            background: 'rgba(27, 41, 89, 0.4)',
-                            borderRadius: '10px',
-                            border:'none',
-                            padding:'0 20px',
-                            color:'white',
-                            fontSize:'16px',
-                            margin:'10px 0 10px 0'
+                        <div className='born--sel'>
+                            <label style={{color:'#A4A4A4'}} htmlFor="userName">Страна*</label>
+                            <select>
+                                <option>Kyrgyzstan</option>
+                                <option>Russia</option>
+                                <option>Kazakhstan</option>
+                                <option>Turkey</option>
+                            </select>
+                        </div>
 
-                        }}>
-                            <option>Kyrgyzstan</option>
-                            <option>Russia</option>
-                            <option>Kazakhstan</option>
-                            <option>Turkey</option>
-                        </select>
+                        <div className='born--sel'>
+                            <label style={{color:'#A4A4A4'}} htmlFor="userName">Город*</label>
+                            <select>
+                                <option>Bishkek</option>
+                                <option>Moscow</option>
+                                <option>As</option>
+                                <option>Turkey</option>
+                            </select>
+                        </div>
 
-                        <label style={{color:'#A4A4A4'}} htmlFor="userName">Город*</label>
-                        <select style={{
-                            width: '270px',
-                            height: '44px',
-                            background: 'rgba(27, 41, 89, 0.4)',
-                            borderRadius: '10px',
-                            border:'none',
-                            padding:'0 20px',
-                            color:'white',
-                            fontSize:'16px',
-                            margin:'10px 0 10px 0'
-                        }}>
-                            <option>Bishkek</option>
-                            <option>Moscow</option>
-                            <option>As</option>
-                            <option>Turkey</option>
-                        </select>
-
-
-
-                        <label style={{color:'#A4A4A4'}} htmlFor="userName">Статус*</label>
-                        <select style={{
-                            width: '270px',
-                            height: '44px',
-                            background: 'rgba(27, 41, 89, 0.4)',
-                            borderRadius: '10px',
-                            border:'none',
-                            padding:'0 20px',
-                            color:'white',
-                            fontSize:'16px',
-                            marginTop:'10px'
-                        }}>
-                            <option>Student</option>
-                            <option>Teacher</option>
-                            <option>Other..</option>
-                        </select>
+                        <div className='born--sel'>
+                           <label style={{color:'#A4A4A4'}} htmlFor="userName">Статус*</label>
+                           <select>
+                               <option>Student</option>
+                               <option>Teacher</option>
+                               <option>Other..</option>
+                           </select>
+                       </div>
                     </div>
                 </div>
             </div>

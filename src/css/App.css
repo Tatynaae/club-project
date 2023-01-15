@@ -72,6 +72,7 @@
 
 #footer {
   backdrop-filter: blur(22px);
+  background: #0A1128;
 }
 #footer .footer {
   padding: 30px 0;
@@ -1156,6 +1157,7 @@ body {
 
 #admin-panel {
   padding: 100px 0;
+  background: #0A1128;
 }
 #admin-panel .admin-panel--btn {
   display: flex;
@@ -1202,6 +1204,11 @@ body {
   background: transparent;
   font-size: 20px;
 }
+#admin-panel .admin-panel--prof .profile .line {
+  border: 1px solid rgb(220, 220, 220);
+  width: 333px;
+  margin: 13px 0;
+}
 #admin-panel .admin-panel--prof .data--own-modal {
   margin: 0 50px;
   display: flex;
@@ -1214,7 +1221,7 @@ body {
 }
 #admin-panel .admin-panel--prof .data--own-modal .settings {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-between;
 }
 #admin-panel .admin-panel--prof .data--own-modal .settings--right {
@@ -1250,8 +1257,42 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
+#admin-panel .admin-panel--prof .data--own-modal .settings--right .pol--pols .gen {
+  width: 25px;
+  height: 25px;
+  border: 1.07692px solid rgb(4, 63, 117);
+  border-radius: 1.07692px;
+}
 #admin-panel .admin-panel--prof .data--own-modal .settings--left {
-  margin-left: 20px;
+  margin: 56px 0 0 20px;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left .born {
+  margin: -48px 0px 20px;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left .born--all select {
+  border: none;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 11px;
+  color: white;
+  font-size: 20px;
+  margin: 5px 10px;
+  padding: 10px 3px;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select {
+  width: 294px;
+  height: 44px;
+  background: rgba(27, 41, 89, 0.4);
+  border-radius: 10px;
+  border: none;
+  padding: 0 20px;
+  color: white;
+  font-size: 16px;
+  margin: 10px 0;
 }
 #admin-panel .admin-panel--prof .data--own-modal .settings--left p {
   color: #A4A4A4;
@@ -1259,8 +1300,8 @@ body {
 #admin-panel .admin-panel--prof .payment {
   margin: 0 0 0 -50px;
   position: absolute;
-  top: -350px;
-  right: 50px;
+  top: -320px;
+  right: 230px;
 }
 #admin-panel .admin-panel--prof .payment .ellipse {
   width: 500px;
@@ -1336,6 +1377,7 @@ body {
 }
 #admin-panel .admin-panel--prof .subscribe--data h3 span {
   color: #FFFFFF;
+  margin-left: 200px;
 }
 #admin-panel .admin-panel--prof .subscribe--others {
   margin: 100px 0 0 0;
@@ -1483,6 +1525,412 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 1500px) {
+  #admin-panel .admin-panel--prof #panel {
+    display: none;
+  }
+}
+@media (max-width: 1440px) {
+  #admin-panel .admin-panel--prof #panel {
+    display: none;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    margin: 0 0 0 -50px;
+    position: absolute;
+    top: -320px;
+    right: 180px;
+  }
+  #admin-panel .admin-panel--prof .subscribe {
+    margin: -15px 0 0 40px;
+  }
+}
+@media (max-width: 1200px) {
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 90px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal h3 {
+    margin: 0;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost {
+    flex-direction: column;
+    margin-left: -235px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+    width: 240px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right .pol {
+    width: 275px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right .pol--pols {
+    width: 110px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select .born--sel select {
+    width: 275px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--all select {
+    margin: 5px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 220px;
+  }
+  #admin-panel .admin-panel--prof .payment .payment--cards {
+    flex-direction: column;
+    align-items: start;
+  }
+  #admin-panel .admin-panel--prof .payment .third {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #admin-panel .admin-panel--prof .subscribe--data__data {
+    margin-left: -300px;
+  }
+  #admin-panel .admin-panel--prof .subscribe .subscribe--others .cost {
+    flex-direction: column;
+    margin-left: -120px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 104px;
+  }
+  #admin-panel .admin-panel--prof .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+  }
+  #admin-panel .admin-panel--prof .profile .line {
+    width: 295px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 50px;
+    top: 704px;
+    padding-top: 15px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+    width: 170px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right .pol {
+    width: 200px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right .pol--pols {
+    width: 90px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right .pol--pols .gen {
+    width: 15px;
+    height: 25px;
+    border: 1.07692px solid rgb(4, 63, 117);
+    border-radius: 1.07692px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--all select {
+    margin: 8px 0 0 3px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select {
+    width: 254px;
+  }
+}
+@media (max-width: 992px) {
+  #admin-panel .admin-panel--prof .my--first {
+    width: 450px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data h3 span {
+    color: #FFFFFF;
+    margin-left: 70px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .time {
+    width: 210px;
+    height: 405px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .time p {
+    margin: 6px 0;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .time--second-btn {
+    margin: 115px 0 0 7px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .time--second-btn-time {
+    margin: 0;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost {
+    margin-left: -20px !important;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 70px;
+  }
+}
+@media (max-width: 768px) {
+  #admin-panel .admin-panel--prof {
+    flex-direction: column;
+  }
+  #admin-panel .admin-panel--prof .profile {
+    display: none;
+  }
+  #admin-panel .admin-panel--prof #panel {
+    display: block;
+  }
+  #admin-panel .admin-panel--prof #panel .panel {
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin: 0 0 30px 45px;
+    width: 500px;
+    padding: 20px 0 0 0;
+  }
+  #admin-panel .admin-panel--prof #panel .panel__modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #admin-panel .admin-panel--prof #panel .panel__modal .icon {
+    font-size: 24px;
+  }
+  #admin-panel .admin-panel--prof #panel .panel__modal--btn {
+    background: transparent;
+    border: none;
+    width: 200px;
+    font-size: 24px;
+    margin: 0 20px;
+  }
+  #admin-panel .admin-panel--prof #panel .panel--next {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #admin-panel .admin-panel--prof #panel .panel--next__btn {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #admin-panel .admin-panel--prof #panel .panel--next__btn .next-btn {
+    margin: 10px 0 30px 0;
+    background: transparent;
+    border: none;
+    width: 200px;
+    font-size: 24px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left {
+    margin: 71px 0 0 0;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--all select {
+    margin: 8px 0 0 15px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select {
+    width: 340px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+    width: 300px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 180px;
+    top: 340px;
+  }
+  #admin-panel .admin-panel--prof .payment .ellipse {
+    display: none;
+  }
+  #admin-panel .admin-panel--prof .payment--cards {
+    margin: 40px 0 0 0;
+  }
+  #admin-panel .admin-panel--prof .payment .third {
+    display: block;
+    width: 295px;
+    height: 380px;
+  }
+  #admin-panel .admin-panel--prof .payment .pay-title {
+    display: none;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data {
+    margin: 30px 0 0 50px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others {
+    margin: 100px 0 0 120px;
+  }
+  #admin-panel .admin-panel--prof .comments {
+    color: #FFFFFF;
+    margin: 0 0 0 95px;
+  }
+  #admin-panel .admin-panel--prof .comment--yours {
+    margin: 30px 0 0 80px;
+    width: 440px;
+  }
+  #admin-panel .admin-panel--prof .my {
+    margin: 0 0 0 95px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 210px;
+    top: 333px;
+  }
+}
+@media (max-width: 576px) {
+  #admin-panel .admin-panel--prof .payment {
+    right: 91px;
+    top: 320px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others {
+    margin: 100px 0 0 25px;
+  }
+  #admin-panel .admin-panel--prof .comment {
+    margin: 0 0 0 -35px;
+  }
+  #admin-panel .admin-panel--prof .my--first {
+    width: 400px;
+    margin-left: -47px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 115px;
+  }
+  #admin-panel .admin-panel--prof #panel .panel {
+    margin: 0 0 30px 25px;
+    width: 380px;
+  }
+}
+@media (max-width: 450px) {
+  #admin-panel .admin-panel--prof .data--own-modal {
+    margin: 0 0 0 5px;
+  }
+  #admin-panel .admin-panel--prof #panel .panel {
+    margin: 0 0 30px -20px;
+    width: 370px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 25px;
+    top: 320px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data {
+    margin: 30px 0 0 -21px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others {
+    margin: 100px 0 0 -33px;
+  }
+  #admin-panel .admin-panel--prof .comments {
+    margin: 0 0 0 55px;
+  }
+  #admin-panel .admin-panel--prof .comment--yours {
+    margin: 30px 0 0 37px;
+    width: 350px;
+  }
+  #admin-panel .admin-panel--prof .my {
+    margin: 0 0 0 40px;
+  }
+  #admin-panel .admin-panel--prof .my--first {
+    width: 350px;
+    margin-left: -23px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 50px;
+  }
+}
+@media (max-width: 375px) {
+  #admin-panel .admin-panel--prof #panel .panel {
+    margin: 0 0 30px -20px;
+    width: 312px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 8px;
+  }
+  #admin-panel .admin-panel--prof .my h1 {
+    font-size: 33px;
+  }
+  #admin-panel .admin-panel--prof .my--first {
+    width: 287px;
+    margin-left: -23px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data h3 span {
+    margin-left: 12px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others h1 {
+    font-size: 28px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost .time {
+    background: #FFFFFF;
+    width: 210px;
+    height: 440px;
+    border-radius: 10px;
+    margin: 30px 20px;
+    padding: 30px 50px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost .time--second-btn {
+    margin: 150px 0 0 5px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost .time--second-btn-time {
+    margin: 7px 0 0 6px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+    width: 265px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  #admin-panel .admin-panel--btn p {
+    border: none;
+    font-size: 12px;
+    color: white;
+  }
+  #admin-panel .admin-panel--prof .my--first {
+    width: 257px;
+    margin-left: -31px;
+  }
+  #admin-panel .admin-panel--prof .my h1 {
+    font-size: 28px;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: -20px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data h3 {
+    font-size: 13px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--data h3 span {
+    font-size: 14px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost .time {
+    background: #FFFFFF;
+    width: 160px;
+  }
+  #admin-panel .admin-panel--prof .subscribe--others .cost .time--second-btn-time {
+    margin: -2px 0 0 6px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    right: 12px;
+    top: 270px;
+  }
+  #admin-panel .admin-panel--prof .payment .third {
+    display: block;
+    width: 228px;
+    height: 380px;
+  }
+  #admin-panel .admin-panel--prof .payment .third button {
+    margin-top: 24px;
+  }
+  #admin-panel .admin-panel--prof .payment--cards .first {
+    padding: 20px 0 0 20px;
+    margin: 20px 0 0 0;
+    width: 265px;
+  }
+  #admin-panel .admin-panel--prof #panel .panel {
+    margin: 0 0 30px -20px;
+    width: 273px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal h1 {
+    color: #FFFFFF;
+    margin: 10px 0 30px 0;
+    font-size: 29px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--right input {
+    width: 224px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born {
+    margin: -48px 0px 20px -16px;
+  }
+  #admin-panel .admin-panel--prof .data--own-modal .settings--left .born--sel select {
+    width: 272px;
+  }
+}
 @media (max-width: 1200px) {
   #school .school--one--img img {
     width: 90%;

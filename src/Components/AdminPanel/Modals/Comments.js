@@ -3,7 +3,7 @@ import React from 'react';
 const Comments = ({modal}) => {
     return (
         <div className='comment' id={modal==='com' ? 'view' : 'view-d'}>
-            <h1>Коментарии</h1>
+            <h1 className='comments'>Коментарии</h1>
             <div className='comment--yours'>
 
                 <div className="com">

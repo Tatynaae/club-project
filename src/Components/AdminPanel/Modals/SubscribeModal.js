@@ -6,11 +6,11 @@ const SubscribeModal = ({modal}) => {
         <div className='subscribe' id={modal==='sub' ? 'view' : 'view-d'}>
             <div className="subscribe--data">
                 <h1>Подписки</h1>
-                <h3>Тариф : <span style={{marginLeft:'320px'}}><b>Год</b></span></h3>
-                <h3>Статус : <span style={{marginLeft:'318px'}}><b>Начальная</b></span></h3>
-                <h3>Сумма : <span style={{marginLeft:'320px'}}><b>220.00 $</b></span></h3>
-                <h3>Карта : <span  style={{marginLeft:'327px'}}><b>5106 21 ХХ ХХХХ 4186</b></span></h3>
-                <h3>Действует до : <span style={{marginLeft:'260px'}}><b>30 . 09.  2022 г</b></span></h3>
+                <h3>Тариф : <span className='subscribe--data__data'><b>Год</b></span></h3>
+                <h3>Статус : <span className='subscribe--data__data'><b>Начальная</b></span></h3>
+                <h3>Сумма : <span className='subscribe--data__data'><b>220.00 $</b></span></h3>
+                <h3>Карта : <span className='subscribe--data__data' ><b>5106 21 ХХ ХХХХ 4186</b></span></h3>
+                <h3>Действует до : <span className='subscribe--data__data'><b>30 . 09.  2022 г</b></span></h3>
             </div>
 
 

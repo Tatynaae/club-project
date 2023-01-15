@@ -8,6 +8,7 @@
 
 #admin-panel{
   padding: 100px 0;
+  background: #0A1128;
   .admin-panel{
     &--btn{
       display: flex;
@@ -52,7 +53,11 @@
             font-size: 20px;
           }
         }
-
+        .line{
+          border: 1px solid rgb(220, 220, 220);
+          width: 333px;
+          margin: 13px 0;
+        }
       }
       .data{
         &--own-modal{
@@ -66,7 +71,7 @@
           }
           .settings{
             display: flex;
-            align-items: center;
+            align-items: start;
             justify-content: space-between;
             &--right{
               display: flex;
@@ -98,11 +103,47 @@
                   display: flex;
                   align-items: center;
                   justify-content: space-evenly;
+                  .gen{
+                    width: 25px;
+                    height: 25px;
+                    border: 1.07692px solid rgb(4, 63, 117);
+                    border-radius: 1.07692px;
+                  }
                 }
               }
             }
             &--left{
-              margin-left: 20px;
+                margin: 56px 0 0 20px;
+              .born{
+                margin: -48px 0px 20px;
+                &--all{
+                  select{
+                    border: none;
+                    background: rgba(27, 41, 89, 0.4);
+                    border-radius: 11px;
+                    color: white;
+                    font-size: 20px;
+                    margin: 5px 10px;
+                    padding: 10px 3px;
+                  }
+                }
+                &--sel{
+                  display: flex;
+                  flex-direction: column;
+                  align-items: start;
+                  select{
+                    width: 294px;
+                    height: 44px;
+                    background: rgba(27, 41, 89, 0.4);
+                    border-radius: 10px;
+                    border: none;
+                    padding: 0 20px;
+                    color: white;
+                    font-size: 16px;
+                    margin: 10px 0;
+                  }
+                }
+              }
               p{
                 color: #A4A4A4;
 
@@ -115,8 +156,8 @@
       .payment{
         margin: 0 0 0 -50px;
         position: absolute;
-        top: -350px;
-        right: 50px;
+        top: -320px;
+        right: 230px;
         .ellipse{
           width: 500px;
           height: 500px;
@@ -192,6 +233,7 @@
             margin: 30px 0;
             span{
               color: #FFFFFF;
+              margin-left: 200px;
             }
           }
         }
@@ -345,3 +387,544 @@
     }
   }
 }
+@media (max-width: 1500px) {
+  #admin-panel{
+    .admin-panel--prof{
+      #panel{display: none}
+    }
+  }
+}
+@media (max-width: 1440px) {
+  #admin-panel {
+    .admin-panel--prof {
+      #panel{
+        display: none;
+      }
+      .payment {
+        margin: 0 0 0 -50px;
+        position: absolute;
+        top: -320px;
+        right: 180px;
+      }
+      .subscribe {
+        margin: -15px 0 0 40px;
+      }
+    }
+  }
+}
+@media (max-width: 1200px) {
+  #admin-panel {
+    .admin-panel--prof {
+      .exit-modal {
+        left: 90px;
+        h3 {
+          margin: 0;
+        }
+      }
+      .subscribe--others {
+        .cost {
+          flex-direction: column;
+          margin-left: -235px
+        }
+      }
+      .data--own-modal {
+        .settings--right {
+          input {
+            width: 240px;
+          }
+          .pol{
+            width: 275px;
+            &--pols{
+              width: 110px;
+            }
+          }
+        }
+        .settings--left{
+          .born{
+            &--sel{
+              select{
+                .born--sel {
+                  select {
+                    width: 275px;
+                  }
+                }
+              }
+            }
+            &--all{
+              select{
+                margin: 5px;
+              }
+            }
+          }
+        }
+      }
+      .payment{
+        right: 220px;
+          .payment--cards {
+            flex-direction: column;
+            align-items: start;
+            }
+        .third {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px) {
+  #admin-panel {
+    .admin-panel--prof {
+      .subscribe{
+        &--data{
+          &__data{
+            margin-left: -300px;
+          }
+        }
+        .subscribe--others{
+          .cost {
+            flex-direction: column;
+            margin-left: -120px;
+          }
+        }
+      }
+      .payment {
+        right: 104px;
+      }
+      .profile {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 300px;
+        .line {
+          width: 295px;
+        }
+      }
+      .exit-modal {
+        left: 50px;
+        top: 704px;
+        padding-top: 15px;
+      }
+      .data--own-modal {
+        .settings--right{
+          input {
+            width: 170px;
+          }
+            .pol {
+              width: 200px;
+            &--pols{
+            width: 90px;
+              .gen {
+                width: 15px;
+                height: 25px;
+                border: 1.07692px solid rgb(4, 63, 117);
+                border-radius: 1.07692px;
+              }
+          }
+          }
+        }
+        .settings--left{
+          .born--all {
+            select {
+              margin: 8px 0 0 3px;
+            }
+          }
+          .born--sel {
+            select {
+              width: 254px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #admin-panel{
+    .admin-panel--prof{
+      .my--first {
+        width: 450px;
+      }
+      .subscribe--data {
+        h3 {
+          span {
+            color: #FFFFFF;
+            margin-left: 70px;
+          }
+        }
+      }
+      .subscribe--others {
+          .time {
+            p {
+              margin: 6px 0;
+            }
+            width: 210px;
+            height: 405px;
+            &--second-btn{
+              margin:115px 0 0 7px;
+            }
+            &--second-btn-time{
+             margin: 0;
+            }
+          }
+        .cost {
+          margin-left: -20px !important;
+        }
+        }
+      .payment {
+        right: 70px;
+      }
+      }
+    }
+  }
+@media (max-width: 768px) {
+#admin-panel{
+  .admin-panel{
+    &--prof{
+      flex-direction: column;
+      .profile{
+        display: none;
+      }
+      #panel{
+        display: block;
+        .panel{
+          background: #FFFFFF;
+          border-radius: 5px;
+          margin:0 0 30px 45px;
+          width: 500px;
+          padding: 20px 0 0 0 ;
+          &__modal{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+              font-size: 24px;
+            }
+            &--btn{
+              background: transparent;
+              border: none;
+              width: 200px;
+              font-size: 24px;
+              margin: 0 20px;
+            }
+          }
+          &--next{
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            &__btn{
+              margin: 15px 0;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              .next-btn{
+                margin: 10px 0 30px 0;
+                background: transparent;
+                border: none;
+                width: 200px;
+                font-size: 24px;
+              }
+            }
+          }
+        }
+      }
+      .data--own-modal {
+       .settings {
+        display: flex;
+        align-items: start;
+         flex-direction: column;
+         &--left {
+           margin: 71px 0 0 0;
+           .born--all{
+             select {
+               margin: 8px 0 0 15px;
+             }
+           }
+           .born--sel{
+             select {
+               width: 340px;
+             }
+           }
+         }
+         &--right{
+           input {
+             width: 300px;
+           }
+         }
+      }
+    }
+      .payment{
+        right: 180px;
+        top: 340px;
+        .ellipse{
+          display: none;
+        }
+        &--cards{
+            margin: 40px 0 0 0;
+        }
+        .third {
+          display: block;
+          width: 295px;
+          height: 380px;
+        }
+        .pay-title{
+          //margin: 570px 0 0 22px;
+          display: none;
+        }
+      }
+      .subscribe--data{
+        margin: 30px 0 0 50px;
+      }
+      .subscribe--others {
+        margin: 100px 0 0 120px;
+      }
+      .comments{
+          color: #FFFFFF;
+          margin: 0 0 0 95px;
+        }
+
+      .comment--yours {
+        margin: 30px 0 0 80px;
+        width: 440px;
+      }
+      .my {
+        margin: 0 0 0 95px;
+      }
+      .exit-modal {
+         left: 210px;
+         top: 333px;
+       }
+    }
+  }
+}
+}
+@media (max-width: 576px) {
+  #admin-panel {
+    .admin-panel--prof {
+      .payment {
+        right: 91px;
+        top: 320px;
+      }
+      .subscribe--others {
+        margin: 100px 0 0 25px;
+      }
+      .comment {
+        margin: 0 0 0 -35px;
+      }
+      .my--first {
+        width: 400px;
+        margin-left: -47px;
+      }
+      .exit-modal {
+        left: 115px;
+      }
+      #panel {
+        .panel {
+          margin: 0 0 30px 25px;
+          width: 380px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 450px) {
+  #admin-panel {
+    .admin-panel--prof {
+      .data--own-modal {
+        margin: 0 0 0 5px;
+      }
+      #panel {
+        .panel {
+          margin: 0 0 30px -20px;
+          width: 370px;
+        }
+      }
+      .payment {
+        right: 25px;
+        top: 320px;
+      }
+      .subscribe--data {
+        margin: 30px 0 0 -21px;
+      }
+      .subscribe--others {
+        margin: 100px 0 0 -33px;
+      }
+      .comments {
+        margin: 0 0 0 55px;
+      }
+      .comment--yours {
+        margin: 30px 0 0 37px;
+        width: 350px;
+      }
+      .my {
+        margin: 0 0 0 40px;
+      }
+      .my--first {
+        width: 350px;
+        margin-left: -23px;
+      }
+      .exit-modal {
+        left: 50px;
+      }
+    }
+  }
+}
+@media (max-width: 375px) {
+  #admin-panel {
+    .admin-panel--prof {
+      #panel {
+        .panel {
+          margin: 0 0 30px -20px;
+          width: 312px;
+        }
+      }
+      .exit-modal {
+        left: 8px;
+      }
+      .my {
+        h1 {
+          font-size: 33px;
+        }
+      }
+      .my--first {
+        width: 287px;
+        margin-left: -23px;
+      }
+      .subscribe--data {
+        h3 {
+          span {
+            margin-left: 12px;
+          }
+        }
+      }
+      .subscribe--others {
+        h1 {
+          font-size: 28px;
+        }
+      .cost {
+        .time {
+          background: #FFFFFF;
+          width: 210px;
+          height: 440px;
+          border-radius: 10px;
+          margin: 30px 20px;
+          padding: 30px 50px;
+
+          &--second-btn {
+            margin: 150px 0 0 5px;
+          }
+          &--second-btn-time {
+            margin: 7px 0 0 6px;
+          }
+        }
+      }
+      }
+      .data--own-modal {
+        .settings--right{
+          input {
+            width: 265px;
+          }
+        }
+        .settings--left {
+          .born--sel {
+            select {
+              width: 300px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #admin-panel {
+    .admin-panel--btn{
+      p {
+        border: none;
+        font-size: 12px;
+        color: white;
+      }
+    }
+    .admin-panel--prof {
+      .my--first {
+        width: 257px;
+        margin-left: -31px;
+      }
+      .my h1 {
+        font-size: 28px;
+      }
+      .exit-modal {
+        left: -20px;
+      }
+      .subscribe--data {
+        h3 {
+          font-size: 13px;
+          span{
+            font-size: 14px;
+          }
+        }
+      }
+      .subscribe--others {
+        .cost {
+          .time {
+            background: #FFFFFF;
+            width: 160px;
+          }
+          .time--second-btn-time {
+            margin: -2px 0 0 6px;
+          }
+        }
+      }
+      .payment {
+        right: 12px;
+        top: 270px;
+        .third {
+          display: block;
+          width: 228px;
+          height: 380px;
+          button{
+            margin-top: 24px
+          }
+        }
+      }
+      .payment--cards {
+        .first {
+          padding: 20px 0 0 20px;
+          margin: 20px 0 0 0;
+          width: 265px;
+        }
+      }
+      #panel {
+        .panel {
+          margin: 0 0 30px -20px;
+          width: 273px;
+        }
+      }
+      .data--own-modal {
+        h1 {
+          color: #FFFFFF;
+          margin: 10px 0 30px 0;
+          font-size: 29px;
+        }
+        .settings--right {
+          input {
+            width: 224px;
+          }
+        }
+        .settings--left {
+          .born {
+            margin: -48px 0px 20px -16px;
+          }
+          .born--sel {
+            select {
+              width: 272px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

@@ -44,7 +44,8 @@ const Header = () => {
                     </div>
 
                     <div className="header--burger">
-                        <button style={{color:'black', fontSize:'30px', position:'absolute', zIndex:'9999999', border:'none'}} onClick={() => open(burger)}>{burger === true ? <ModalBurger/> : 'X'}</button>
+                        <button style={{color:'black', fontSize:'30px', position:'absolute', zIndex:'9999999', border:'none'}} onClick={() => {
+                            open(burger)}}>{burger === true ? <ModalBurger/> : 'X'}</button>
 
                     </div>
                 </div>
