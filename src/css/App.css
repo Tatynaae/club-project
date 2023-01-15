@@ -2068,6 +2068,17 @@ body {
     display: block;
   }
 }
+@media (max-width: 1440px) {
+  #header__modal {
+    display: none;
+  }
+  #header .header--burger {
+    display: none;
+  }
+  #header .header--burger__window {
+    display: none;
+  }
+}
 @media (max-width: 1400px) {
   #header__modal {
     display: none;

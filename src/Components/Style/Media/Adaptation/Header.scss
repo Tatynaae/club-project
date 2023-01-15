@@ -1,3 +1,17 @@
+@media (max-width: 1440px) {
+  #header{
+    &__modal{
+      display: none;
+    }
+    .header--burger{
+      display: none;
+      &__window{
+        display: none;
+      }
+    }
+
+  }
+}
 @media (max-width: 1400px) {
     #header{
     &__modal{
