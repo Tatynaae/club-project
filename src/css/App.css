@@ -1530,6 +1530,11 @@ body {
     display: none;
   }
 }
+@media (max-width: 1550px) {
+  #admin-panel .admin-panel--prof #panel {
+    display: none;
+  }
+}
 @media (max-width: 1440px) {
   #admin-panel .admin-panel--prof #panel {
     display: none;
