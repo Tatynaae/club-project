@@ -142,11 +142,11 @@ const MainPage = () => {
                                 </div>
                             </div>
                             <div className="article--button">
-                                <a href="#">
+                                <NavLink to={'/Station'}>
                                     <button className='article--button__btn'>
                                         Показать больше
                                     </button>
-                                </a>
+                                </NavLink>
                             </div>
                         </div>
                         <div className="packet">

@@ -8,6 +8,8 @@ import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
 import Course from "./Components/masterClass/Course";
 import Participation from "./Components/participation/Participation";
+import Staties from "./Components/statie/Staties";
+import Station from "./Components/statie/Staties";
 
 function App() {
     return (
@@ -23,6 +25,7 @@ function App() {
                     <Route path={'/Master'} element={<Master/>}/>
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
+                    <Route path={'/Station'} element={<Station/>}/>
                 </Routes>
             </div>
         </>
