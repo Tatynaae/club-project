@@ -6,8 +6,9 @@ import AboutUs from "./Components/Hearoes/AboutUs";
 import AdminPanel from "./Components/AdminPanel/AdminPanel";
 import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
-import Course from "./Components/masterClass/Course";
+import Course from "./Components/Courses/Course";
 import Participation from "./Components/participation/Participation";
+import Front from "./Components/Courses/Front";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
                     <Route path={'/Master'} element={<Master/>}/>
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
+                    <Route path={'/Подробнее'} element={<Front/>}/>
                 </Routes>
             </div>
         </>
