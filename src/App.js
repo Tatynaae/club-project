@@ -9,6 +9,9 @@ import Master from "./Components/masterClass/Master";
 import Course from "./Components/Courses/Course";
 import Participation from "./Components/participation/Participation";
 import Front from "./Components/Courses/Front";
+import Purchases from "./Components/masterClass/Purchases";
+import Staties from "./Components/statie/Staties";
+import Station from "./Components/statie/Staties";
 
 function App() {
     return (
@@ -25,6 +28,8 @@ function App() {
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
                     <Route path={'/Подробнее'} element={<Front/>}/>
+                    <Route path={'/Purchases'} element={<Purchases/>}/>
+                    <Route path={'/Station'} element={<Station/>}/>
                 </Routes>
             </div>
         </>
