@@ -4370,6 +4370,7 @@ body {
 }
 #article .article--general__block {
   margin: 15px 15px;
+  margin: 30px 15px;
 }
 #article .article--general__block--img img {
   width: 377px;

@@ -4,6 +4,7 @@ import {RxReader,} from "react-icons/rx";
 import img from "../../img/img1.png"
 
 
+import {RxReader} from "react-icons/rx";
 
 const Station = () => {
     return (
