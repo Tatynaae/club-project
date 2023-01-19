@@ -7,7 +7,6 @@
     }
 
     &--one {
-      //display: flex;
 
       &--text {
         color: #FFF;
@@ -26,7 +25,6 @@
 
       &--img {
         display: flex;
-        //margin: 0 0 0 10rem;
 
         &__one {
           img {
@@ -65,9 +63,9 @@
         .icons {
           color: red;
           position: absolute;
-          bottom: 167px;
-          left: 268px;
-          font-size: 75px;
+          bottom: 180px;
+          left: 260px;
+          font-size: 70px;
         }
       }
 
@@ -85,8 +83,9 @@
 
           &:hover {
             transition: 0.8s;
-            background: #1B296999;
+            background: #1B2959;
             transform: scale(1.1);
+            width: 76%;
           }
 
 
@@ -170,45 +169,50 @@
 #comments {
   .comments {
     &--h {
-      h1 {
-        color: white;
+      h1{
+        font-weight: 700;
+        font-size: 36px;
+        color: #FFFFFF;
+        padding-top: 180px;
+        padding-bottom: 50px;
       }
     }
-
     &--block {
-      background: #000;
-      width: 850px;
-      height: 220px;
-      border-radius: 10px;
-      margin: 30px 0;
+      background: #050C22;
+      border-radius: 7.35897px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      padding: 20px;
+      width: 60%;
 
       textarea {
-        min-width: 89%;
-        max-width: 71%;
-        height: 88px;
+        min-width: 95%;
+        max-width: 95%;
+        min-height: 170px;
+        max-height: 170px;
         overflow: hidden;
-        background: #1B2959;
+        background: rgba(27, 41, 89, 0.4);
         border-radius: 7.35897px;
         border: none;
         outline: none;
         font-size: 18px;
         color: #fff;
         padding: 14px 0 0 14px;
-        margin: 20px 30px;
 
       }
-
       &--btn {
-        button {
+        button{
           font-weight: 500;
           font-size: 14px;
           color: #FFFFFF;
           padding: 18px 55px;
-          background: #1B2959;
+          background: rgba(27, 41, 89, 0.4);
           border-radius: 7.35897px;
+          margin-top: 15px;
           border: none;
           outline: none;
-          margin: 0 30px;
         }
       }
     }
@@ -218,11 +222,6 @@
       &--one {
         display: flex;
         align-items: center;
-
-        &--img {
-
-        }
-
         &--text {
           margin: 0 20px;
 
@@ -236,10 +235,18 @@
 
             h2 {
               color: #FFFFFF;
+              font-weight: 700;
+              font-size: 20px;
+              line-height: 24px;
+              margin-bottom: 10px;
             }
 
             p {
               color: #9099A3;
+              margin-left: 15px;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
             }
           }
         }
@@ -249,8 +256,8 @@
         summary {
           color: #9099A3;
           margin: 0 100px;
-          display: block;
           cursor: pointer;
+          display: block;
         }
 
         .summary {
@@ -279,12 +286,18 @@
 
               h1 {
                 color: #FFFFFF;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 24px;
               }
             }
 
             p {
               color: #FFFFFF;
-
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 20px;
+              margin: 6px 0;
             }
           }
         }
@@ -293,11 +306,11 @@
   }
 }
 
-#home-accordion {
+#homeLs-accordionS {
   padding: 150px 0;
 
-  .home-accordion {
-    .home-info{
+  .homeLs-accordionS {
+    .homeLs-info{
       h1{
         color: #FFFFFF;
         padding-bottom: 40px ;
@@ -309,8 +322,7 @@
     }
 
     &_desc {
-      width: 64%;
-
+      width: 60%;
       &-accordion {
         width: 100%;
         padding: 20px 0 11px 0;
@@ -352,14 +364,18 @@
           }
         }
 
-        input:checked + .home-accordion_desc-accordion_label .home-accordion_desc-accordion_label-icon {
+        input:checked + .homeLs-accordionS_desc-accordion_label .homeLs-accordionS_desc-accordion_label-icon {
           transform: rotate(180deg);
         }
 
-        input:checked ~ .home-accordion_desc-accordion_content {
+        input:checked ~ .homeLs-accordionS_desc-accordion_content {
           max-height: 500px;
         }
       }
     }
   }
 }
+
+
+
+
