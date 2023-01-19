@@ -35,8 +35,8 @@ const Header = () => {
                         <NavLink className='logo' to={'/'}><img src={logo} alt=""/></NavLink>
                         <div className='links'>
                             <NavLink className='name' to={'/AboutSchool'}>О школе</NavLink>
-                            <NavLink className='name' to={'/OurCourse'} >Наши курсы</NavLink>
-                            <NavLink className='name'  to={'/AboutUs'}>О нас</NavLink>
+                            <NavLink className='name' to={'/OurCourse'}>Наши курсы</NavLink>
+                            <NavLink className='name' to={'/AboutUs'}>О нас</NavLink>
                         </div>
                     </div>
 
@@ -44,11 +44,21 @@ const Header = () => {
                         <button className='header--left__without' onClick={() => enterFn(enter)}>Войти</button>
                         <button onClick={() => navigate('/stationBefore')}
                             className='header--left__with'>Подписаться</button>
+                        <NavLink to={'/Participation'}>
+                            <button className='header--left__with'>Подписаться</button>
+                        </NavLink>
                     </div>
 
                     <div className="header--burger">
-                        <button style={{color:'black', fontSize:'30px', position:'absolute', zIndex:'9999999', border:'none'}} onClick={() => {
-                            open(burger)}}>{burger === true ? <ModalBurger/> : 'X'}</button>
+                        <button style={{
+                            color: 'black',
+                            fontSize: '30px',
+                            position: 'absolute',
+                            zIndex: '9999999',
+                            border: 'none'
+                        }} onClick={() => {
+                            open(burger)
+                        }}>{burger === true ? <ModalBurger/> : 'X'}</button>
 
                     </div>
                 </div>

@@ -112,6 +112,7 @@ const StatieBefore = () => {
                     </div>
                 </div>
             </div>
+            
         </div>
     );
 };
