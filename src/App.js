@@ -8,13 +8,10 @@ import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
 import Course from "./Components/Courses/Course";
 import Participation from "./Components/participation/Participation";
-import Staties from "./Components/statie/Staties";
 import Station from "./Components/statie/Staties";
 import StatieBefore from "./Components/statie/StatieBefore";
 import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
-import Staties from "./Components/statie/Staties";
-import Station from "./Components/statie/Staties";
 
 function App() {
     return (
