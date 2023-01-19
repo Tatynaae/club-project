@@ -8,10 +8,10 @@ import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
 import Course from "./Components/Courses/Course";
 import Participation from "./Components/participation/Participation";
+import Station from "./Components/statie/Staties";
+import StatieBefore from "./Components/statie/StatieBefore";
 import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
-import Staties from "./Components/statie/Staties";
-import Station from "./Components/statie/Staties";
 
 function App() {
     return (
@@ -27,6 +27,8 @@ function App() {
                     <Route path={'/Master'} element={<Master/>}/>
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
+                    <Route path={'/Station'} element={<Station/>}/>
+                    <Route path={'/stationBefore'} element={<StatieBefore/>}/>
                     <Route path={'/Подробнее'} element={<Front/>}/>
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>

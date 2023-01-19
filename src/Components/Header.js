@@ -4,9 +4,11 @@ import {NavLink} from "react-router-dom";
 import ModalBurger from "./modalBurger/ModalBurger";
 import ModalWindow from "./modalBurger/ModalWindow";
 import Enter from "./Enter/Enter";
+import {useNavigate} from "react-router-dom";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
+    const navigate = useNavigate()
 
     const [enter, setEnter] = useState(true)
 
@@ -40,9 +42,9 @@ const Header = () => {
 
                     <div className='header--left'>
                         <button className='header--left__without' onClick={() => enterFn(enter)}>Войти</button>
-                        <NavLink to={'/Participation'}>
-                            <button className='header--left__with'>Подписаться</button>
-                        </NavLink>
+                        <button onClick={() => navigate('/Participation')}
+                            className='header--left__with'>Подписаться</button>
+
                     </div>
 
                     <div className="header--burger">
