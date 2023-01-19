@@ -10,6 +10,7 @@ import Course from "./Components/masterClass/Course";
 import Participation from "./Components/participation/Participation";
 import Staties from "./Components/statie/Staties";
 import Station from "./Components/statie/Staties";
+import StatieBefore from "./Components/statie/StatieBefore";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
+                    <Route path={'/stationBefore'} element={<StatieBefore/>}/>
                 </Routes>
             </div>
         </>
