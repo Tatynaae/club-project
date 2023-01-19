@@ -42,11 +42,9 @@ const Header = () => {
 
                     <div className='header--left'>
                         <button className='header--left__without' onClick={() => enterFn(enter)}>Войти</button>
-                        <button onClick={() => navigate('/stationBefore')}
+                        <button onClick={() => navigate('/Participation')}
                             className='header--left__with'>Подписаться</button>
-                        <NavLink to={'/Participation'}>
-                            <button className='header--left__with'>Подписаться</button>
-                        </NavLink>
+
                     </div>
 
                     <div className="header--burger">

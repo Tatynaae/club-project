@@ -2,10 +2,11 @@ import React from 'react';
 import course from '../../img/course.svg'
 import {RxReader,} from "react-icons/rx";
 import img from "../../img/img1.png"
-
+import {NavLink} from "react-router-dom";
 
 
 const Station = () => {
+
     return (
         <>
             <div id="article">
@@ -28,9 +29,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
@@ -52,9 +53,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
@@ -76,9 +77,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
@@ -100,9 +101,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
@@ -124,9 +125,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
@@ -148,9 +149,9 @@ const Station = () => {
                                     <div className="article--general__block--title__bottom">
                                         <div className="article--general__block--title__bottom--read">
                                             <RxReader className="article--general__block--title__bottom--read__icon"/>
-                                            <a href="">
+                                            <NavLink to={'/stationBefore'}>
                                                 <h1>Читать</h1>
-                                            </a>
+                                            </NavLink>
                                         </div>
                                         <div className="article--general__block--title__bottom--date">
                                             <a href=""><h1>01.02.2022</h1></a>
