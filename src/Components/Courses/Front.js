@@ -21,7 +21,41 @@ const Front = () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            }, {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }
+        ],
     };
 
     return (
@@ -77,15 +111,15 @@ const Front = () => {
 
                         <h1 className='study'>Вы изучтие</h1>
 
-                        <div style={{display:'flex', alignItems:'center', justifyContent:'space-between'}}>
-                            <ul>
+                        <div className='allUl'>
+                            <ul className='allUl__first'>
                                 <li>HTML</li>
                                 <li>CSS</li>
                                 <li>JavaScript</li>
                                 <li>Soft skills. Нетехнические навыки</li>
                             </ul>
 
-                            <ul style={{display:'flex', alignItems:'start', flexDirection:'column', marginLeft:'-30px'}}>
+                            <ul className='allUl__second' style={{display:'flex', alignItems:'start', flexDirection:'column'}}>
                                 <li>Кроссплатформенность и кроссбраузерность</li>
                                 <li>Управление версиями</li>
                                 <li>Тестирование и отладка</li>
@@ -136,17 +170,17 @@ const Front = () => {
                     </div>
                     <div className="front__six">
                         <div className="front__six--materials">
-                            <div className="material">
+                            <div className="material mot1">
                                 <TfiWrite className='material__icon'/>
                                 <h3>100 материалов</h3>
                                 <p>Только полезная информация, никакой воды. Применяйте эти знания первыми!</p>
                             </div>
-                            <div className="material">
+                            <div className="material mot2">
                                 <SlDiamond className='material__icon'/>
                                 <h3>100% эксклюзив</h3>
                                 <p>Курс записан эксклюзивно для нашей платформы</p>
                             </div>
-                            <div className="material">
+                            <div className="material mot1">
                                 <GiExtraTime className='material__icon'/>
                                 <h3>В любое время, в любом месте</h3>
                                 <p>Занимайтесь как вам удобно и где угодно, на своем мобильном или компьютере</p>
@@ -154,7 +188,7 @@ const Front = () => {
                         </div>
                         <div className="front__six--leader">
                             <div>
-                                <img src={leader} alt=""/>
+                                <img className='logo__lead' src={leader} alt=""/>
                                 <p>Мастер класс ведет</p>
                                 <h1>Евгений Александрович</h1>
                                 <p> Frontend developer </p>
@@ -164,22 +198,22 @@ const Front = () => {
                     <div className="front__seven">
                         <h1>Процесс обучения</h1>
                         <div className="front__seven--process">
-                            <div className="kub">
+                            <div className="kub general1">
                                 <h1>1</h1>
                                 <h4>Мастер-класс</h4>
                                 <p>Вы получите доступ ко всем урокам мастер-класса и другим дополнительным материалам</p>
                             </div>
-                            <div className="kub">
+                            <div className="kub general2">
                                 <h1>2</h1>
                                 <h4>Своё расписание</h4>
                                 <p>Доступ к мастер-классам открыт 24/7. Вы сами решаете, когда у вас следующий урок</p>
                             </div>
-                            <div className="kub">
+                            <div className="kub general1">
                                 <h1>3</h1>
                                 <h4>Сообщество</h4>
                                 <p>Вы сможете общаться и обмениваться мнениями с другими учениками в комментариях</p>
                             </div>
-                            <div className="kub">
+                            <div className="kub general2">
                                 <h1>4</h1>
                                 <h4>Доступ</h4>
                                 <p>Мы предоставляем вам бессрочный доступ к материалам любого оплаченного мастер-класса</p>
@@ -222,10 +256,7 @@ const Front = () => {
                     <div className="front__eight">
                         <p>FAQ</p>
                         <h1>Остались вопросы?</h1>
-
                         <Accordions/>
-
-
                     </div>
                 </div>
             </div>
