@@ -1,0 +1,299 @@
+@media (max-width: 1440px) {
+
+}
+@media (max-width: 1400px) {}
+@media (max-width: 1200px) {
+  #buy {
+    .buy--payment__pay--in {
+      width: 450px;
+    }
+
+    .buy--payment__type {
+      width: 400px;
+    }
+
+    .buy--payment__pay {
+      width: 500px;
+
+      .card{
+        .card-two {
+          margin: 5px 0 36px 0;
+          width: 510px;
+        }
+        .card-two--chose {
+          width: 200px;
+          height: 60px;
+        }
+      }
+
+    }
+  }
+}
+@media (max-width: 1140px){
+  
+}
+@media (max-width: 1024px) {
+  #buy {
+    .buy--payment__type {
+      width: 390px;
+      margin-right: 75px;
+      .line{
+        width: 390px;
+      }
+      .type-section p {
+        width: 300px;
+      }
+    }
+    .buy--payment__pay--in {
+      width: 300px;
+    }
+    .buy--payment__pay{
+      .pay-btn{
+        width: 360px;
+      }
+      .service {
+        width: 350px;
+      }
+      .service--text {
+        width: 300px;
+      }
+      .card {
+        .card-two {
+          margin: 5px 0 36px 0;
+          width: 360px;
+        }
+        .card-two--chose {
+          width: 150px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  #buy {
+    .buy--payment__type {
+      width: 390px;
+      margin-right: 75px;
+      .line{
+        width: 390px;
+      }
+      .type-section p {
+        width: 300px;
+      }
+    }
+    .buy--payment__pay--in {
+      width: 300px;
+    }
+    .buy--payment__pay{
+      .pay-btn{
+        width: 360px;
+      }
+      .service {
+        width: 350px;
+      }
+      .service--text {
+        width: 300px;
+      }
+      .card {
+        .card-two {
+          margin: 5px 0 36px 0;
+          width: 360px;
+        }
+        .card-two--chose {
+          width: 150px;
+          height: 55px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  #buy {
+    .buy--payment {
+      flex-direction: column;
+    }
+    .buy--payment__type {
+      width: 490px;
+      padding-bottom: 30px;
+      .line{
+        width: 490px;
+      }
+    }
+    .buy--payment__pay {
+      width: 600px;
+      margin-top: 50px;
+      &--in{
+        width: 430px;
+      }
+      .card {
+        .card-two--chose {
+          width: 190px;
+          height: 55px;
+        }
+        .card-two {
+          width: 490px;
+        }
+      }
+      .pay-btn {
+        width: 490px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 450px) {
+  #buy {
+    .buy {
+      h1 {
+        font-size: 23px;
+      }
+    }
+    .buy--payment__pay {
+      .pay-btn {
+        width: 390px;
+      }
+      .card {
+        width: 390px;
+        .card-two--chose {
+          width: 160px;
+        }
+        .card-two {
+          width: 390px;
+        }
+      }
+    }
+    .buy--payment__type {
+        width: 388px;
+        padding-bottom: 30px;
+      .line{
+        width: 388px;
+      }
+      }
+    .buy--payment__pay--in {
+      width: 330px;
+    }
+  }
+}
+@media (max-width: 375px) {
+  #buy {
+    .buy--payment__type {
+      width: 320px;
+      padding-bottom: 30px;
+    }
+    .buy--payment__type{
+      padding-bottom: 0;
+      .type-section {
+        width: 260px;
+        h1{
+          margin: 10px 0;
+          line-height: 20px;
+        }
+        p {
+          width: 240px;
+        }
+      }
+      .line {
+        width: 320px;
+      }
+      .type-section{
+        h1 {
+          font-size: 20px;
+        }
+      }
+    }
+    .buy--payment__pay--in {
+      width: 255px;
+    }
+    .buy--payment__pay {
+      .pay-btn {
+        width: 315px;
+      }
+      .service--text {
+        width: 200px;
+        font-size: 16px;
+      }
+      .service--btn {
+        width: 60px;
+      }
+      .card{
+        .card-two--chose {
+          width: 130px;
+        }
+        .card-two {
+          width: 315px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 320px) {
+  #buy {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    .buy--main{
+      p{
+        font-size: 12px;
+      }
+    }
+    .buy--payment__type {
+      margin-right: 0;
+      width: 275px;
+      .line {
+        width: 275px;
+      }
+      .type-section{
+        p {
+          font-size: 14px;
+          margin-left: 16px;
+        }
+        h1{
+          font-size: 18px;
+          margin-left: 15px;
+        }
+        h5 {
+          font-size: 14px;
+          line-height: 18px;
+          width: 100px;
+          margin-left: 15px;
+        }
+      }
+      .dis {
+        .type-section2 {
+          width: 120px;
+          margin-left: -25px;
+        }
+      }
+    }
+    .buy--payment__pay--in {
+      width: 210px;
+    }
+    .buy--payment__pay {
+        width: 270px;
+      padding-right: 0;
+      .pay-btn {
+        width: 270px;
+      }
+      .service {
+        width: 250px;
+      }
+      .card {
+        width: 270px;
+        .card-two {
+          width: 215px;
+          flex-direction: column;
+          margin-left: 40px;
+        }
+        .card-two--chose {
+          width: 150px;
+          margin: 10px 0 10px -30px;
+        }
+      }
+    }
+  }
+}

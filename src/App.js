@@ -12,6 +12,7 @@ import Station from "./Components/statie/Staties";
 import StatieBefore from "./Components/statie/StatieBefore";
 import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
+import BuyCourse from "./Components/Courses/BuyCourse";
 
 function App() {
     return (
@@ -32,6 +33,7 @@ function App() {
                     <Route path={'/Подробнее'} element={<Front/>}/>
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
+                    <Route path={'/Buy'} element={<BuyCourse/>}/>
                 </Routes>
             </div>
         </>

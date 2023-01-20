@@ -62,6 +62,40 @@
   }
 }
 
+@media (max-width: 1140px) {
+  #front {
+    .front__first--info2 {
+      padding: 0 50px 0 0;
+    }
+    .front__second--inform2 {
+      padding: 0 0 0 0;
+    }
+    .front__third {
+      .allUl__first {
+        margin-left: -65px;
+      }
+    }
+    .front__fours{
+      p {
+        width: 940px;
+      }
+    }
+    .front__fives{
+      .focus {
+        position: absolute;
+        top: 2200px;
+        right: 100px;
+        width: 20%;
+      }
+    }
+    .front__six--materials {
+      .material {
+        width: 280px;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   #front {
     .front__second--inform2 {
