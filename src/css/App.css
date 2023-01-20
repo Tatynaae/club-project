@@ -5671,6 +5671,29 @@ body {
     width: 190px;
   }
 }
+@media (max-width: 1140px) {
+  #front .front__first--info2 {
+    padding: 0 50px 0 0;
+  }
+  #front .front__second--inform2 {
+    padding: 0 0 0 0;
+  }
+  #front .front__third .allUl__first {
+    margin-left: -65px;
+  }
+  #front .front__fours p {
+    width: 940px;
+  }
+  #front .front__fives .focus {
+    position: absolute;
+    top: 2200px;
+    right: 100px;
+    width: 20%;
+  }
+  #front .front__six--materials .material {
+    width: 280px;
+  }
+}
 @media (max-width: 1024px) {
   #front .front__second--inform2 {
     display: none;
@@ -6109,6 +6132,410 @@ body {
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+  }
+}
+#buy {
+  padding: 110px 0 40px 0;
+  background: #0A1128;
+}
+#buy .buy--main {
+  display: flex;
+}
+#buy .buy h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 70px 0;
+}
+#buy .buy--payment {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+#buy .buy--payment__type {
+  width: 450px;
+  height: 600px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#buy .buy--payment__type .line {
+  width: 450px;
+  border-bottom: 1px solid #000000;
+  margin: 10px 0 25px 0;
+}
+#buy .buy--payment__type .type-section {
+  width: 350px;
+}
+#buy .buy--payment__type .type-section .course {
+  margin-top: 40px;
+}
+#buy .buy--payment__type .type-section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #575757;
+  width: 350px;
+}
+#buy .buy--payment__type .type-section h1 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 32px;
+  color: #000000;
+  margin: 20px 0;
+}
+#buy .buy--payment__type .type-section h5 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  width: 133px;
+  margin: 10px 0;
+}
+#buy .buy--payment__type .dis {
+  width: 350px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+#buy .buy--payment__type .dis .type-section1 {
+  width: 180px;
+}
+#buy .buy--payment__type .dis .type-section2 {
+  width: 180px;
+}
+#buy .buy--payment__pay {
+  padding-right: 45px;
+  width: 593px;
+  display: flex;
+  flex-direction: column;
+}
+#buy .buy--payment__pay--in {
+  width: 540px;
+  border: 1px solid #FFFFFF;
+  background: transparent;
+  height: 55px;
+  margin-bottom: 40px;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+#buy .buy--payment__pay .card {
+  width: 591px;
+}
+#buy .buy--payment__pay .card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#buy .buy--payment__pay .card .card-two {
+  margin: 5px 0 36px 0;
+  width: 591px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#buy .buy--payment__pay .card .card-two--chose {
+  width: 250px;
+  height: 70px;
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#buy .buy--payment__pay .card .card-two--chose .masterCard {
+  padding: 9px;
+  border: 1px solid #fff;
+  margin-top: 37px;
+}
+#buy .buy--payment__pay button {
+  background: #04437B;
+  backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 40px;
+}
+#buy .buy--payment__pay .service {
+  width: 570px;
+  display: flex;
+  align-items: start;
+  padding-left: 10px;
+}
+#buy .buy--payment__pay .service--check {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+}
+#buy .buy--payment__pay .service--text {
+  width: 560px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 20px;
+}
+#buy .buy--payment__pay .service--btn {
+  width: 70px;
+  height: 60px;
+  border: 1px solid #fff;
+}
+#buy .buy--payment__pay .service--btn .st {
+  font-size: 34px;
+}
+
+@media (max-width: 1200px) {
+  #buy .buy--payment__pay--in {
+    width: 450px;
+  }
+  #buy .buy--payment__type {
+    width: 400px;
+  }
+  #buy .buy--payment__pay {
+    width: 500px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    margin: 5px 0 36px 0;
+    width: 510px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 200px;
+    height: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  #buy .buy--payment__type {
+    width: 390px;
+    margin-right: 75px;
+  }
+  #buy .buy--payment__type .line {
+    width: 390px;
+  }
+  #buy .buy--payment__type .type-section p {
+    width: 300px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 300px;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 360px;
+  }
+  #buy .buy--payment__pay .service {
+    width: 350px;
+  }
+  #buy .buy--payment__pay .service--text {
+    width: 300px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    margin: 5px 0 36px 0;
+    width: 360px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 150px;
+    height: 55px;
+  }
+}
+@media (max-width: 992px) {
+  #buy .buy--payment__type {
+    width: 390px;
+    margin-right: 75px;
+  }
+  #buy .buy--payment__type .line {
+    width: 390px;
+  }
+  #buy .buy--payment__type .type-section p {
+    width: 300px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 300px;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 360px;
+  }
+  #buy .buy--payment__pay .service {
+    width: 350px;
+  }
+  #buy .buy--payment__pay .service--text {
+    width: 300px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    margin: 5px 0 36px 0;
+    width: 360px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 150px;
+    height: 55px;
+  }
+}
+@media (max-width: 768px) {
+  #buy .buy--payment {
+    flex-direction: column;
+  }
+  #buy .buy--payment__type {
+    width: 490px;
+    padding-bottom: 30px;
+  }
+  #buy .buy--payment__type .line {
+    width: 490px;
+  }
+  #buy .buy--payment__pay {
+    width: 600px;
+    margin-top: 50px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 430px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 190px;
+    height: 55px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    width: 490px;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 490px;
+  }
+}
+@media (max-width: 450px) {
+  #buy .buy h1 {
+    font-size: 23px;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 390px;
+  }
+  #buy .buy--payment__pay .card {
+    width: 390px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 160px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    width: 390px;
+  }
+  #buy .buy--payment__type {
+    width: 388px;
+    padding-bottom: 30px;
+  }
+  #buy .buy--payment__type .line {
+    width: 388px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 330px;
+  }
+}
+@media (max-width: 375px) {
+  #buy .buy--payment__type {
+    width: 320px;
+    padding-bottom: 30px;
+  }
+  #buy .buy--payment__type {
+    padding-bottom: 0;
+  }
+  #buy .buy--payment__type .type-section {
+    width: 260px;
+  }
+  #buy .buy--payment__type .type-section h1 {
+    margin: 10px 0;
+    line-height: 20px;
+  }
+  #buy .buy--payment__type .type-section p {
+    width: 240px;
+  }
+  #buy .buy--payment__type .line {
+    width: 320px;
+  }
+  #buy .buy--payment__type .type-section h1 {
+    font-size: 20px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 255px;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 315px;
+  }
+  #buy .buy--payment__pay .service--text {
+    width: 200px;
+    font-size: 16px;
+  }
+  #buy .buy--payment__pay .service--btn {
+    width: 60px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 130px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    width: 315px;
+  }
+}
+@media (max-width: 320px) {
+  #buy {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  #buy .buy--main p {
+    font-size: 12px;
+  }
+  #buy .buy--payment__type {
+    margin-right: 0;
+    width: 275px;
+  }
+  #buy .buy--payment__type .line {
+    width: 275px;
+  }
+  #buy .buy--payment__type .type-section p {
+    font-size: 14px;
+    margin-left: 16px;
+  }
+  #buy .buy--payment__type .type-section h1 {
+    font-size: 18px;
+    margin-left: 15px;
+  }
+  #buy .buy--payment__type .type-section h5 {
+    font-size: 14px;
+    line-height: 18px;
+    width: 100px;
+    margin-left: 15px;
+  }
+  #buy .buy--payment__type .dis .type-section2 {
+    width: 120px;
+    margin-left: -25px;
+  }
+  #buy .buy--payment__pay--in {
+    width: 210px;
+  }
+  #buy .buy--payment__pay {
+    width: 270px;
+    padding-right: 0;
+  }
+  #buy .buy--payment__pay .pay-btn {
+    width: 270px;
+  }
+  #buy .buy--payment__pay .service {
+    width: 250px;
+  }
+  #buy .buy--payment__pay .card {
+    width: 270px;
+  }
+  #buy .buy--payment__pay .card .card-two {
+    width: 215px;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  #buy .buy--payment__pay .card .card-two--chose {
+    width: 150px;
+    margin: 10px 0 10px -30px;
   }
 }
 * {
