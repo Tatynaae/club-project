@@ -3,8 +3,10 @@ import {IoIosLock} from "react-icons/io"
 import {FaUser} from "react-icons/fa"
 import {RxReader} from "react-icons/rx"
 import img from '../../img/img1.png'
+import {useNavigate} from "react-router-dom";
 
 const StatieBefore = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <div id="do-subscription">
@@ -43,7 +45,7 @@ const StatieBefore = () => {
                                         <h2>Авторизуйтесь</h2>
                                     </div>
                                 </div>
-                                <button>Получить доступ за 225,00$</button>
+                                <button onClick={() => navigate('/StatieAfter')}>Получить доступ за 225,00$</button>
                             </div>
                             <h6>Комментарии</h6>
                             <div className="do-subscription--general__get">
