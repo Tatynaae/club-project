@@ -313,7 +313,7 @@ const Purchases = () => {
                                     <div className="summary--text">
                                         <div className="summary--text--one">
                                             <h1>Эгембердиева Кунсулуу</h1>
-                                            <p style={{color: '#9099A3', padding: '0 10px'}}> 24.10.2021</p>
+                                            <p style={{color: '#9099A3', padding: '0 10px'}}> / 24.10.2021</p>
                                         </div>
                                         <p>Курс является выжимкой - самым соком в вопросах построения команды <br/>
                                             пересмотрел свое отношение ко многим критериям, факторам и своим <br/>
@@ -328,52 +328,58 @@ const Purchases = () => {
                     </div>
                 </div>
             </div>
-            <div id="home-accordion">
+            <div id="homeLs-accordionS">
                 <div className="container">
-                    <div className="home-accordion">
-                        <div className="home-accordion_desc">
-                            <div className="home-info">
+                    <div className="homeLs-accordionS">
+                        <div className="homeLs-accordionS_desc">
+                            <div className="homeLs-info">
                                 <p>FAQ</p>
                                 <h1>Остались вопросы?</h1>
                             </div>
-                            <div className="home-accordion_desc-accordion">
+                            <div className="homeLs-accordionS_desc-accordion">
                                 <input type="checkbox" id="accordion1"/>
-                                <label htmlFor="accordion1" className="home-accordion_desc-accordion_label">
+                                <label htmlFor="accordion1" className="homeLs-accordionS_desc-accordion_label">
                                     <p>Как мне начать обучение ?</p>
-                                    <BsChevronDown className="home-accordion_desc-accordion_label-icon"/>
+                                    <BsChevronDown className="homeLs-accordionS_desc-accordion_label-icon"/>
                                 </label>
-                                <div className="home-accordion_desc-accordion_content">
+                                <div className="homeLs-accordionS_desc-accordion_content">
                                     <div>
                                         <p>
-                                            Очень просто – зарегистрироваться. Это займет всего несколько минут. Создайте свой аккаунт с помощью адреса электронной почты и номера телефона. Мастер-класс станет доступен сразу после оплаты или в день запуска.
+                                            Очень просто – зарегистрироваться. Это займет всего несколько минут.
+                                            Создайте свой аккаунт с помощью адреса электронной почты и номера телефона.
+                                            Мастер-класс станет доступен сразу после оплаты или в день запуска.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="home-accordion_desc-accordion">
+                            <div className="homeLs-accordionS_desc-accordion">
                                 <input type="checkbox" id="accordion2"/>
-                                <label htmlFor="accordion2" className="home-accordion_desc-accordion_label">
+                                <label htmlFor="accordion2" className="homeLs-accordionS_desc-accordion_label">
                                     <p>Могу ли я отказаться от автопродления подписки</p>
-                                    <BsChevronDown className="home-accordion_desc-accordion_label-icon"/>
+                                    <BsChevronDown className="homeLs-accordionS_desc-accordion_label-icon"/>
                                 </label>
-                                <div className="home-accordion_desc-accordion_content">
+                                <div className="homeLs-accordionS_desc-accordion_content">
                                     <div>
                                         <p>
-                                            Очень просто – зарегистрироваться. Это займет всего несколько минут. Создайте свой аккаунт с помощью адреса электронной почты и номера телефона. Мастер-класс станет доступен сразу после оплаты или в день запуска.
+                                            Очень просто – зарегистрироваться. Это займет всего несколько минут.
+                                            Создайте свой аккаунт с помощью адреса электронной почты и номера телефона.
+                                            Мастер-класс станет доступен сразу после оплаты или в день запуска.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <div className="home-accordion_desc-accordion">
+                            <div className="homeLs-accordionS_desc-accordion">
                                 <input type="checkbox" id="accordion3"/>
-                                <label htmlFor="accordion3" className="home-accordion_desc-accordion_label">
+                                <label htmlFor="accordion3" className="homeLs-accordionS_desc-accordion_label">
                                     <p>Могу ли я вернуть деньги</p>
-                                    <BsChevronDown className="home-accordion_desc-accordion_label-icon"/>
+                                    <BsChevronDown className="homeLs-accordionS_desc-accordion_label-icon"/>
                                 </label>
-                                <div className="home-accordion_desc-accordion_content">
+                                <div className="homeLs-accordionS_desc-accordion_content">
                                     <div>
                                         <p>
-                                            Очень просто – зарегистрироваться. Это займет всего несколько минут. Создайте свой аккаунт с помощью адреса электронной почты и номера телефона. Мастер-класс станет доступен сразу после оплаты или в день запуска.
+                                            Очень просто – зарегистрироваться. Это займет всего несколько минут.
+                                            Создайте свой аккаунт с помощью адреса электронной почты и номера телефона.
+                                            Мастер-класс станет доступен сразу после оплаты или в день запуска.
                                         </p>
                                     </div>
                                 </div>
