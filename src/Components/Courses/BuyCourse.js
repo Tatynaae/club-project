@@ -1,8 +1,9 @@
 import React, {useEffect, useState} from 'react';
 import {GiCheckMark} from "react-icons/gi";
+import {useNavigate} from "react-router-dom";
 
 const BuyCourse = () => {
-
+    const navigate = useNavigate()
     const [radio, setRadio] = useState(true)
     const [radios, setRadios] = useState(true)
     const [btn, setBtn] = useState(false)
@@ -93,7 +94,8 @@ const BuyCourse = () => {
                                 </div>
 
                             </div>
-                            <button className='pay-btn'>Оплатить 225.00$</button>
+                            <button onClick={() => navigate('/afterModuls')}
+                                className='pay-btn'>Оплатить 225.00$</button>
 
                             <div className='service'>
                                 <button onClick={() => setBtn(!btn)} style={{ background: btn ? '#fff' : 'transparent'}}
