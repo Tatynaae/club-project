@@ -14,6 +14,7 @@ import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
 import BuyCourse from "./Components/Courses/BuyCourse";
 import AfterModuls from "./Components/After/AfterModuls";
+import Reactive from "./Components/Reactive/Reactive";
 
 function App() {
     return (
@@ -36,6 +37,7 @@ function App() {
                     <Route path={'/Station'} element={<Station/>}/>
                     <Route path={'/Buy'} element={<BuyCourse/>}/>
                     <Route path={'/afterModuls'} element={<AfterModuls/>}/>
+                    <Route path={'/Reactive'} element={<Reactive/>}/>
                 </Routes>
             </div>
         </>
