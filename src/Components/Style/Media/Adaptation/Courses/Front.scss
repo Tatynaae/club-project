@@ -1,0 +1,783 @@
+@media (max-width: 1440px) {
+  #front {
+    .front__third {
+      .allUl {
+        justify-content: space-evenly;
+
+        &__first {
+          margin-left: -185px;
+        }
+      }
+    }
+
+    .front__seven {
+      .slide__block {
+        p {
+          font-size: 12px;
+          width: 355px;
+          margin: 0 0 10px 28px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  #front {
+    .front__third {
+      .allUl__first {
+        margin-left: -165px;
+      }
+    }
+
+    .front__six--materials {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  #front {
+    .front__seven {
+      .slide__block {
+        p {
+          font-size: 10px;
+          width: 280px;
+          margin: 0 0 10px 28px;
+        }
+
+        .logo {
+          position: absolute;
+          right: 130px;
+          top: -35px;
+        }
+      }
+
+      .front__seven--process {
+        .kub {
+          width: 190px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1140px) {
+  #front {
+    .front__first--info2 {
+      padding: 0 50px 0 0;
+    }
+    .front__second--inform2 {
+      padding: 0 0 0 0;
+    }
+    .front__third {
+      .allUl__first {
+        margin-left: -65px;
+      }
+    }
+    .front__fours{
+      p {
+        width: 940px;
+      }
+    }
+    .front__fives{
+      .focus {
+        position: absolute;
+        top: 2200px;
+        right: 100px;
+        width: 20%;
+      }
+    }
+    .front__six--materials {
+      .material {
+        width: 280px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  #front {
+    .front__second--inform2 {
+      display: none;
+    }
+
+    .front__first--info2 {
+      display: none;
+    }
+
+    .front__third {
+      .allUl__first {
+        margin: 0 80px 0 21px;
+      }
+    }
+
+    .front__fours {
+      p {
+        width: 800px;
+      }
+    }
+
+    .front__fives--module {
+      width: 530px;
+      margin: 10px 0;
+
+      h2 {
+        font-size: 17px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    .front__fives {
+      .focus {
+        top: 2180px;
+        right: 80px;
+      }
+    }
+
+    .front__six--materials {
+      justify-content: space-between;
+
+      .material {
+        width: 225px;
+      }
+    }
+
+    .front__seven {
+      .slide__block {
+        p {
+          font-size: 10px;
+          width: 269px;
+          margin: 0 0 10px 11px;
+        }
+
+        .logo {
+          right: 110px;
+        }
+      }
+
+      .front__seven--process {
+        .kub {
+          width: 170px;
+          padding: 15px 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  #front {
+    .front__fives {
+      .focus {
+        top: 2260px;
+        right: 55px;
+      }
+    }
+
+    .front__seven {
+      .front__seven--process {
+        .kub {
+          padding: 13px 16px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #front {
+    .front {
+      &__first {
+        text-align: center;
+      }
+
+      .front__second--inform {
+        p {
+          width: 630px;
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+
+      .front__fours {
+        h1 {
+          font-size: 18px;
+        }
+
+        .front__fours--btn {
+          flex-direction: column;
+
+          button {
+            margin: 15px 0;
+          }
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 22px;
+          width: 630px;
+        }
+      }
+
+      .front__fives {
+        .focus {
+          top: 3080px;
+          right: 220px;
+        }
+
+        .front__fives--module {
+          margin: 6px 0;
+
+          h2 {
+            font-size: 16px;
+          }
+
+          p {
+            font-size: 11px;
+          }
+        }
+      }
+
+      .front__six--materials {
+        margin-top: 350px;
+
+        .material {
+          width: 177px;
+
+          p {
+            font-size: 16px;
+          }
+
+          h3 {
+            font-weight: 600;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .front__seven--process {
+        flex-direction: column;
+
+        .kub {
+          p {
+            font-size: 12px;
+            line-height: 16px;
+          }
+        }
+
+        .general1 {
+          margin-left: -300px;
+        }
+
+        .general2 {
+          margin-right: -300px;
+        }
+      }
+
+      .front__eight--accordion {
+        width: 600px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #front {
+    .front {
+      .front__first--info {
+        p {
+          margin: 40px 0;
+          width: 500px;
+          font-size: 18px;
+        }
+      }
+
+      .front__second--inform {
+        h1 {
+          font-weight: 600;
+          font-size: 30px;
+        }
+      }
+
+      .front__second--inform {
+        p {
+          width: 500px;
+          line-height: 24px;
+        }
+      }
+
+      .front__fours {
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          width: 470px;
+        }
+      }
+
+      .front__fours--btn {
+        width: inherit;
+      }
+
+      .front__fives {
+        .focus {
+          right: 110px;
+        }
+
+        button {
+          margin-left: 130px;
+        }
+
+        .front__fives--module {
+          width: 490px;
+
+          h2 {
+            font-size: 14px;
+          }
+
+          p {
+            font-size: 9px;
+          }
+        }
+      }
+
+      .front__six--materials {
+        flex-direction: column;
+
+        .mot2 {
+          margin-left: 280px;
+        }
+
+        .mot1 {
+          margin-left: 30px;
+        }
+      }
+
+      .front__six--leader h1 {
+        font-size: 33px;
+      }
+
+      .front__seven--process {
+        .general1 {
+          margin-left: -200px;
+          height: 190px;
+        }
+
+        .general2 {
+          margin-right: -250px;
+          height: 190px;
+        }
+      }
+
+      .front__seven {
+        .slide__block {
+          p {
+            font-size: 10px;
+            width: 290px;
+            margin: 0 0 0 90px;
+          }
+
+          .logo {
+            right: 210px;
+          }
+        }
+      }
+
+      .front__eight--accordion {
+        width: 480px;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  #front {
+    .front {
+      .front__first--info {
+        p {
+          margin: 40px 0;
+          width: 380px;
+          font-size: 18px;
+        }
+      }
+
+      .front__second--inform {
+        p {
+          width: 360px;
+          line-height: 22px;
+          font-size: 14px;
+        }
+      }
+
+      &__third {
+        .allUl {
+          flex-direction: column !important;
+
+          &__second {
+            margin-left: 19px;
+          }
+        }
+      }
+
+      .front__fours {
+        p {
+          font-size: 13px;
+          line-height: 19px;
+          width: 350px;
+        }
+      }
+
+      .front__fives {
+        .focus {
+          top: 3440px;
+          right: 60px;
+        }
+
+        button {
+          margin-left: 70px;
+        }
+
+        h1 {
+          font-weight: 700;
+          font-size: 26px;
+          line-height: 44px;
+          color: #FFFFFF;
+        }
+
+        .front__fives--module {
+          width: 380px;
+
+          p {
+            margin-left: 75px;
+          }
+
+          h2 {
+            font-size: 16px;
+          }
+        }
+      }
+
+      .front__six--materials .mot2 {
+        margin: 20px 0 20px 180px;
+      }
+
+      .front__six--leader {
+        .logo__lead {
+          width: 80%;
+        }
+      }
+
+      .front__seven {
+        .slide__block .logo {
+          right: 150px;
+        }
+
+        h1 {
+          font-size: 22px;
+          text-align: center;
+        }
+
+        .slide__block p {
+          font-size: 10px;
+          width: 290px;
+          margin: 0 0 0 50px;
+        }
+      }
+
+      .front__seven--process {
+        .general1 {
+          height: 185px;
+          margin: 20px 0 20px -135px;
+        }
+
+        .general2 {
+          margin-right: -150px;
+          height: 190px;
+        }
+      }
+
+      .slick-cloned {
+        overflow: hidden;
+        display: none;
+      }
+
+      .front__eight {
+        margin: 0 0 200px 0;
+
+        h1 {
+          font-size: 30px;
+        }
+
+        &--accordion {
+          width: 380px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 375px) {
+  #front {
+    .front {
+      &__first {
+        .nav {
+          p {
+            font-size: 10px !important;
+          }
+        }
+      }
+
+      .front__first--info {
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          width: 320px;
+          font-size: 14px;
+        }
+      }
+
+      .front__second--inform {
+        h1 {
+          font-size: 28px;
+        }
+
+        p {
+          width: 300px;
+          line-height: 22px;
+          font-size: 14px;
+        }
+      }
+
+      .front__fours {
+        .front__fours--btn button {
+          width: 300px;
+          height: 60px;
+        }
+
+        h1 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          width: 320px;
+        }
+      }
+
+      .front__fives {
+        button {
+          margin-left: 40px;
+        }
+
+        .focus {
+          top: 3540px;
+          right: 50px;
+          width: 75%;
+        }
+
+        h1 {
+          font-size: 22px;
+        }
+
+        .front__fives--module {
+          p {
+            margin-left: -5px;
+            font-size: 12px;
+          }
+
+          width: 320px;
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      .front__six--materials {
+        .mot2 {
+          margin: 60px 0 60px 130px;
+        }
+      }
+
+      .front__six--leader {
+        h1 {
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 4px;
+          margin: 5px 0;
+
+        }
+      }
+
+      .front__seven--process {
+        .general1 {
+          height: 185px;
+          margin: 30px 0 30px -80px;
+        }
+
+        .general2 {
+          margin-right: -90px;
+          height: 185px;
+        }
+      }
+
+      .front__seven {
+        .slide__block {
+          p {
+            font-size: 8px;
+            width: 260px;
+            margin: 0 0 0 30px;
+          }
+        }
+      }
+
+      .front__eight {
+        h1 {
+          font-size: 24px;
+        }
+
+        .front__eight--accordion {
+          width: 310px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #front {
+    .front {
+      .front__first--info {
+        p {
+          width: 278px;
+          font-size: 14px;
+          margin: 20px 0;
+        }
+      }
+
+      .front__second--inform {
+        h1 {
+          font-size: 24px;
+        }
+      }
+
+      .front__second--inform {
+        p {
+          width: 260px;
+          line-height: 22px;
+          font-size: 14px;
+        }
+      }
+
+      .front__third {
+        ul {
+          li {
+            font-weight: 400;
+            font-size: 16px;
+            color: #FFFFFF;
+            margin: 20px 0;
+          }
+        }
+      }
+
+      .front__fours {
+        h1 {
+          font-size: 16px;
+        }
+
+        p {
+          font-size: 10px;
+          line-height: 15px;
+          width: 270px;
+        }
+
+        .front__fours--btn button {
+          width: 240px;
+        }
+      }
+
+      .front__fives {
+        .focus {
+          right: 40px;
+        }
+
+        .front__fives--module {
+          width: 270px;
+        }
+
+        button {
+          margin-left: 10px;
+        }
+      }
+
+      .front__seven--process {
+        flex-direction: column;
+        align-items: center;
+
+        .general1 {
+          margin: 30px 0 30px 0;
+        }
+
+        .general2 {
+          margin-right: 0;
+          height: 185px;
+        }
+      }
+
+      .front__six--materials {
+        flex-direction: column;
+        align-items: center;
+
+        .mot2 {
+          margin: 60px 0 60px 30px;
+        }
+      }
+
+      .front__seven {
+        .slide__block {
+          p {
+            font-size: 7px;
+            width: 200px;
+            margin: 0 0 0 30px;
+          }
+
+          .logo {
+            right: 100px;
+          }
+
+          h5 {
+            font-size: 12px;
+          }
+        }
+      }
+
+      .front__eight {
+        .front__eight--accordion {
+          width: 270px;
+
+          h5 {
+            font-weight: 400;
+            font-size: 12px;
+          }
+
+          .accordionTitle {
+            h6 {
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 24px;
+              color: #FFFFFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}
