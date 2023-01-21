@@ -7030,6 +7030,15 @@ body {
     margin: 10px 0 10px -30px;
   }
 }
+#reactive {
+  padding: 120px 0 20px 0;
+  background: #0A1128;
+}
+#reactive .reactive--title {
+  display: flex;
+  align-items: center;
+}
+
 * {
   margin: 0;
   padding: 0;

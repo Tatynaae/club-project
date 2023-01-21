@@ -13,6 +13,7 @@ import StatieBefore from "./Components/statie/StatieBefore";
 import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
 import BuyCourse from "./Components/Courses/BuyCourse";
+import Reactive from "./Components/Reactive/Reactive";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
                     <Route path={'/Buy'} element={<BuyCourse/>}/>
+                    <Route path={'/Reactive'} element={<Reactive/>}/>
                 </Routes>
             </div>
         </>
