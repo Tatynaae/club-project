@@ -3534,6 +3534,84 @@ body {
     margin: 0 0 50px 40px;
   }
 }
+@media (max-width: 1024px) {
+  #main .pays .pay--inputs__user {
+    max-width: 500px;
+  }
+  #main .pays .pay--inputs__psw {
+    max-width: 500px;
+  }
+  #main .pays .pay--inputs__card--cards {
+    max-width: 540px;
+  }
+  #main .pays .pay--inputs__year {
+    max-width: 540px;
+  }
+  #main .pays .pay--inputs__year--cvc input {
+    max-width: 210px;
+  }
+  #main .pays .pay--inputs__button {
+    max-width: 540px;
+  }
+}
+@media (max-width: 768px) {
+  #main .main .pays .pay--inputs__user {
+    max-width: 400px;
+  }
+  #main .main .pays .pay--inputs__psw {
+    max-width: 400px;
+  }
+  #main .main .pays .pay--inputs__card--cards {
+    max-width: 440px;
+  }
+  #main .main .pays .pay--inputs__year {
+    max-width: 440px;
+  }
+  #main .main .pays .pay--inputs__year--cvc input {
+    max-width: 160px;
+  }
+  #main .main .pays .pay--inputs__button {
+    max-width: 440px;
+  }
+}
+@media (max-width: 576px) {
+  #main .main {
+    max-width: 576px;
+  }
+  #main .main .pays .pay--inputs__user {
+    max-width: 300px;
+  }
+  #main .main .pays .pay--inputs__psw {
+    max-width: 300px;
+  }
+  #main .main .pays .pay--inputs__card {
+    max-width: 340px;
+  }
+  #main .main .pays .pay--inputs__card--cards {
+    width: 100%;
+  }
+  #main .main .pays .pay--inputs__card--cards__radio {
+    max-width: 160px;
+  }
+  #main .main .pays .pay--inputs__card--cards__radio label {
+    font-size: 12px;
+  }
+  #main .main .pays .pay--inputs__year {
+    max-width: 340px;
+  }
+  #main .main .pays .pay--inputs__year--cvc input {
+    max-width: 120px;
+  }
+  #main .main .pays .pay--inputs__checkbox {
+    width: 340px;
+  }
+  #main .main .pays .pay--inputs__checkbox p {
+    font-size: 16px;
+  }
+  #main .main .pays .pay--inputs__button {
+    max-width: 340px;
+  }
+}
 #master-class .master-class {
   padding: 190px 0 100px 0;
 }
@@ -4339,6 +4417,16 @@ body {
     width: 99%;
   }
 }
+#main {
+  background: #0A1128;
+}
+#main .main .pays {
+  padding: 160px 0 60px 0;
+}
+#main .main .pays--title p {
+  color: white;
+}
+#main .main .pays--title p span {
 #do-subscription {
   background: #0A1128;
   padding-bottom: 100px;
@@ -4354,6 +4442,182 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #A5A5A5;
+}
+#main .main .pays .pay {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#main .main .pays .pay .pay--inputs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+#main .main .pays .pay .pay--inputs h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  text-align: left;
+  margin: 50px 0;
+}
+#main .main .pays .pay .pay--inputs__user {
+  width: 560px;
+  max-height: 60px;
+  margin-bottom: 50px;
+  position: relative;
+}
+#main .main .pays .pay .pay--inputs__user label {
+  position: absolute;
+  top: -8px;
+  left: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #0A1128;
+  padding: 0 5px;
+}
+#main .main .pays .pay .pay--inputs__user input {
+  background: none;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #FFFFFF;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#main .main .pays .pay .pay--inputs__psw {
+  width: 560px;
+  max-height: 60px;
+  margin-bottom: 50px;
+  position: relative;
+}
+#main .main .pays .pay .pay--inputs__psw label {
+  position: absolute;
+  top: -8px;
+  left: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A5A5A5;
+  background: #0A1128;
+  padding: 0 5px;
+}
+#main .main .pays .pay .pay--inputs__psw input {
+  background: none;
+  width: 100%;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #A5A5A5;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#main .main .pays .pay .pay--inputs__card {
+  width: 600px;
+}
+#main .main .pays .pay .pay--inputs__card p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding-bottom: 16px;
+}
+#main .main .pays .pay .pay--inputs__card--cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+#main .main .pays .pay .pay--inputs__card--cards__radio {
+  border: 1px solid #FFFFFF;
+  width: 280px;
+  height: 74px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 5px;
+}
+#main .main .pays .pay .pay--inputs__card--cards__radio input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  outline: none;
+  background: none;
+}
+#main .main .pays .pay .pay--inputs__card--cards__radio input:checked {
+  background: #FFFFFF;
+}
+#main .main .pays .pay .pay--inputs__card--cards__radio label {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+#main .main .pays .pay .pay--inputs__year {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main .main .pays .pay .pay--inputs__year--cvc {
+  position: relative;
+}
+#main .main .pays .pay .pay--inputs__year--cvc label {
+  position: absolute;
+  top: -8px;
+  left: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #A5A5A5;
+  background: #0A1128;
+  padding: 0 5px;
+}
+#main .main .pays .pay .pay--inputs__year--cvc input {
+  background: none;
+  height: 45px;
+  width: 240px;
+  border-radius: 5px;
+  border: 1px solid #A5A5A5;
+  padding: 5px 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+}
+#main .main .pays .pay .pay--inputs__checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+#main .main .pays .pay .pay--inputs__checkbox input {
+  width: 40.49px;
+  height: 40px;
+  border: 1px solid #FFFFFF;
+  margin-right: 20px;
+  border-radius: 5px;
+  color: red;
+}
+#main .main .pays .pay .pay--inputs__checkbox p {
+=======
   padding: 14px 0;
 }
 #do-subscription .do-subscription--general__part h1 {
@@ -5085,6 +5349,74 @@ body {
   line-height: 24px;
   color: #FFFFFF;
 }
+#main .main .pays .pay .pay--inputs__button {
+  margin-bottom: 50px;
+  width: 600px;
+  height: 70px;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #FFFFFF;
+  background: #04437B;
+  backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: none;
+  transition: 0.8s ease-in-out;
+}
+#main .main .pays .pay .pay--inputs__button:hover {
+  transform: scale(1.1);
+}
+#main .main .pays .pay .pay--inputs__texts h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 22px;
+}
+#main .main .pays .pay .pay--inputs__texts--others {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+#main .main .pays .pay .pay--inputs__texts--others h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#main .main .pays .pay .pay--inputs__texts--others button {
+  width: 303.71px;
+  height: 55px;
+  background: #0A1128;
+  box-shadow: 10px 10px 22px -117px #132049, -4px -3px 25px #040B23;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  transition: 0.8s ease-in-out;
+}
+#main .main .pays .pay .pay--inputs__texts--others button:hover {
+  transform: scale(1.1);
+}
+#main .main .pays .pay .pay--inputs__texts h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  width: 60%;
+  color: #FFFFFF;
+}
+#main .main .pays .pay .pay--inputs__texts p {
+  margin: 20px 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+=======
 #front .front__second--inform button {
   font-weight: 500;
   font-size: 16px;
