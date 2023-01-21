@@ -1,0 +1,10 @@
+#reactive{
+  padding: 120px 0 20px 0 ;
+  background: #0A1128;
+  .reactive{
+    &--title{
+      display: flex;
+      align-items: center;
+    }
+  }
+}
