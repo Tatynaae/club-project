@@ -11,8 +11,10 @@ const StatieBefore = () => {
                 <div className="container">
                     <div className="do-subscription">
                         <div className="do-subscription--general">
-                            <div className="do-subscription--general__part"><p>Главная / Статья / Мы подготовили... </p>
-                                <p>11.09.2022</p>                    <h1>Мы подготовили подборку самых популярных
+                            <div className="do-subscription--general__part">
+                                <p>Главная / Статья / Мы подготовили... </p>
+                                <p>11.09.2022</p>
+                                <h1>Мы подготовили подборку самых популярных
                                     курсов по направлению Java в IBS Training Center.</h1>
                                 <h2>Когда-то ни один крупный проект не обходился без применения
                                     функционального и асинхронного программирования. Эти подходы до сих пор популярны за
@@ -33,10 +35,12 @@ const StatieBefore = () => {
                             </div>
                             <div className="do-subscription--general__get"><IoIosLock
                                 className="do-subscription--general__get--icon"/>
-                                <div className="do-subscription--general__get--title"><h1>Оформите подписку, чтобы
-                                    посмотреть полную версию</h1>
+                                <div className="do-subscription--general__get--title">
+                                    <h1>Оформите подписку, чтобы
+                                        посмотреть полную версию</h1>
                                     <div className="do-subscription--general__get--title__bottom">
-                                        <p>Вы уже авторизованы?</p>                            <h2>Авторизуйтесь</h2>
+                                        <p>Вы уже авторизованы?</p>
+                                        <h2>Авторизуйтесь</h2>
                                     </div>
                                 </div>
                                 <button>Получить доступ за 225,00$</button>
@@ -73,7 +77,8 @@ const StatieBefore = () => {
                                         </div>
                                     </div>
                                     <div className="do-subscription--general__other-articles--blocks__block">
-                                        <p>Статьи</p>                            <h2>Мы подготовили подборку
+                                        <p>Статьи</p>
+                                        <h2>Мы подготовили подборку
                                         самых популярных курсов по направлению Java в IBS
                                         Training Center. </h2>
                                         <div
@@ -112,7 +117,7 @@ const StatieBefore = () => {
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };
