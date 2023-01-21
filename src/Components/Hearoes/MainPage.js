@@ -143,6 +143,7 @@ const MainPage = () => {
                             </div>
                             <div className="article--button">
                                 <NavLink to={'/pay'}>
+                                <NavLink to={'/Station'}>
                                     <button className='article--button__btn'>
                                         Показать больше
                                     </button>

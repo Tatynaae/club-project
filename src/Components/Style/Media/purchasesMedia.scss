@@ -1,0 +1,506 @@
+@media (max-width: 1024px) {
+  #purchases {
+    .purchases {
+      .make {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .purchases--one {
+          text-align: center;
+        }
+
+        .make--one {
+          display: flex;
+          align-items: center;
+          flex-direction: column-reverse;
+
+          .purchases--one--img {
+            margin-top: 30px;
+          }
+
+          .make--one--page {
+            margin: 22px 50px 0 0;
+            width: 100%;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 992px) {
+  #purchases {
+    .purchases {
+      .purchases--text {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #homeLs-accordionS {
+    .homeLs-accordionS {
+      .homeLs-info {
+        p {
+          display: none;
+        }
+      }
+
+      &_dasc {
+        &-accordion {
+          width: 112% !important;
+
+          &_label {
+            p {
+              width: 81%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #purchases {
+    .make--one__img {
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .icons {
+        bottom: 179px;
+        left: 221px;
+      }
+    }
+
+    .streams {
+      .streams--text {
+        width: 100%;
+      }
+    }
+  }
+  #homeLs-accordionS {
+    .homeLs-accordionS {
+      .homeLs-info {
+        p {
+          display: none;
+        }
+      }
+
+      &_desc {
+        width: 100%;
+      }
+    }
+  }
+  #comments {
+    .comments {
+      .comments--block {
+        width: 90%;
+
+      }
+
+      .comments--left {
+        &--one {
+          width: 105%;
+        }
+
+        .summary {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 450px) {
+  #purchases {
+    .purchases {
+      .make {
+        .make--one {
+          width: 100%;
+
+          .make--one--page {
+            width: 100%;
+            margin: 22px 0;
+
+            .make--one--page--video {
+              margin: 35px 0;
+              width: 100%;
+            }
+
+            .make--one--page--btn {
+              width: 100%;
+              margin: 60px 0;
+            }
+          }
+        }
+
+        .purchases--one {
+          .make--one__img {
+            .icons {
+              bottom: 179px;
+              left: 160px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #comments {
+    .comments {
+      &--h {
+        h1 {
+          padding-top: 30px;
+          font-size: 20px;
+        }
+      }
+
+      &--left {
+        &--one {
+          &--img {
+            img {
+              width: 100%;
+            }
+          }
+
+          &--text {
+            span {
+              font-size: 13px;
+            }
+
+            h2 {
+              font-size: 15px;
+            }
+
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+
+        details {
+          summary {
+            margin: 30px 0 0 20px;
+            display: flex;
+            width: 100%;
+            font-size: 15px;
+          }
+
+          .summary {
+            margin: 20px 0;
+
+            &--img {
+              h1 {
+                font-size: 30px;
+              }
+            }
+
+            &--text {
+              &--one {
+                h1 {
+                  font-size: 16px;
+                }
+
+                p {
+                  font-size: 16px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+  #homeLs-accordionS {
+    .homeLs-accordionS {
+      .homeLs-info {
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  #purchases {
+    .purchases {
+      .make {
+        .purchases--one {
+          .make--one__img {
+            img {
+              height: 100%;
+            }
+
+            .icons {
+              bottom: 109px;
+              left: 0;
+              width: 100%;
+              font-size: 35px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #comments {
+    .comments {
+
+      &--left {
+        &--one {
+          &--img {
+            img {
+              width: 100%;
+            }
+          }
+
+          &--text {
+            span {
+              font-size: 13px;
+            }
+
+            h2 {
+              font-size: 12px;
+            }
+
+            p {
+              font-size: 11px;
+            }
+          }
+        }
+
+        details {
+          summary {
+            margin: 30px 0 0 20px;
+            display: flex;
+            width: 100%;
+            font-size: 15px;
+          }
+
+          .summary {
+            margin: 20px 0;
+
+            &--img {
+              h1 {
+                font-size: 30px;
+                width: 40px;
+                height: 40px;
+              }
+            }
+
+            &--text {
+              p {
+                font-size: 10px;
+              }
+
+              &--one {
+                h1 {
+                  font-size: 12px;
+                }
+
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+@media (max-width: 376px) {
+  #purchases .purchases .make .purchases--one .make--one__img .icons {
+    bottom: 90px;
+    left: 0;
+    width: 100%;
+  }
+  #comments {
+    .comments {
+      &--left {
+        &--one {
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+          &--img {
+
+            img {
+              width: 100%;
+            }
+          }
+
+          &--text {
+            span {
+              font-size: 11px;
+            }
+
+            h2 {
+              font-size: 11px;
+            }
+
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+
+        details {
+          summary {
+            margin: 30px 0 0 20px;
+            display: flex;
+            width: 100%;
+            font-size: 15px;
+          }
+
+          .summary {
+            margin: 20px 0;
+
+            &--img {
+              h1 {
+                font-size: 26px;
+                width: 40px;
+                height: 40px;
+              }
+            }
+
+            &--text {
+              p {
+                font-size: 10px;
+              }
+
+              &--one {
+                h1 {
+                  font-size: 12px;
+                }
+
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #comments {
+    .comments {
+      .comments--block {
+        width: 84%;
+      }
+
+    }
+  }
+
+  #purchases {
+    .purchases {
+      .make {
+        &--one {
+          &--page {
+            &--video {
+              &--text {
+                font-size: 12px;
+              }
+            }
+            &--btn{
+              button{
+                margin: 0 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #purchases .purchases .make .purchases--one .make--one__img .icons {
+    bottom: 90px;
+    left: 0;
+    width: 100%;
+  }
+  #comments {
+    .comments {
+      &--left {
+        &--one {
+          display: flex;
+          align-items: center;
+          width: 100%;
+
+          &--img {
+
+            img {
+              width: 100%;
+            }
+          }
+
+          &--text {
+            span {
+              font-size: 10px;
+            }
+
+            h2 {
+              font-size: 10px;
+            }
+
+            p {
+              font-size: 7px;
+            }
+          }
+        }
+
+        details {
+          summary {
+            margin: 30px 0 0 20px;
+            display: flex;
+            width: 100%;
+            font-size: 13px;
+          }
+
+          .summary {
+            margin: 20px 0;
+
+            &--img {
+              h1 {
+                font-size: 26px;
+                width: 40px;
+                height: 40px;
+              }
+            }
+
+            &--text {
+              p {
+                font-size: 10px;
+              }
+
+              &--one {
+                h1 {
+                  font-size: 12px;
+                }
+
+                p {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
