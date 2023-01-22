@@ -1,0 +1,156 @@
+@media (max-width: 1400px) {
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 1024px) {
+  #main {
+    .pays {
+      .pay {
+        &--inputs {
+          &__user {
+            max-width: 500px;
+          }
+
+          &__psw {
+            max-width: 500px;
+          }
+
+          &__card {
+            &--cards {
+              max-width: 540px;
+            }
+          }
+
+          &__year {
+            max-width: 540px;
+
+            &--cvc {
+              input {
+                max-width: 210px;
+              }
+            }
+          }
+
+          &__button {
+            max-width: 540px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+  #main {
+    .main {
+      .pays {
+        .pay {
+          &--inputs {
+            &__user {
+              max-width: 400px;
+            }
+
+            &__psw {
+              max-width: 400px;
+            }
+
+            &__card {
+              &--cards {
+                max-width: 440px;
+              }
+            }
+
+            &__year {
+              max-width: 440px;
+
+              &--cvc {
+                input {
+                  max-width: 160px;
+                }
+              }
+            }
+
+            &__button {
+              max-width: 440px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  #main {
+    .main {
+      max-width: 576px;
+      .pays {
+        .pay {
+          &--inputs {
+            &__user {
+              max-width: 300px;
+            }
+
+            &__psw {
+              max-width: 300px;
+            }
+
+            &__card{
+              max-width: 340px;
+              &--cards{
+                width: 100%;
+                &__radio{
+                  max-width: 160px;
+                  label{
+                    font-size: 12px;
+                  }
+                }
+              }
+
+            }
+
+            &__year {
+              max-width: 340px;
+
+              &--cvc {
+                input {
+                  max-width: 120px;
+                }
+              }
+            }
+
+            &__checkbox {
+              width: 340px;
+              p{
+                font-size: 16px;
+              }
+            }
+
+            &__button {
+              max-width: 340px;
+            }
+
+            &__texts{
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media (max-width: 450px) {
+
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
