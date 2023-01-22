@@ -12,7 +12,7 @@ const AdemirMaster = () => {
                         </div>
                         <div className="master--block">
                             <div className="master--block__one">
-                                <NavLink to={'/'} className='master--block__one--link'>
+                                <NavLink to={'/Reactive'} className='master--block__one--link'>
                                     <h1>Реактивное программирование на Java: как, зачем и стоит ли? </h1>
                                     <p>
                                         Программирования появилась сравнительно недавно, лет 10 назад. Что вызвало

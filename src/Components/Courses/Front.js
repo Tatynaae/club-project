@@ -63,10 +63,8 @@ const Front = () => {
             <div className="container">
                 <div className="front">
                     <div className="front__first">
-                        <div className="nav" style={{display: 'flex'}}>
-                            <p style={{color: '#A5A5A5', fontSize: '16px'}}>Главная</p>
-                            <p style={{color: '#A5A5A5', fontSize: '16px'}}> / Наши курсы / </p>
-                            <p style={{color: 'white', fontSize: '16px'}}>Frontend- разработчик</p>
+                        <div className="nav">
+                            <p style={{color:'#FFF'}}><span style={{color:'#A5A5A5'}}>Главная / Наши курсы /</span> Frontend- разработчик</p>
                         </div>
                         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'space-between'}}>
                             <div className="front__first--info">
