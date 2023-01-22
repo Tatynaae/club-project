@@ -129,7 +129,7 @@ body {
       }
 
       button:hover {
-        background: #40a230;
+        transform: scale(1.1);
         transition: .2s;
         color: #FFFFFF;
       }
@@ -203,8 +203,8 @@ body {
       }
 
       button:hover {
-        background: #40a230;
         transition: .6s;
+        transform: scale(1.1);
         font-size: 16px;
         color: #FFFFFF;
       }

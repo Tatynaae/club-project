@@ -10,14 +10,17 @@
 @import "Media/Adaptation/MainPageAdd";
 @import "Media/Adaptation/AboutUs";
 @import "Media/Adaptation/Enter";
+@import "Media/Adaptation/PayAdaptation";
 @import "Master";
 @import "Coures";
 @import "Participation";
+@import "pay";
 @import "before";
 @import "Courses/Front";
 @import "Purchases";
 @import "Media/purchasesMedia";
 @import "Station";
+@import "after";
 @import 'Media/Adaptation/Courses/Front';
 @import 'Courses/BuyCourse';
 @import 'Media/Adaptation/Courses/BuyCourses';
@@ -25,3 +28,6 @@
 @import "Media/Adaptation/AfterMedia";
 @import "Reactive/Reactive";
 @import "Register/Register";
+@import "Reactive/Learning";
+@import "Media/Adaptation/LearningMedia";
+@import "Reactive/community";

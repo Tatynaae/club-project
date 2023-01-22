@@ -8,10 +8,14 @@ import Enter from "./Components/Enter/Enter";
 import Master from "./Components/masterClass/Master";
 import Course from "./Components/Courses/Course";
 import Participation from "./Components/participation/Participation";
+import Pay from "./Components/Pay/Pay";
 import Station from "./Components/statie/Staties";
 import StatieBefore from "./Components/statie/StatieBefore";
 import Front from "./Components/Courses/Front";
 import Purchases from "./Components/masterClass/Purchases";
+import StatieAfter from "./Components/statie/StatieAfter";
+
+
 import BuyCourse from "./Components/Courses/BuyCourse";
 import AfterModuls from "./Components/After/AfterModuls";
 import Reactive from "./Components/Reactive/Reactive";
@@ -31,11 +35,14 @@ function App() {
                     <Route path={'/Master'} element={<Master/>}/>
                     <Route path={'/OurCourse'} element={<Course/>}/>
                     <Route path={'/Participation'} element={<Participation/>}/>
+                    <Route path={'/pay'} element={<Pay/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
                     <Route path={'/stationBefore'} element={<StatieBefore/>}/>
                     <Route path={'/Подробнее'} element={<Front/>}/>
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
+                    <Route path={'/StatieAfter'} element={<StatieAfter/>}/>
+
                     <Route path={'/Buy'} element={<BuyCourse/>}/>
                     <Route path={'/afterModuls'} element={<AfterModuls/>}/>
                     <Route path={'/Reactive'} element={<Reactive/>}/>
