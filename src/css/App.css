@@ -3447,6 +3447,16 @@ body {
     width: 200px;
   }
 }
+@media (max-width: 1500px) {
+  #header #enter .enter {
+    width: 106%;
+    height: 704%;
+    margin-left: -240px;
+  }
+  #header #enter .enter .view {
+    right: 560px;
+  }
+}
 @media (max-width: 1200px) {
   #header #enter .enter {
     width: 106%;
@@ -7989,6 +7999,355 @@ body {
   align-items: center;
 }
 
+#register {
+  padding: 120px 0 60px 0;
+  background: #0A1128;
+}
+#register .register p {
+  color: #A5A5A5;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+#register .register--block {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: column;
+}
+#register .register--block h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 50px 0;
+}
+#register .register--block__in {
+  padding: 0 20px;
+  width: 550px;
+  height: 55px;
+  margin-bottom: 50px;
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  background: transparent;
+  border-radius: 10px;
+}
+#register .register--block__card .card-two {
+  display: flex;
+  align-items: center;
+  width: 590px;
+  justify-content: space-between;
+}
+#register .register--block__card .card-two--chose {
+  width: 253px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  margin: 15px 0 50px 0;
+}
+#register .register--block__card .card-two--chose button {
+  text-align: center;
+  margin: 0 15px 0 40px;
+  padding: 8px;
+}
+#register .register--block__card .card-two--chose p {
+  font-size: 20px;
+}
+#register .register--block .num {
+  display: flex;
+  align-items: center;
+  width: 590px;
+  justify-content: space-between;
+}
+#register .register--block .num--in {
+  width: 213px;
+  padding: 0 20px;
+  height: 55px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  background: transparent;
+  color: white;
+}
+#register .register--block .agree {
+  display: flex;
+  align-items: center;
+  margin: 50px 0;
+}
+#register .register--block .agree button {
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  width: 55px;
+  height: 55px;
+  background: transparent;
+}
+#register .register--block .agree button .st {
+  font-size: 45px;
+}
+#register .register--block .agree p {
+  margin-left: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+#register .register--block .agree--btn {
+  background: #04437B;
+  backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  width: 591px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 50px;
+}
+#register .register--block .texts {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  width: 650px;
+  margin: 20px 0;
+}
+#register .register--block h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 10px 0 20px 0;
+}
+#register .register--block .target {
+  background: #0A1128;
+  box-shadow: 10px 10px 22px -117px #132049, -4px -3px 25px #040B23;
+  border-radius: 10px;
+  width: 303px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 25px;
+  border: none;
+}
+
+@media (max-width: 1400px) {
+  #register .register--block {
+    margin-left: 300px;
+  }
+}
+@media (max-width: 1140px) {
+  #register .register--block__in {
+    width: 500px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 220px;
+  }
+  #register .register--block__card .card-two {
+    width: 500px;
+  }
+  #register .register--block {
+    margin-left: 250px;
+  }
+  #register .register--block .num {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+  #register .register--block .num--in {
+    width: 220px;
+  }
+  #register .register--block .agree p {
+    width: 460px;
+  }
+  #register .register--block .agree .agree--btn {
+    width: 500px;
+  }
+  #register .register--block .texts {
+    width: 500px;
+  }
+}
+@media (max-width: 1200px) {
+  #register .register--block__in {
+    width: 460px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 220px;
+  }
+  #register .register--block__card .card-two {
+    width: 500px;
+  }
+  #register .register--block {
+    margin-left: 270px;
+  }
+  #register .register--block .num {
+    display: flex;
+    align-items: center;
+    width: 500px;
+  }
+  #register .register--block .num--in {
+    width: 180px;
+  }
+  #register .register--block .agree p {
+    width: 460px;
+  }
+  #register .register--block .agree--btn {
+    width: 500px;
+  }
+  #register .register--block .texts {
+    width: 500px;
+  }
+}
+@media (max-width: 1024px) {
+  #register .register--block {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 992px) {
+  #register .register--block {
+    margin-left: 180px;
+  }
+}
+@media (max-width: 768px) {
+  #register .register--block {
+    margin-left: 80px;
+  }
+}
+@media (max-width: 576px) {
+  #register .register--block {
+    margin-left: 0;
+  }
+  #register .register--block__in {
+    width: 430px;
+  }
+  #register .register--block__card .card-two {
+    width: 470px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 210px;
+  }
+  #register .register--block .num--in {
+    width: 190px;
+  }
+  #register .register--block .num {
+    display: flex;
+    align-items: center;
+    width: 470px;
+  }
+  #register .register--block .num--in {
+    width: 160px;
+  }
+  #register .register--block .agree--btn {
+    width: 500px;
+  }
+  #register .register--block .texts {
+    width: 470px;
+  }
+}
+@media (max-width: 450px) {
+  #register .register--block__in {
+    width: 340px;
+  }
+  #register .register--block__card .card-two {
+    width: 380px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 170px;
+  }
+  #register .register--block__card .card-two--chose p {
+    font-size: 14px;
+  }
+  #register .register--block .num {
+    width: 380px;
+  }
+  #register .register--block .num--in {
+    width: 120px;
+  }
+  #register .register--block .agree--btn {
+    width: 380px;
+  }
+  #register .register--block .texts {
+    width: 380px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 375px) {
+  #register .register--block__in {
+    width: 275px;
+  }
+  #register .register--block .num {
+    width: 315px;
+  }
+  #register .register--block .num--in {
+    width: 140px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 140px;
+  }
+  #register .register--block__card .card-two--chose button {
+    margin: 0 10px 0 20px;
+  }
+  #register .register--block__card .card-two {
+    width: 315px;
+  }
+  #register .register--block .agree button {
+    height: 35px;
+  }
+  #register .register--block .agree p {
+    width: 460px;
+    font-size: 16px;
+  }
+  #register .register--block .agree--btn {
+    width: 315px;
+  }
+  #register .register--block .num--in {
+    width: 100px;
+  }
+  #register .register--block .texts {
+    width: 315px;
+    font-size: 20px;
+    line-height: 18px;
+  }
+  #register .register--block h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 320px) {
+  #register .register--block__in {
+    width: 230px;
+  }
+  #register .register--block__card .card-two--chose button {
+    margin: 0 10px 0 6px;
+  }
+  #register .register--block__card .card-two {
+    width: 270px;
+  }
+  #register .register--block__card .card-two--chose {
+    width: 120px;
+  }
+  #register .register--block .target {
+    width: 260px;
+  }
+  #register .register--block .texts {
+    width: 270px;
+    font-size: 17px;
+    line-height: 18px;
+  }
+  #register .register--block .agree--btn {
+    width: 270px;
+  }
+  #register .register--block .num--in {
+    width: 80px;
+  }
+  #register .register--block .num {
+    width: 270px;
+  }
+}
 * {
   margin: 0;
   padding: 0;

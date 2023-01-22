@@ -1,7 +1,9 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const AdemirMaster = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <div id="master">
@@ -12,7 +14,7 @@ const AdemirMaster = () => {
                         </div>
                         <div className="master--block">
                             <div className="master--block__one">
-                                <NavLink to={'/'} className='master--block__one--link'>
+                                <NavLink to={'/Reactive'} className='master--block__one--link'>
                                     <h1>Реактивное программирование на Java: как, зачем и стоит ли? </h1>
                                     <p>
                                         Программирования появилась сравнительно недавно, лет 10 назад. Что вызвало
@@ -43,9 +45,7 @@ const AdemirMaster = () => {
                             </div>
                         </div>
                         <div className="master--btn">
-                            <NavLink to={'/Master'}>
-                                <button>Все мастер классы</button>
-                            </NavLink>
+                                <button onClick={() => navigate('/Master')}>Все мастер классы</button>
                         </div>
                     </div>
                 </div>

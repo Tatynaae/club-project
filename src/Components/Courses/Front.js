@@ -179,7 +179,7 @@ const Front = () => {
                             <h2>Модуль 6</h2>
                             <p>Reactive Streams spec</p>
                         </div>
-                        <button>Зарегистрироваться</button>
+                        <button onClick={() => navigate('/register')}>Зарегистрироваться</button>
                         <img src={focus} alt="" className='focus'/>
                     </div>
                     <div className="front__six">
