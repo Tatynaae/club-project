@@ -1,7 +1,9 @@
 import React from 'react';
 import {NavLink} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const AdemirMaster = () => {
+    const navigate = useNavigate()
     return (
         <div>
             <div id="master">
@@ -43,9 +45,7 @@ const AdemirMaster = () => {
                             </div>
                         </div>
                         <div className="master--btn">
-                            <NavLink to={'/Master'}>
-                                <button>Все мастер классы</button>
-                            </NavLink>
+                                <button onClick={() => navigate('/Master')}>Все мастер классы</button>
                         </div>
                     </div>
                 </div>
