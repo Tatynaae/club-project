@@ -1,10 +1,12 @@
 import React, {useState} from 'react';
 import logo from '../../img/логотип.svg'
-import {NavLink} from "react-router-dom";
 import {BsEye, BsEyeSlash} from "react-icons/bs";
+import {useNavigate} from "react-router-dom";
 
 const Enter = ({setEnter, enter}) => {
     const [able, setAble] = useState(false)
+
+    const navigate = useNavigate()
 
     const change = () => {
         setAble(!able)
@@ -25,12 +27,17 @@ const Enter = ({setEnter, enter}) => {
                     </div>
 
                     <div className='enter--btn'>
-                        <NavLink to={'/Profile'}>
                         <button
-                            onClick={() => setEnter(!enter)}
+                            onClick={() => {
+                                setEnter(!enter)
+                                navigate('/Profile')
+                            }}
                             className='enter--btn__v'>Войти</button>
-                        </NavLink>
-                            <button className='enter--btn__w'>Забыли пароль?</button>
+
+                            <button onClick={() => {
+                                navigate('/')
+                                setEnter(false)
+                            }} className='enter--btn__w'>Забыли пароль?</button>
                     </div>
                 </div>
             </div>

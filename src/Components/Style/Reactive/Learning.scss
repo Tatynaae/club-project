@@ -1,0 +1,88 @@
+#learning {
+  .learning {
+    &--text {
+      h1 {
+        color: white;
+        font-size: 36px;
+        padding: 0 0 50px 0;
+      }
+    }
+
+    &--input {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__one {
+        &--text {
+          display: flex;
+          align-items: center;
+          border: 1px solid #044076;
+          border-radius: 10px;
+          width: 571px;
+          height: 70px;
+          margin: 29px 0;
+
+          h1 {
+            color: #FFFFFF;
+            font-size: 36px;
+            padding: 0 0 0 60px;
+          }
+
+          p {
+            color: #FFFFFF;
+            font-size: 16px;
+            padding: 0 10px 0 55px;
+
+          }
+        }
+
+        &--btn {
+          button {
+            background: #044076;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 10px;
+            padding: 20px 55px;
+            font-size: 16px;
+          }
+        }
+      }
+
+      &__two {
+        img {
+          width: 473px;
+          height: 475px;
+          margin: 0 55px 0 0;
+        }
+      }
+    }
+
+    &--img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 190px 0;
+
+      &__one {
+        &--text {
+          padding: 20px 0;
+          text-align: center;
+          h1{
+            color: #FFFFFF;
+            font-size: 36px;
+            padding: 10px 0;
+          }
+          p{
+            color:#A5A5A5;
+            font-size: 20px;
+          }
+          span{
+            color:#A5A5A5;
+            font-size: 20px;
+          }
+        }
+      }
+    }
+  }
+}
