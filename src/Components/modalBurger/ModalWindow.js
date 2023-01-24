@@ -14,12 +14,12 @@ const ModalWindow = ({enter, enterFn}) => {
 
                     <p onClick={() => {
                         window.scroll(0,0)
-                        navigate('/AboutSchool')
+                        navigate('/OurCourse')
                     }} className='name' >Наши курсы</p>
 
                     <p onClick={() => {
                         window.scroll(0,0)
-                        navigate('/AboutSchool')
+                        navigate('/AboutUs')
                     }} className='name' >О нас</p>
 
 
@@ -38,7 +38,10 @@ const ModalWindow = ({enter, enterFn}) => {
                     }}
                     className='with'
                 >Войти</button>
-                <button className='with'>Подписаться</button>
+                <button className='with'
+
+                        onClick={() => navigate('/Participation')}
+                >Подписаться</button>
             </div>
 
         </div>

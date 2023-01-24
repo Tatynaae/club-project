@@ -31,7 +31,6 @@ function App() {
                 <Routes>
                     <Route path={'/'} element={<MainPage/>}/>
                     <Route path={'/AboutSchool'} element={<AboutSchool/>}/>
-                    <Route path={'/OurCourses'}/>
                     <Route path={'/AboutUs'} element={<AboutUs/>}/>
                     <Route path={'/Profile'} element={<AdminPanel profile={profile} setProfile={setProfile}/>}/>
                     <Route path={'/EnterToProfile'} element={<Enter/>}/>
