@@ -1,8 +1,10 @@
 import React from 'react';
 import {BsArrowRight} from "react-icons/bs";
 import {NavLink} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const AdemirSection = () => {
+    const navigate = useNavigate()
     return (
         <section id="section">
             <div className="container">
@@ -19,9 +21,13 @@ const AdemirSection = () => {
                                 разрабатывать новые проекты
                             </p>
                             <div className="section--block__one__btn">
-                                <NavLink to={'/подробнее'}>
-                                    <button>Подробнее <BsArrowRight style={{background: 'none',padding:'0 0 0 10px'}}/></button>
-                                </NavLink>
+
+                                    <button onClick={() => {
+                                        window.scroll(0,0)
+                                        navigate('/подробнее')
+                                    }}
+                                    >Подробнее <BsArrowRight style={{background: 'none',padding:'0 0 0 10px'}}/></button>
+
                             </div>
                         </div>
                         <div className="section--block__one">

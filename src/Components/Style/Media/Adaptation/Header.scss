@@ -164,26 +164,19 @@
                 margin: 20px 0;
               }
             }
-            .without{
-              font-weight: 500;
-              font-size: 25px;
-              color: #043C71;
-              border: none;
-              text-decoration: none;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              margin: 100px 0 20px 0;
-            }
+
             .with{
-              background: #034078;
-              border-radius: 5px;
-              font-weight: 500;
-              font-size: 25px;
-              color: #FFFFFF;
-              border: none;
-              padding: 10px 15px;
-              margin: 20px 0 0 65px;
+                background: #034078;
+                border-radius: 5px;
+                font-weight: 500;
+                font-size: 25px;
+                color: #FFFFFF;
+                border: none;
+                padding: 10px 15px;
+                margin: 20px 0 0 65px;
+              &:hover{
+                transform: scale(1.1);
+              }
             }
           }
         }
