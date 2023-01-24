@@ -20,7 +20,7 @@ const AdemirSection = () => {
                             </p>
                             <div className="section--block__one__btn">
                                 <NavLink to={'/подробнее'}>
-                                    <button>Подробнее <BsArrowRight style={{background: 'none'}}/></button>
+                                    <button>Подробнее <BsArrowRight style={{background: 'none',padding:'0 0 0 10px'}}/></button>
                                 </NavLink>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const AdemirSection = () => {
                                 сайта для магазина одежды до сложных вычислительных систем нейронных сетей.
                             </p>
                             <div className="section--block__one__btn">
-                                <button>Подробнее <BsArrowRight style={{background: 'none'}}/></button>
+                                <button>Подробнее <BsArrowRight style={{background: 'none',padding:'0 0 0 10px'}}/></button>
                             </div>
                         </div>
                         <div className="section--block__one">
@@ -43,7 +43,7 @@ const AdemirSection = () => {
                                 важных параметров для комфорьного использования продукта.
                             </p>
                             <div className="section--block__one__btn">
-                                <button>Подробнее <BsArrowRight style={{background: 'none'}}/></button>
+                                <button>Подробнее <BsArrowRight style={{background: 'none',padding:'0 0 0 10px'}}/></button>
                             </div>
                         </div>
                     </div>
