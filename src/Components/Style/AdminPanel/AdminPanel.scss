@@ -388,8 +388,9 @@
   }
 }
 @media (max-width: 1550px) {
-  #admin-panel {
+  #admin-panel{
     .admin-panel--prof{
+      #panel{display: none}
       .exit-modal {
         left: 113px;
         bottom: 90px;
@@ -433,13 +434,6 @@
       }
 
 
-    }
-  }
-}
-@media (max-width: 1550px) {
-  #admin-panel{
-    .admin-panel--prof{
-      #panel{display: none}
     }
   }
 }
