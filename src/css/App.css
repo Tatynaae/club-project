@@ -1156,6 +1156,14 @@ body {
   margin-right: -20px;
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
 #view {
   display: block;
 }
