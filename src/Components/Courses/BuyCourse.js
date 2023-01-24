@@ -107,8 +107,6 @@ const BuyCourse = () => {
                                  style={{
                                      transform: buy ? 'scale(1)' : 'scale(0)',
                                      position:'fixed',
-                                     top:'40%',
-                                     left:'30%',
                                      textAlign:'center'
                                  }}
                             >
