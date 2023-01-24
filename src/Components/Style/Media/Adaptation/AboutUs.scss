@@ -12,16 +12,19 @@
 @media (max-width: 1200px) {
   #about-us {
     .about-us {
-      .slider-block {
-        margin: 70px 0;
-        width: 330px !important;
+      .slider {
+        &--general {
+          &__block {
+            width: 92% !important;
 
-        .hText {
-          margin: 20px 0 0 15px;
-        }
+            .hText {
+              margin: 0;
+            }
 
-        img {
-          left: 138px;
+            img {
+              left: 120px;
+            }
+          }
         }
       }
 
@@ -37,18 +40,27 @@
 @media (max-width: 1024px) {
   #about-us {
     .about-us {
-      .slider-block {
-        margin: 70px 0;
-        width: 260px !important;
-        height: 290px;
+      .slider {
+        &--general {
+          &__block {
+            margin: 70px 0;
+            width: 260px !important;
+            height: 337px;
 
-        .hText {
-          margin: 20px 0 0 15px;
-          width: 240px;
-        }
+            h1 {
+              font-size: 13px;
+              margin: 50px 0 0 0;
+            }
 
-        img {
-          left: 95px;
+            .hText {
+              width: 232px;
+              margin: 20px 0 0 15px;
+            }
+
+            img {
+              left: 95px;
+            }
+          }
         }
       }
 
@@ -70,21 +82,6 @@
 @media (max-width: 992px) {
   #about-us {
     .about-us {
-      .slider-block {
-        margin: 70px 0;
-        width: 260px !important;
-        height: 290px;
-
-        .hText {
-          margin: 20px 0 0 15px;
-          width: 240px;
-        }
-
-        img {
-          left: 95px;
-        }
-      }
-
       .about-us--images {
         img {
           width: 400px;
@@ -138,18 +135,25 @@
         }
       }
 
-      .slider-block {
-        margin: 70px 35px;
-        width: 260px !important;
-        height: 290px;
+      .slider {
+        .slider--general {
+          &__block {
+            margin: 70px 35px;
+            width: 260px !important;
+            height: 447px;
 
-        .hText {
-          margin: 20px 0 0 15px;
-          width: 240px;
-        }
+            h1 {
+              font-size: 13px;
+            }
 
-        img {
-          left: 95px;
+            .hText {
+              width: 162px;
+            }
+
+            img {
+              left: 92px;
+            }
+          }
         }
       }
 
@@ -167,7 +171,7 @@
 
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   #about-us {
     .about-us {
       .about-us--title {
@@ -197,18 +201,26 @@
         }
       }
 
-      .slider-block {
-        width: 400px !important;
-        height: 210px;
-        margin: 50px 50px;
+      .slider {
+        .slider--general {
+          &__block {
+            width: 400px !important;
+            height: 295px;
+            margin: 70px 44px;
+            h1 {
+              font-size: 13px;
+              width: 400px;
+            }
 
-        .hText {
-          margin: 20px 0 0 15px;
-          width: 360px;
-        }
+            .hText {
+              width: 400px;
+              margin: 0 30px;
+            }
 
-        img {
-          left: 170px;
+            img {
+              left: 140px;
+            }
+          }
         }
       }
 
@@ -255,6 +267,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
         img {
           width: 382px;
           padding: 20px 0;
@@ -265,6 +278,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+
         img {
           width: 409px;
         }
@@ -329,6 +343,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
         img {
           width: 312px;
           padding: 20px 0;
@@ -339,6 +354,7 @@
         display: flex;
         align-items: center;
         flex-direction: column;
+
         img {
           width: 322px;
         }
@@ -404,16 +420,19 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
         img {
           width: 265px;
           padding: 20px 0;
         }
       }
+
       .about-us--certificate {
         display: flex;
         align-items: center;
         flex-direction: column;
         justify-content: center;
+
         img {
           width: 265px;
         }
@@ -421,9 +440,10 @@
 
       .slider-block {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
         width: 268px !important;
         height: 270px;
+
         .hText {
           margin: 13px 0 0 13px;
           width: 245px;
@@ -433,6 +453,7 @@
           left: 100px;
         }
       }
+
       .request--left {
         h1 {
           font-size: 20px;
