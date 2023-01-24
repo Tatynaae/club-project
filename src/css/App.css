@@ -1543,6 +1543,9 @@ body {
 }
 
 @media (max-width: 1550px) {
+  #admin-panel .admin-panel--prof #panel {
+    display: none;
+  }
   #admin-panel .admin-panel--prof .exit-modal {
     left: 113px;
     bottom: 90px;
@@ -1573,11 +1576,6 @@ body {
     position: absolute;
     top: -320px;
     right: 140px;
-  }
-}
-@media (max-width: 1550px) {
-  #admin-panel .admin-panel--prof #panel {
-    display: none;
   }
 }
 @media (max-width: 1440px) {
@@ -2706,17 +2704,6 @@ body {
     font-size: 20px;
     margin: 20px 0;
   }
-  #header .header--burger__window .without {
-    font-weight: 500;
-    font-size: 25px;
-    color: #043C71;
-    border: none;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 100px 0 20px 0;
-  }
   #header .header--burger__window .with {
     background: #034078;
     border-radius: 5px;
@@ -2726,6 +2713,9 @@ body {
     border: none;
     padding: 10px 15px;
     margin: 20px 0 0 65px;
+  }
+  #header .header--burger__window .with:hover {
+    transform: scale(1.1);
   }
   #footer .footer {
     display: flex;

@@ -72,7 +72,10 @@ const Front = () => {
                                 <p>Идея реактивного программирования появилась сравнительно недавно, лет 10 назад. Что
                                     вызвало популярность этого относительно нового подхода и почему сейчас он в тренде,
                                     рассказал на конференции </p>
-                                <button onClick={()=> navigate('/Buy')}
+                                <button onClick={()=> {
+                                    window.scroll(0,0)
+                                    navigate('/Buy')
+                                }}
                                 >Купить курс за 46 $</button>
                             </div>
                             <div className="front__first--info2">
@@ -147,7 +150,10 @@ const Front = () => {
                         <h1>Учитесь, применяйте полученные на курсе знания и будьте счастливы!</h1>
 
                         <div className='front__fours--btn'>
-                            <button onClick={()=> navigate('/Buy')}>Купить курс</button>
+                            <button onClick={()=> {
+                                window.scroll(0,0)
+                                navigate('/Buy')
+                            }}>Купить курс</button>
                             <button>Смотреть программу</button>
                         </div>
                     </div>
@@ -177,7 +183,10 @@ const Front = () => {
                             <h2>Модуль 6</h2>
                             <p>Reactive Streams spec</p>
                         </div>
-                        <button onClick={() => navigate('/register')}>Зарегистрироваться</button>
+                        <button onClick={() => {
+                            window.scroll(0,0)
+                            navigate('/register')
+                        }}>Зарегистрироваться</button>
                         <img src={focus} alt="" className='focus'/>
                     </div>
                     <div className="front__six">

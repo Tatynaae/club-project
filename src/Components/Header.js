@@ -5,8 +5,8 @@ import ModalBurger from "./modalBurger/ModalBurger";
 import ModalWindow from "./modalBurger/ModalWindow";
 import Enter from "./Enter/Enter";
 import {useNavigate} from "react-router-dom";
-import Profile from "./AdminPanel/Profile/Profile";
 import {HiOutlineBell} from "react-icons/hi";
+import Btn from "./modalBurger/Btn";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
@@ -77,7 +77,7 @@ const Header = () => {
                             border: 'none'
                         }} onClick={() => {
                             open(burger)
-                        }}>{burger === true ? <ModalBurger/> : 'X'}</button>
+                        }}>{burger === true ? <ModalBurger/> : <Btn/>}</button>
 
                     </div>
                 </div>
