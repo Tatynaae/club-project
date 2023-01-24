@@ -11,7 +11,7 @@ const Station = () => {
         <>
             <div id="article">
                 <div className="container">
-                    <p className="home">Главная / Наши курсы</p>
+                    <p className="home" style={{color:'#FFF'}}><span style={{color:'#A5A5A5'}}>Главная /</span> Наши курсы</p>
                     <div className="article">
                         <h1>Статьи</h1>
                         <div className="article--general">

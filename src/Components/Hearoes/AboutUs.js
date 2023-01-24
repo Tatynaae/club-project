@@ -5,48 +5,40 @@ import certificate from '../../img/certificat.png'
 import boyLogo from '../../img/boyLogo.svg'
 import girlLogo from '../../img/girlLogo.svg'
 import Slider from "react-slick";
+import photo from "../../img/boyLogo.svg";
 
 const AboutUs = () => {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
-        speed: 300,
+        speed: 500,
         slidesToShow: 3,
-        slidesToScroll: 2,
-        responsive: [
-            {
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: false
-                }
-            },
+        slidesToScroll: 3,
+        responsive: [{
+            breakpoint: 1024, settings: {
+                slidesToShow: 3, slidesToScroll: 3,
+                infinite: true, dots: false
+            }
+        },
+
             {
                 breakpoint: 768,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2,
-                    initialSlide: 2
-                }
-            }, {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
-                    initialSlide: 1
+                    slidesToScroll: 2, initialSlide: 2
                 }
             },
             {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                breakpoint: 576, settings: {
+                    slidesToShow: 1, slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            }, {
+                breakpoint: 480, settings: {
+                    slidesToShow: 1, slidesToScroll: 1
                 }
             }
-        ],
-
+        ]
     };
     return (
         <>
@@ -73,55 +65,94 @@ const AboutUs = () => {
                             <h2>По окончании обучения выдается онлайн сертификат.</h2>
                             <img src={certificate} alt=""/>
                         </div>
+                        <div className="about-us--reviews">
+                            <h3>Отзывы наших студентов</h3>
+                        </div>
                         <Slider {...settings}>
-                            <div className="slider-block">
-                                <img src={boyLogo} alt=""/>
-                                <h1>Виктор Александарович</h1>
-                                <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
-                                    Designer с нуля" я с
-                                    остался
-                                    полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите данную
-                                    школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
-                                    благодарю!</h2>
-                                <h3>23.02.2022 г</h3>
-                            </div>
-
-
-                            <div className="slider-block">
-                                <img src={girlLogo} alt=""/>
-                                <h1>Виктор Александарович</h1>
-                                <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
-                                    Designer с нуля" я с
-                                    остался
-                                    полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите данную
-                                    школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
-                                    благодарю!</h2>
-                                <h3>23.02.2022 г</h3>
-                            </div>
-
-                            <div className="slider-block">
-                                <img src={boyLogo} alt=""/>
-                                <h1>Виктор Александарович</h1>
-                                <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
-                                    Designer с нуля" я с
-                                    остался
-                                    полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите данную
-                                    школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
-                                    благодарю!</h2>
-                                <h3>23.02.2022 г</h3>
-                            </div>
-
-                            <div className="slider-block">
-                                <img src={girlLogo} alt=""/>
-                                <h1>Виктор Александарович</h1>
-                                <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
-                                    Designer с нуля" я с
-                                    остался
-                                    полностью доволен, что мой выбор пал именно на данную школу. Если вы выберите данную
-                                    школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
-                                    благодарю!</h2>
-                                <h3>23.02.2022 г</h3>
-                            </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
+                                <div className="slider--general__block">
+                                    <img src={photo} alt=""/>
+                                    <h1>Виктор Александарович</h1>
+                                    <h2 className='hText'>С радостью оставляю положительной отзыв! Пройдя курс "UX/UI
+                                        Designer с
+                                        нуля" я с
+                                        остался полностью доволен, что мой выбор пал именно на данную школу. Если вы
+                                        выберите
+                                        данную
+                                        школу - вам обеспечена прокачка в выбранной вами области. Всячески рекомендую и
+                                        благодарю!
+                                    </h2>
+                                    <h3>23.02.2022 г</h3>
+                                </div>
                         </Slider>
                         <div className="request">
                             <div className="request--left"><h1> Оставить заявку
