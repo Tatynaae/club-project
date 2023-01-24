@@ -3,16 +3,20 @@ import {GiCheckMark} from "react-icons/gi";
 import {useNavigate} from "react-router-dom";
 
 const BuyCourse = () => {
-    const navigate = useNavigate()
     const [radio, setRadio] = useState(true)
+    const navigate = useNavigate()
+
     const [radios, setRadios] = useState(true)
     const [btn, setBtn] = useState(false)
+    const [buy, setBuy] = useState(false)
 
     useEffect(() => {
         setRadio(true)
         setRadios(true)
         setBtn(false)
     }, [])
+
+
     return (
         <section id='buy'>
             <div className="container">
@@ -94,8 +98,29 @@ const BuyCourse = () => {
                                 </div>
 
                             </div>
-                            <button onClick={() => navigate('/afterModuls')}
+                            <button onClick={() => {
+                                setBuy(true)
+                                window.scroll(0,0)
+                            }}
                                 className='pay-btn'>Оплатить 225.00$</button>
+                            <div className="modalBuy"
+                                 style={{
+                                     transform: buy ? 'scale(1)' : 'scale(0)',
+                                     position:'fixed',
+                                     top:'40%',
+                                     left:'30%',
+                                     textAlign:'center'
+                                 }}
+                            >
+                                <h2 onClick={() => setBuy(false)}>&times;</h2>
+                                <h3>Благодарим за покупку!!!</h3>
+                                <p>Теперь вам доступен  курс “Frontend разработчик”  </p>
+                                <button onClick={() => {
+                                setBuy(false)
+                                    window.scroll(0,0)
+                                    navigate('/afterModuls')
+                                }}>Ок, посмотреть покупку  </button>
+                            </div>
 
                             <div className='service'>
                                 <button onClick={() => setBtn(!btn)} style={{ background: btn ? '#fff' : 'transparent'}}

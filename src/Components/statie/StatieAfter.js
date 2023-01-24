@@ -1,12 +1,9 @@
 import React from 'react';
 import img from "../../img/img1.png";
-// import {IoIosLock} from "react-icons/io";
 import eliss from '../../img/Ellipse 46.svg'
 import {RxReader} from "react-icons/rx";
 
 const StatieAfter = () => {
-    let Elipse;
-    let Ellipse;
     return (
         <>
             <div id="do-subscription">

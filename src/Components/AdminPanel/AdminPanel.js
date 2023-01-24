@@ -13,7 +13,7 @@ import Exit from "./Modals/Exit";
 import PanelAd from "./PanelAd";
 
 
-const AdminPanel = () => {
+const AdminPanel = ({setProfile, profile}) => {
 
     const [modal, setModal] = useState('data')
 
@@ -89,7 +89,9 @@ return (
                                 wind()
                             }}
                                 style={{color: modal==='mod' ? '#0272CE' : 'black'}}>
-                                <RxExit style={{color: modal==='mod' ? '#0272CE' : 'black', background:'transparent', fontSize:'20px', marginLeft:'-82px'}}/>Выйти</button>
+                                <RxExit
+                                    profile={profile} setProfile={setProfile}
+                                    style={{color: modal==='mod' ? '#0272CE' : 'black', background:'transparent', fontSize:'20px', marginLeft:'-82px'}}/>Выйти</button>
 
                         </div>
                         <PanelAd modal={modal} setModal={setModal}/>
@@ -98,7 +100,11 @@ return (
                         <SubscribeModal modal={modal}/>
                         <Comments modal={modal}/>
                         <My modal={modal}/>
-                        <Exit modal={modal} fn={fn}/>
+                        <Exit
+                            profile={profile}
+                            setProfile={setProfile}
+                            modal={modal}
+                            fn={fn}/>
                     </div>
 
                 </div>

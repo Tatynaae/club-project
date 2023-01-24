@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {RiPagesLine} from "react-icons/ri";
 import course from '../../img/course.svg'
 import men from '../../img/men1-main.svg'

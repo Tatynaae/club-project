@@ -33,14 +33,20 @@ const Footer = () => {
                     <div className="footer--third">
                         <h3>Социальные сети</h3>
                         <div className='contact-icon'>
-                            <AiOutlineInstagram style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
-                            <AiOutlineYoutube style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
-                            <CiFacebook style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <AiOutlineInstagram className='marginIcon'
+                                                style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <AiOutlineYoutube className='marginIcon'
+                                              style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <CiFacebook className='marginIcon'
+                                        style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                         </div>
                         <div className='contact-icon'>
-                            <AiOutlineTwitter style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
-                            <TbBrandTiktok style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
-                            <TbBrandTelegram style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <AiOutlineTwitter className='marginIcon'
+                                              style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <TbBrandTiktok className='marginIcon'
+                                           style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
+                            <TbBrandTelegram className='marginIcon'
+                                             style={{color:"white", margin:'0 10px', fontSize:'25px'}}/>
                         </div>
                     </div>
                     <div className="footer--fours">

@@ -3,7 +3,7 @@ import logo from '../../img/логотип.svg'
 import {BsEye, BsEyeSlash} from "react-icons/bs";
 import {useNavigate} from "react-router-dom";
 
-const Enter = ({setEnter, enter}) => {
+const Enter = ({setEnter, enter, profile ,setProfile}) => {
     const [able, setAble] = useState(false)
 
     const navigate = useNavigate()
@@ -31,6 +31,7 @@ const Enter = ({setEnter, enter}) => {
                             onClick={() => {
                                 setEnter(!enter)
                                 navigate('/Profile')
+                                setProfile(true)
                             }}
                             className='enter--btn__v'>Войти</button>
 

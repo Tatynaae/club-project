@@ -25,6 +25,10 @@
   font-size: 16px;
   color: white;
 }
+#header .header--left {
+  display: flex;
+  align-items: center;
+}
 #header .header--left__without {
   margin: 0 20px;
   border: none;
@@ -36,7 +40,6 @@
 }
 #header .header--left__with {
   margin: 0 20px;
-  background: #034078;
   border-radius: 5px;
   color: white;
   padding: 15px 30px;
@@ -1531,9 +1534,37 @@ body {
   font-size: 16px;
 }
 
+@media (max-width: 1550px) {
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 113px;
+    bottom: 90px;
+  }
+}
 @media (max-width: 1500px) {
   #admin-panel .admin-panel--prof #panel {
     display: none;
+  }
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 110px;
+    bottom: 90px;
+  }
+}
+@media (max-width: 1460px) {
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 107px;
+    bottom: 90px;
+  }
+}
+@media (max-width: 1400px) {
+  #admin-panel .admin-panel--prof .exit-modal {
+    left: 101px;
+    bottom: 90px;
+  }
+  #admin-panel .admin-panel--prof .payment {
+    margin: 0 0 0 -50px;
+    position: absolute;
+    top: -320px;
+    right: 140px;
   }
 }
 @media (max-width: 1550px) {
@@ -1590,6 +1621,11 @@ body {
   }
   #admin-panel .admin-panel--prof .payment .third {
     display: none;
+  }
+}
+@media (max-width: 1140px) {
+  #admin-panel .admin-panel--prof .payment {
+    right: 155px;
   }
 }
 @media (max-width: 1024px) {
@@ -2525,6 +2561,15 @@ body {
   }
   #request .request--right a button {
     display: block;
+  }
+}
+@media (max-width: 1550px) {
+  #header .header--burger {
+    display: none;
+  }
+  #header #enter .enter .view {
+    right: 545px;
+    top: 502px;
   }
 }
 @media (max-width: 1540px) {
@@ -8403,6 +8448,42 @@ body {
   padding: 15px 0;
   margin-bottom: 40px;
 }
+#buy .buy--payment__pay .modalBuy {
+  width: 514px;
+  height: 210px;
+  background: #0A1128;
+  border-radius: 15px;
+  border: 1px solid white;
+}
+#buy .buy--payment__pay .modalBuy h2 {
+  font-size: 28px;
+  color: #FFFFFF;
+  text-align: end;
+  margin: 15px 15px 0 0;
+}
+#buy .buy--payment__pay .modalBuy h3 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+#buy .buy--payment__pay .modalBuy p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 20px 0;
+}
+#buy .buy--payment__pay .modalBuy button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  width: 232px;
+  background: #034078;
+  border-radius: 5px;
+  padding: 15px 0;
+}
 #buy .buy--payment__pay .service {
   width: 570px;
   display: flex;
@@ -10646,6 +10727,46 @@ body {
   max-height: 500px;
 }
 
+@media (max-width: 768px) {
+  #footer .footer--third {
+    margin-top: -40px;
+  }
+  #footer .footer--third .contact-icon {
+    margin: 82px 201px 10px -192px;
+  }
+}
+@media (max-width: 576px) {
+  #footer .footer--third {
+    margin-top: -40px;
+  }
+  #footer .footer--third .contact-icon {
+    margin: 82px 201px 10px -192px;
+  }
+}
+@media (max-width: 450px) {
+  #footer .footer--third {
+    margin-top: -40px;
+  }
+  #footer .footer--third .contact-icon {
+    margin: 78px -196px 10px -66px;
+  }
+}
+@media (max-width: 375px) {
+  #footer .footer--third {
+    margin-top: -40px;
+  }
+  #footer .footer--third .contact-icon {
+    margin: 78px -196px 10px -66px;
+  }
+}
+@media (max-width: 320px) {
+  #footer .footer--third {
+    margin-top: -40px;
+  }
+  #footer .footer--third .contact-icon {
+    margin: 78px -196px 10px -66px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
