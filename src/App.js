@@ -20,8 +20,11 @@ import BuyCourse from "./Components/Courses/BuyCourse";
 import AfterModuls from "./Components/After/AfterModuls";
 import Reactive from "./Components/Reactive/Reactive";
 import Register from "./Components/Register/Register";
+import {useState} from "react";
 
 function App() {
+    const [profile, setProfile] = useState(false)
+
     return (
         <>
             <div className="App">
@@ -30,7 +33,7 @@ function App() {
                     <Route path={'/AboutSchool'} element={<AboutSchool/>}/>
                     <Route path={'/OurCourses'}/>
                     <Route path={'/AboutUs'} element={<AboutUs/>}/>
-                    <Route path={'/Profile'} element={<AdminPanel/>}/>
+                    <Route path={'/Profile'} element={<AdminPanel profile={profile} setProfile={setProfile}/>}/>
                     <Route path={'/EnterToProfile'} element={<Enter/>}/>
                     <Route path={'/Master'} element={<Master/>}/>
                     <Route path={'/OurCourse'} element={<Course/>}/>
@@ -42,7 +45,6 @@ function App() {
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
                     <Route path={'/StatieAfter'} element={<StatieAfter/>}/>
-
                     <Route path={'/Buy'} element={<BuyCourse/>}/>
                     <Route path={'/afterModuls'} element={<AfterModuls/>}/>
                     <Route path={'/Reactive'} element={<Reactive/>}/>

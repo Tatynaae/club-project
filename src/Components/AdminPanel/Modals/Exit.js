@@ -1,7 +1,8 @@
 import React from 'react';
+import {useNavigate} from "react-router-dom";
 
-const Exit = ({modal, fn}) => {
-
+const Exit = ({modal, fn, setProfile}) => {
+const navigate = useNavigate()
 
 
     return (
@@ -11,7 +12,10 @@ const Exit = ({modal, fn}) => {
                 <br/>выйти или нет?
             </h3>
             <div style={{display:'flex', alignItems:'center', justifyContent:'center', marginTop:'10px'}}>
-                <button>Да</button>
+                <button onClick={() => {
+                    navigate('/')
+                    setProfile(false)
+                }}>Да</button>
                 <button onClick={fn}>Нет</button>
             </div>
         </div>
