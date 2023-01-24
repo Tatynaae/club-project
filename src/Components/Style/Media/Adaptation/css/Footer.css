@@ -1,3 +1,7 @@
-
+@media (max-width: 768px) {
+  #footer .footer--third .contact-icon {
+    margin: 82px 201px 10px -192px;
+  }
+}
 
 /*# sourceMappingURL=Footer.css.map */

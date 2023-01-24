@@ -5,12 +5,15 @@ import ModalBurger from "./modalBurger/ModalBurger";
 import ModalWindow from "./modalBurger/ModalWindow";
 import Enter from "./Enter/Enter";
 import {useNavigate} from "react-router-dom";
+import Profile from "./AdminPanel/Profile/Profile";
+import {HiOutlineBell} from "react-icons/hi";
 
 const Header = () => {
     const [burger, setBurger] = useState(false)
     const navigate = useNavigate()
 
     const [enter, setEnter] = useState(true)
+    const [profile, setProfile] = useState(false)
 
 
     const open = (e) => {
@@ -41,9 +44,27 @@ const Header = () => {
                     </div>
 
                     <div className='header--left'>
-                        <button className='header--left__without' onClick={() => enterFn(enter)}>Войти</button>
-                        <button onClick={() => navigate('/Participation')}
-                            className='header--left__with'>Подписаться</button>
+                        <button className='header--left__without' onClick={() => {
+                            enterFn(enter)
+                        }}>{profile ? <HiOutlineBell
+                            style={{
+                                fontSize:'30px',
+                                color: 'white',
+
+                            }}/> : 'Войти' }</button>
+                        <button
+                            onClick={() => {
+                                profile ? navigate('/Profile'): navigate('/Participation')
+                            }}
+                                className='header--left__with'
+                            style={{
+                                background: profile ? '#0A1128' : "#034078",
+                                border: profile ? "1px solid #034078" : 'none',
+                                width: profile? '130px' : ''
+                        }}
+                        >{ profile ? 'Profile' : 'Подписаться'}
+                        </button>
+
 
                     </div>
 
@@ -61,7 +82,7 @@ const Header = () => {
                     </div>
                 </div>
                 {burger ? "" : <ModalWindow enter={enter} enterFn={enterFn}/>}
-                {enter ? <Enter setEnter={setEnter} enter={enter}/> : ""}
+                {enter ? <Enter profile={profile} setProfile={setProfile} setEnter={setEnter} enter={enter}/> : ""}
             </div>
         </div>
     );

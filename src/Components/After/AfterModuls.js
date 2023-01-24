@@ -3,6 +3,7 @@ import elip from '../../img/image 19.png'
 import dasy from '../../img/Rectangle 2197.png'
 import {BsChevronDown} from "react-icons/bs";
 import Elipse from "../../img/Ellipse 46.svg";
+import {ImYoutube} from "react-icons/im";
 
 const AfterModuls = () => {
     const [modal, setModal] = useState('noll')
@@ -16,7 +17,7 @@ const AfterModuls = () => {
                 <div className="container">
                     <div className="develop">
                         <div className="develop--text">
-                            <p><span>Главная / Мастер классы /</span>Frontend разработчик</p>
+                            <p style={{color:'#FFF'}}><span style={{color:'#A5A5A5'}}>Главная / Мастер классы /</span>Frontend разработчик</p>
                         </div>
                         <div className="develop--one">
                             <div className="develop--one--text">
@@ -42,10 +43,12 @@ const AfterModuls = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="programme">
                         <div className="programme--one">
                             <h1>ПРОГРАММА КУРСА </h1>
                             <img src={elip} alt=""/>
+                            <ImYoutube className='youtube'/>
                         </div>
 
                         <div className="programme--task">
