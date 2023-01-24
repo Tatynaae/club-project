@@ -42,7 +42,6 @@ function App() {
                     <Route path={'/Purchases'} element={<Purchases/>}/>
                     <Route path={'/Station'} element={<Station/>}/>
                     <Route path={'/StatieAfter'} element={<StatieAfter/>}/>
-
                     <Route path={'/Buy'} element={<BuyCourse/>}/>
                     <Route path={'/afterModuls'} element={<AfterModuls/>}/>
                     <Route path={'/Reactive'} element={<Reactive/>}/>

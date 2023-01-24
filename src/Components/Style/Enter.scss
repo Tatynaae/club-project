@@ -1,14 +1,16 @@
-#enter{
-  .enter{
+#enter {
+  .enter {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 150px 0;
-    &--img{
+
+    &--img {
       width: 300px;
-      margin:0 0 50px 30px;
+      margin: 0 0 50px 30px;
     }
-    input{
+
+    input {
       background: transparent;
       padding: 0 30px;
       width: 450px;
@@ -19,7 +21,8 @@
       color: #FFFFFF;
       font-size: 20px;
     }
-    .view{
+
+    .view {
       background: transparent;
       border: none;
       font-size: 25px;
@@ -28,23 +31,27 @@
       top: 500px;
       color: white;
     }
-    &--btn{
+
+    &--btn {
       display: flex;
       align-items: center;
       justify-content: space-between;
       margin-left: 60px;
-      button{
+
+      button {
         font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
       }
-      &__v{
+
+      &__v {
         background: #034078;
         border-radius: 10px;
         border: none;
         padding: 15px 125px;
       }
-      &__w{
+
+      &__w {
         text-decoration-line: underline;
         background: transparent;
         border-radius: 10px;
@@ -54,4 +61,13 @@
       }
     }
   }
+}
+
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
 }
