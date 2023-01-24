@@ -1,6 +1,3 @@
-@media (max-width: 1400px) {
-}
-
 @media (max-width: 1200px) {
   #learning {
     .learning {
@@ -66,21 +63,23 @@
   #community {
     .community {
       &--block {
+        display: flex;
+        flex-direction: column;
+
         &__one {
           &--master {
-            width: 75%;
           }
         }
 
         &__two {
           width: 100%;
-          height: 500px !important;
+          height: 500px;
 
           button {
-            width: 74% !important;
+            width: 74%;
             font-size: 14px;
-            margin: 20px 0 0 47px !important;
-            padding: 10px 30px !important;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
           }
         }
       }
@@ -89,6 +88,16 @@
 
   #reactive {
     .reactive {
+      &--title {
+        display: none;
+      }
+
+      &--text {
+        &__two {
+          margin: 0 0 85px 5rem;
+        }
+      }
+
       &--one {
         &__course {
           &--ask {
@@ -106,19 +115,471 @@
 }
 
 @media (max-width: 992px) {
+
+  #community {
+    .community {
+      &--block {
+        display: flex;
+        flex-direction: column;
+
+        &__one {
+          &--master {
+          }
+        }
+
+        &__two {
+          width: 100%;
+          height: 500px;
+
+          button {
+            width: 74%;
+            font-size: 14px;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+  }
+
+  #reactive {
+    .reactive {
+      &--title {
+        display: none;
+      }
+
+      &--text {
+        &__two {
+          display: none;
+        }
+      }
+
+      &--one {
+        &__course {
+          &--ask {
+            &__h1 {
+              h1 {
+                width: 70%;
+              }
+            }
+          }
+
+          &--make {
+            display: none;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {
+  #reactive {
+    .reactive {
+      &--text {
+        &__one {
+          text-align: center;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: 0;
+
+          h1 {
+            font-size: 25px;
+          }
+
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+
+      &--one {
+        .push {
+          display: none;
+        }
+
+        &__course {
+          &--ask {
+            &__h1 {
+              p {
+                font-size: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #community {
+    .community {
+      &--text {
+        h1 {
+          text-align: center;
+        }
+
+        p {
+          display: none;
+        }
+      }
+
+      &--block {
+        &__one {
+          &--master {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            &__l1 {
+              margin: 30px 0 0 16rem !important;
+
+            }
+
+            &__l2 {
+              margin: 30px 16rem 0 0 !important;
+            }
+          }
+        }
+
+        &__two {
+          width: 100%;
+          height: 500px;
+          margin: 30px 0;
+
+          button {
+            width: 74%;
+            font-size: 14px;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+  }
+  #learning {
+    .learning {
+      padding: 50px 0;
+
+      &--text {
+        h1 {
+          text-align: center;
+          font-size: 20px;
+        }
+      }
+
+      &--input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &__one {
+          &--text {
+            width: 100%;
+          }
+        }
+
+        &__two {
+          img {
+            width: 100%;
+            margin: 50px 0;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 576px) {
+  #learning {
+    .learning {
+      padding: 50px 0;
+
+      &--img {
+        width: 100%;
+
+        &__one {
+          &--text {
+            h1 {
+              font-size: 25px;
+            }
+
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #community {
+    .community {
+      &--block {
+        &__one {
+          &--master {
+            &__l1 {
+              margin: 30px 0 0 10rem !important;
+
+            }
+
+            &__l2 {
+              margin: 30px 10rem 0 0 !important;
+            }
+          }
+        }
+
+        &__two {
+          width: 75% !important;
+          height: 500px;
+
+          button {
+            width: 74%;
+            font-size: 14px;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+  }
+
+
 }
 
 @media (max-width: 450px) {
+  #reactive {
+    .reactive {
+
+      &--one {
+        .push {
+          display: none;
+        }
+
+        &__course {
+          &--ask {
+            &__h1 {
+              p {
+                font-size: 18px;
+              }
+            }
+
+            &__btn {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+
+              &--one {
+                margin: 20px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  #learning {
+    .learning {
+      padding: 50px 0;
+
+      &--img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &__one {
+          img {
+            width: 85%;
+            margin: 0 0 0 30px;
+          }
+
+          &--text {
+            h1 {
+              font-size: 25px;
+            }
+
+            p {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #community {
+    .community {
+      &--block {
+        &__two {
+          width: 80% !important;
+          height: 550px !important;
+
+          button {
+            width: 74%;
+            font-size: 14px;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
+          }
+        }
+
+        &__one {
+          &--master {
+            &__l1 {
+              margin: 30px 0 0 7rem !important;
+              width: 61% !important;
+
+            }
+
+            &__l2 {
+              margin: 30px 7rem 0 0 !important;
+              width: 61% !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
 }
 
 @media (max-width: 375px) {
+  #homeLs-accordionS {
+    .homeLs-accordionS {
+      .homeLs-info {
+        h1 {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  #community {
+    .community {
+      &--text {
+        h1 {
+          font-size: 25px !important;
+        }
+      }
+
+      &--block {
+        &__one {
+          &--master {
+            width: 100%;
+            height: 625px;
+
+            &__l1 {
+              h1 {
+                padding: 15px 0 20px 0 !important;
+              }
+            }
+
+            &__l2 {
+              h1 {
+                padding: 15px 0 20px 0 !important;
+              }
+            }
+          }
+        }
+
+        &__two {
+          width: 88% !important;
+          height: 550px !important;
+
+          button {
+            width: 74%;
+            font-size: 11px;
+            margin: 20px 0 0 47px;
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+  }
+
 }
 
 @media (max-width: 320px) {
+  #community {
+    .community {
+      &--text {
+        h1 {
+          font-size: 25px !important;
+        }
+      }
+
+      &--block {
+        &__one {
+          &--master {
+            width: 125%;
+            height: 625px;
+
+            &__l1 {
+              margin: 30px 0 0 2rem !important;
+
+              h1 {
+                padding: 15px 0 20px 0 !important;
+              }
+            }
+
+            &__l2 {
+              margin: 30px 2rem 0 0 !important;
+
+              h1 {
+                padding: 15px 0 20px 0 !important;
+              }
+            }
+          }
+        }
+
+        &__two {
+          width: 88% !important;
+          height: 580px !important;
+
+          button {
+            width: 74%;
+            font-size: 11px;
+            margin: 20px 0 0 47px;
+            padding: 8px 20px !important;
+          }
+        }
+      }
+    }
+  }
+  #reactive {
+    .reactive {
+
+      &--one {
+        .push {
+          display: none;
+        }
+
+        &__course {
+          &--ask {
+            &__h1 {
+              h1 {
+                font-size: 25px;
+                width: 100%;
+              }
+
+              p {
+                font-size: 18px;
+              }
+            }
+
+            &__btn {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              align-items: center;
+
+              &--one {
+                margin: 20px 0;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

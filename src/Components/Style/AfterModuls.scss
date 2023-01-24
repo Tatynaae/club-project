@@ -58,6 +58,14 @@
     display: flex;
 
     &--one {
+      position: relative;
+      .youtube{
+        position: absolute;
+        color: red;
+        top: 247px;
+        left: 278px;
+        font-size: 38px;
+      }
       h1 {
         color: #FFFFFF;
         padding: 0 0 30px 0;
