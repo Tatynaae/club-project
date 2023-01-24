@@ -4,64 +4,70 @@ import {BsCheck2, BsChevronDown} from "react-icons/bs";
 const Community = () => {
     return (
         <>
-            <section id='community' >
-            <div className="container">
-                <div className="community">
-                    <div className="community--text">
-                        <h1>Процесс обучения</h1>
-                        <p>
-                            Каждый из наших мастер-классов состоит из 2-8 уроков. Рекомендуем <br/> проходить мастер-класс последовательно, урок за уроком
-                        </p>
-                    </div>
-                    <div className="community--block">
-                        <div className="community--block__one">
-                            <div className="community--block__one--master">
-                                <div className="community--block__one--master__l1">
-                                    <h1>1</h1>
-                                    <h3>Мастер-класс</h3>
-                                    <p>
-                                        Вы получите доступ ко всем урокам мастер-класса и другим дополнительным материалам
-                                    </p>
-                                </div>
-                                <div className="community--block__one--master__l1">
-                                    <h1>1</h1>
-                                    <h3>Мастер-класс</h3>
-                                    <p>
-                                        Вы получите доступ ко всем урокам мастер-класса и другим дополнительным материалам
-                                    </p>
-                                </div>
-                            </div>
-                            <div className="community--block__one--master">
-                                <div className="community--block__one--master__l1">
-                                    <h1>1</h1>
-                                    <h3>Мастер-класс</h3>
-                                    <p>
-                                        Вы получите доступ ко всем урокам мастер-класса и другим дополнительным материалам
-                                    </p>
-                                </div>
-                                <div className="community--block__one--master__l1">
-                                    <h1>1</h1>
-                                    <h3>Мастер-класс</h3>
-                                    <p>
-                                        Вы получите доступ ко всем урокам мастер-класса и другим дополнительным материалам
-                                    </p>
-                                </div>
-                            </div>
+            <section id='community'>
+                <div className="container">
+                    <div className="community">
+                        <div className="community--text">
+                            <h1>Процесс обучения</h1>
+                            <p>
+                                Каждый из наших мастер-классов состоит из 2-8 уроков. Рекомендуем <br/> проходить
+                                мастер-класс последовательно, урок за уроком
+                            </p>
                         </div>
-                        <div className="community--block__two">
-                            <h3>
-                                Мастер-класс “Реактивное <br/> программирование на Java : как, <br/> зачем и стоит ли? Часть 1”
-                            </h3>
-                            <h1>46,00 $</h1>
-                            <p> <BsCheck2/> Доступ к мастер классу навсегда</p>
-                            <p> <BsCheck2/> Доступ к мастер классу навсегда</p>
-                            <p> <BsCheck2/> Доступ к мастер классу навсегда</p>
-                            <button>Купить мастер-класс </button>
+                        <div className="community--block">
+                            <div className="community--block__one">
+                                <div className="community--block__one--master">
+                                    <div className="community--block__one--master__l2">
+                                        <h1>1</h1>
+                                        <h3>Мастер-класс</h3>
+                                        <p>
+                                            Вы получите доступ ко всем урокам мастер-класса и другим дополнительным
+                                            материалам
+                                        </p>
+                                    </div>
+                                    <div className="community--block__one--master__l1">
+                                        <h1>1</h1>
+                                        <h3>Мастер-класс</h3>
+                                        <p>
+                                            Вы получите доступ ко всем урокам мастер-класса и другим дополнительным
+                                            материалам
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="community--block__one--master">
+                                    <div className="community--block__one--master__l2">
+                                        <h1>1</h1>
+                                        <h3>Мастер-класс</h3>
+                                        <p>
+                                            Вы получите доступ ко всем урокам мастер-класса и другим дополнительным
+                                            материалам
+                                        </p>
+                                    </div>
+                                    <div className="community--block__one--master__l1">
+                                        <h1>1</h1>
+                                        <h3>Мастер-класс</h3>
+                                        <p>
+                                            Вы получите доступ ко всем урокам мастер-класса и другим дополнительным
+                                            материалам
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="community--block__two">
+                                <h3>
+                                    Мастер-класс “Реактивное <br/> программирование на Java : как, <br/> зачем и стоит
+                                    ли? Часть 1”
+                                </h3>
+                                <h1>46,00 $</h1>
+                                <p><BsCheck2/> Доступ к мастер классу навсегда</p>
+                                <p><BsCheck2/> Доступ к мастер классу навсегда</p>
+                                <p><BsCheck2/> Доступ к мастер классу навсегда</p>
+                                <button>Купить мастер-класс</button>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
             <div id="homeLs-accordionS">
                 <div className="container">
                     <div className="homeLs-accordionS">

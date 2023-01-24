@@ -49,6 +49,30 @@
               padding: 30px 0 0 0;
             }
           }
+          &__l2 {
+            text-align: center;
+            color: #FFFFFF;
+            background: linear-gradient(180deg, rgba(0, 84, 160, 0.2) 0%, rgba(0, 11, 48, 0.2) 100%);
+            border: 1px solid #0272CE;
+            backdrop-filter: blur(22px);
+            width: 300px;
+            height: 300px;
+            margin: 30px 30px;
+            border-radius: 10px;
+
+            h1 {
+              padding: 56px 0 20px 0;
+            }
+
+            p {
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 20px;
+              text-align: center;
+              padding: 30px 0 0 0;
+            }
+          }
+
         }
       }
 

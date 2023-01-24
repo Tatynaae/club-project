@@ -14,59 +14,68 @@
       }
     }
 
-    &__block {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 30px 0;
+    &--blocks {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 30px;
 
-      &--one {
-        display: flex;
-        background-color: #fffFFF;
-        height: 271px;
-        width: 361px;
-        border-radius: 16px;
-        padding: 30px 30px;
-        flex-wrap: wrap;
+      &__block {
+        padding: 42px 30px;
+        background: #FFF;
+        border-radius: 15px;
+        height: 300px;
+        position: relative;
 
-        h1 {
-          background: none;
+        h2 {
+          font-weight: 700;
+          font-size: 24px;
           color: #000000;
-          padding: 0 0 20px 0;
         }
 
         p {
-          background: none;
-          color: #000000;
+          width: 80%;
+          padding: 17px 0 14px 0;
           font-weight: 400;
           font-size: 16px;
-          line-height: 23px;
+          line-height: 20px;
+          color: #000000;
         }
 
-        &--btn {
-          button {
+        &--group {
+          display: flex;
+          align-items: center;
+          position: absolute;
+          bottom: 33px;
+          left: 30px;
+          gap: 12px;
+
+          a {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 20px;
             color: #000000;
-            border: none;
-            cursor: pointer;
-            background: none;
-            margin-top: 20px;
+            padding-bottom: 5px;
             border-bottom: 2px solid black;
+            text-decoration: none;
+          }
+
+          &__icons {
+            font-size: 22px;
           }
         }
       }
     }
   }
-}
 
+}
 
 
 @media (max-width: 1200px) {
   #course {
     .course {
-      &__block {
-        &--one {
-          height: 330px;
-          width: 262px;
+      &--blocks {
+        &__block {
+          height: 350px;
         }
       }
     }
@@ -76,10 +85,9 @@
 @media (max-width: 1024px) {
   #course {
     .course {
-      &__block {
-        &--one {
-          height: 365px;
-          width: 220px;
+      &--blocks {
+        &__block {
+          height: 450px;
         }
       }
     }
@@ -89,10 +97,13 @@
 @media (max-width: 992px) {
   #course {
     .course {
-      &__block {
-        &--one {
-          height: 399px;
-          width: 211px;
+      &--blocks {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        margin: 0 auto;
+
+        &__block {
+          height: 280px;
         }
       }
     }
@@ -102,14 +113,19 @@
 @media (max-width: 768px) {
   #course {
     .course {
-      &__block {
-        display: flex;
-        flex-wrap: wrap;
+      &--blocks {
+        width: 100%;
 
-        &--one {
-          margin: 20px 0;
+        &__block {
+          height: 300px;
+
+          p {
+            width: 100%;
+            font-size: 14px;
+          }
         }
       }
+
     }
   }
 }
@@ -117,10 +133,20 @@
 @media (max-width: 576px) {
   #course {
     .course {
-      &__block {
-        display: flex;
-        justify-content: space-around;
+      &--blocks {
+        width: 60%;
+        grid-template-columns: 1fr;
+
+        &__block {
+          height: 300px;
+
+          p {
+            width: 100%;
+            font-size: 14px;
+          }
+        }
       }
+
     }
   }
 
@@ -129,14 +155,21 @@
 @media (max-width: 450px) {
   #course {
     .course {
-      &__block {
-        display: flex;
-        justify-content: space-around;
+      &--blocks {
+        width: 70%;
+        grid-template-columns: 1fr;
+        margin-left: 55px;
+        &__block {
+          height: 330px;
 
-        &--one {
-          height: 404px;
+          p {
+            width: 100%;
+            font-size: 14px;
+          }
         }
       }
+
+
     }
   }
 
@@ -146,13 +179,17 @@
 @media (max-width: 375px) {
   #course {
     .course {
-      &__block {
-        display: flex;
-        justify-content: space-around;
+      &--blocks {
+        width: 70%;
+        grid-template-columns: 1fr;
+        margin-left: 40px;
+        &__block {
+          height: 330px;
 
-        &--one {
-          width: 75%;
-          height: 364px;
+          p {
+            width: 100%;
+            font-size: 14px;
+          }
         }
       }
     }
@@ -163,15 +200,20 @@
 @media (max-width: 320px) {
   #course {
     .course {
-      &__block {
-        display: flex;
-        justify-content: space-around;
+      &--blocks {
+        width: 70%;
+        grid-template-columns: 1fr;
+        margin-left: 14px;
+        &__block {
+          height: 330px;
 
-        &--one {
-          width: 75%;
-          height: 420px;
+          p {
+            width: 100%;
+            font-size: 14px;
+          }
         }
       }
+
     }
   }
 
